@@ -1,0 +1,245 @@
+{
+  "updated": "2026-05-02 19:03:08",
+  "total_processed": 40,
+  "found_links": 15,
+  "results": {
+    "落幕曲": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1etG5zCEvm"
+    },
+    "Cisco's Fantasy": {
+      "status": "found",
+      "links": [
+        "https://www.java.com/zh-CN/download/manual.jsp",
+        "https://optifine.net/downloads",
+        "https://www.curseforge.com/minecraft/modpacks/infinity-fabric"
+      ],
+      "video_url": "https://www.bilibili.com/video/BV1J24y1R7GT",
+      "link_preview": "https://www.java.com/zh-CN/download/manual.jsp"
+    },
+    "永恒的MC2": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1SJGbzLE6e"
+    },
+    "AnimateCraft: Lankeren": {
+      "status": "found",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1vs411F7NR",
+      "link_preview": "?"
+    },
+    "恐惧深渊": {
+      "status": "found",
+      "links": [
+        "https://www.curseforge.com/minecraft/mc-mods/fabric-api",
+        "https://www.curseforge.com/minecraft",
+        "https://modrinth.com/mods"
+      ],
+      "video_url": "https://www.bilibili.com/video/BV1mJe8e3Ebp",
+      "link_preview": "https://www.curseforge.com/minecraft/mc-mods/fabric-api"
+    },
+    "宝可梦整合包": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1mN41187n7"
+    },
+    "Infinity-无限": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1M24y1V7oA"
+    },
+    "RLCraft Dregora": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV17kyaY6E46"
+    },
+    "生命的准则": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1sY411d7bd"
+    },
+    "Better MC": {
+      "status": "found",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1DrE2z1EcF",
+      "link_preview": "?"
+    },
+    "ATM10": {
+      "status": "found",
+      "links": [
+        "https://www.curseforge.com/minecraft/modpacks/integrated-minecraft",
+        "https://modrinth.com/modpack/remade-remastered",
+        "https://modrinth.com/modpack/vanilla-perfected"
+      ],
+      "video_url": "https://www.bilibili.com/video/BV1Bpq9Y7ECV",
+      "link_preview": "https://www.curseforge.com/minecraft/modpacks/integrated-min"
+    },
+    "GreedyCraft": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1Zp4y1o71R"
+    },
+    "Vault Hunters 3": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1oQczeeE9j"
+    },
+    "Rebirth of the Night": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1t3411F7JQ"
+    },
+    "我的世界方块宝可梦": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1xBmdBDEvU"
+    },
+    "More Biomes": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1NQwuz4Etk"
+    },
+    "RLCraft": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1Ui4y1z7DJ"
+    },
+    "ATM9": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1JGZpYjEDo"
+    },
+    "森罗万藏": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1uC4y1y7Uh"
+    },
+    "Integrated Minecraft": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1B7NAzKEHx"
+    },
+    "Medieval MC": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1hK421x7Ho"
+    },
+    "SkyFactory 4": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1LDQwYMEZz"
+    },
+    "Cursed Walking": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1Ze411j7a5"
+    },
+    "远梦之棺": {
+      "status": "found",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1bMd7BTEJB",
+      "link_preview": "?"
+    },
+    "Stoneblock 2": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV15J411Q7nw"
+    },
+    "FTB Skies": {
+      "status": "found",
+      "links": [
+        "https://pan.quark.cn/s/4fd0d04aecb3"
+      ],
+      "video_url": "https://www.bilibili.com/video/BV1SJGbzLE6e",
+      "link_preview": "https://pan.quark.cn/s/4fd0d04aecb3"
+    },
+    "Ice and Fire": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1M24y1V7oA"
+    },
+    "Cobblemon": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1xBmdBDEvU"
+    },
+    "GregTech New Horizons": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1oQczeeE9j"
+    },
+    "FTB Skies 2": {
+      "status": "found",
+      "links": [
+        "https://www.curseforge.com/minecraft/modpacks/deceasedcraft",
+        "https://www.curseforge.com/minecraft/modpacks/cursed-walking-a-modern-zombie-apocalypse"
+      ],
+      "video_url": "https://www.bilibili.com/video/BV1Zp4y1o71R",
+      "link_preview": "https://www.curseforge.com/minecraft/modpacks/deceasedcraft"
+    },
+    "Chocolate Edition": {
+      "status": "found",
+      "links": [
+        "https://www.curseforge.com/minecraft/modpacks/ciscos-adventure-rpg-ultimate"
+      ],
+      "video_url": "https://www.bilibili.com/video/BV1hK421x7Ho",
+      "link_preview": "https://www.curseforge.com/minecraft/modpacks/ciscos-adventu"
+    },
+    "BMC4": {
+      "status": "found",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1CwWxznEJA",
+      "link_preview": "?"
+    },
+    "Crucial 2": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV15NtseRESx"
+    },
+    "DawnCraft": {
+      "status": "found",
+      "links": [
+        "https://www.curseforge.com/minecraft/modpacks/dawn-craft"
+      ],
+      "video_url": "https://www.bilibili.com/video/BV1Ju4m1T719",
+      "link_preview": "https://www.curseforge.com/minecraft/modpacks/dawn-craft"
+    },
+    "All The Mods 10": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1B7NAzKEHx"
+    },
+    "奥德赛-逆转愿景": {
+      "status": "no_link",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV15FXHB7EBx"
+    },
+    "喷气背包猫": {
+      "status": "found",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1XZrLYCEkp",
+      "link_preview": "?"
+    },
+    "Vault Hunters": {
+      "status": "found",
+      "links": [
+        "https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/files"
+      ],
+      "video_url": "https://www.bilibili.com/video/BV1hK41167B1",
+      "link_preview": "https://www.curseforge.com/minecraft/modpacks/vault-hunters-"
+    },
+    "Sneak's RPG Mod Pack": {
+      "status": "found",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV1e94y1D7Dy",
+      "link_preview": "?"
+    },
+    "Create": {
+      "status": "found",
+      "links": [],
+      "video_url": "https://www.bilibili.com/video/BV14yBwByEWV",
+      "link_preview": "?"
+    }
+  }
+}
