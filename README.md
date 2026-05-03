@@ -83,4 +83,15 @@ pcl2/
 
 ---
 
+## 📜 许可证
+
+本项目采用 **双许可证** 模式：
+
+- **代码**（`src/` 目录下 Python 脚本）：[MIT License](LICENSE-CODE)
+- **内容**（XAML 主页、HTML 页面、JSON 数据、README）：[CC BY-NC-SA 4.0](LICENSE-CONTENT)
+
+简单来说：代码随意用，主页内容署名 + 非商业 + 相同方式共享。
+
+---
+
 > By GDSGDHG · 2026
