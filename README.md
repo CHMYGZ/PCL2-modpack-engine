@@ -49,8 +49,6 @@ https://raw.gitcode.com/2401_84211770/PCL2-modpack-engine/raw/main/output/Custom
 
 - **XAML** — PCL2 原生自定义主页
 - **Python** — 数据采集与主页生成
-- **Hermes Agent** — C0 决策团驱动自动更新
-- **硅基流动** — 免费视觉 API
 
 ---
 
