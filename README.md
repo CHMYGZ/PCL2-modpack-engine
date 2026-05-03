@@ -12,7 +12,6 @@ Gen X Soft Club 暗黑中世纪风格 · 每日自动更新。
 - 🎬 **B站热门整合包**：自动抓取 B站 MC 区最新整合包视频，按播放量排序
 - 📥 **一键下载**：BBSMC / CurseForge / Modrinth 直链，快速下载整合包
 - 👤 **MC 创作者推荐**：籽岷 · 黒山大叔 · 大炒面制造者Cen · Nor叔 · 卡慕SaMa 等
-- 🆕 **每日更新**：Hermes Agent 驱动，数据源自动刷新
 - 🎨 **暗黑中世纪**：Gen X Soft Club 视觉风格，适配 PCL2 窗口
 
 ---
