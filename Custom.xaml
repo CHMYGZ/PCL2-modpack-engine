@@ -268,13 +268,13 @@
                Title="🎯  MaxKim · MC小游戏"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
-               EventData="https://space.bilibili.com/263352"
+               EventData="https://space.bilibili.com/470465/video"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
                Title="⚔  红叔 · MC模组挑战"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
-               EventData="https://space.bilibili.com/101046"
+               EventData="https://space.bilibili.com/680447/video"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
                Title="📖  萌新小百科 · MC教程"
