@@ -2,7 +2,7 @@
   ═══════════════════════════════════════════════
   PCL2 · MyWorld B站热门整合包推荐 v10
   数据源: B站 + BBSMC + CurseForge + Modrinth
-  📥BBSMC:8 📥直链:1 🎬B站:13
+  📥BBSMC:8 📥直链:0 🎬B站:14
   更新: (bimal)
   ═══════════════════════════════════════════════
 -->
@@ -73,9 +73,9 @@
                          Type="Clickable" />
                     <local:MyListItem Margin="-2,0,10,0"
                          Title="⚙科技 🗺空岛  FTB Skies"
-                         Info="▸ 📥直链下载 · 352万播放"
+                         Info="▸ 🎬B站视频 · 352万播放"
                          EventType="打开网页"
-                         EventData="https://pan.quark.cn/s/4fd0d04aecb3"
+                         EventData="https://www.bilibili.com/video/BV1SJGbzLE6e/"
                          Type="Clickable" />
                     <local:MyListItem Margin="-2,0,10,0"
                          Title="⚡混合  永恒的MC2"
