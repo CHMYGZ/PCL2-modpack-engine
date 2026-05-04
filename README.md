@@ -1,101 +1,127 @@
 # PCL2 整合包推荐引擎
 
-![PCL2 整合包推荐引擎](docs/images/banner.png)
-
-[![更新周期](https://img.shields.io/badge/更新-每日自动-8A2BE2)](https://gitcode.com/2401_84211770/PCL2-modpack-engine)
-[![版本](https://img.shields.io/badge/版本-2026.05.04--001-blue)](output/version.txt)
-[![许可证-代码](https://img.shields.io/badge/代码-MIT-green)](LICENSE-CODE)
-[![许可证-内容](https://img.shields.io/badge/内容-CC--BY--NC--SA--4.0-orange)](LICENSE-CONTENT)
-
-> **聚合 B站 / BBSMC / CurseForge / Modrinth 的 Minecraft 整合包推荐主页**  
-> Plain Craft Launcher 2 联网自定义主页 · 暗黑中世纪风格 · 每日自动更新
+PCL2 整合包推荐引擎是一个用于 PCL2 启动器的联网自定义主页，面向 Minecraft 玩家提供整合包推荐、视频内容入口、资源站快捷跳转与常用资源导航。它希望把分散在 B站、BBSMC、CurseForge、Modrinth 等平台上的整合包相关信息整理到一个更直观的位置，让玩家在打开 PCL2 时就能快速发现、了解并跳转到感兴趣的整合包资源。
 
 ---
 
-## 📥 联网更新地址
+## 项目简介
+
+一个清爽、实用、直观的 PCL2 自定义主页，围绕 Minecraft 整合包推荐组织内容。
+
+- 面向 PCL2 自定义主页配置
+- 聚合整合包相关资源链接
+- 提供 CurseForge、Modrinth、BBSMC、B站等平台入口
+- 适合玩家快速发现、了解、跳转整合包资源
+- 保持轻量、直观、便于长期维护
+
+---
+
+## 核心功能
+
+### 1. 整合包内容聚合
+
+- 展示常见 Minecraft 整合包推荐
+- 整合 B站视频、BBSMC、CurseForge、Modrinth 等来源
+- 帮助玩家快速了解整合包热度、来源与访问入口
+
+### 2. 常用资源站快捷入口
+
+- 提供主流 Minecraft 资源平台一键跳转
+- 减少玩家在不同网站间反复搜索的成本
+- 适合作为 PCL2 启动器首页入口
+
+### 3. 轻量化主页体验
+
+- 使用 PCL2 自定义主页 XAML 实现
+- 页面结构清晰，加载负担低
+- 适合长期联网更新和维护
+
+### 4. 可持续维护
+
+- 支持后续更新推荐列表
+- 支持添加新整合包、新视频、新资源站
+- 可通过版本文件记录更新状态
+
+---
+
+## 使用说明
+
+在 PCL2 启动器中：
+
+1. 打开「设置」
+2. 进入「个性化」
+3. 找到「自定义主页」
+4. 在「联网更新」中填入：
 
 ```
 https://raw.gitcode.com/2401_84211770/PCL2-modpack-engine/raw/main/output/Custom.xaml
 ```
 
----
+5. 保存后刷新主页即可使用
 
-## 🚀 使用路径
-
-1. 打开 **Plain Craft Launcher 2**
-2. **设置** ⚙️ → **个性化** → **自定义主页**
-3. 在 **「联网更新」** 区域点击 **「下载地址」**
-4. 输入上方联网更新地址 → **「确定」**
-5. 返回启动页即可
-
-> 💡 详细图文教程：[安装与使用教程](docs/usage.md)
+> 如果主页没有刷新，请尝试点击主页上的「刷新」按钮或重启 PCL2。
 
 ---
 
-## ✨ 功能
+## 内容模块
 
-| 模块 | 说明 |
-|------|------|
-| 🗡️ 整合包推荐 | BBSMC/CurseForge/Modrinth 热门整合包一键直达 |
-| 🎬 视频推荐 | B站 MC 区热门整合包视频，点击跳转观看 |
-| 👤 创作者中心 | 籽岷 · 黒山大叔 · 卡慕SaMa · Nor叔 等知名 UP 主 |
-| 🔄 每日更新 | 每日 07:00 自动同步最新数据 |
-| 🔍 多源聚合 | B站 / BBSMC / CurseForge / Modrinth 四源整合 |
+### 1. 整合包推荐
 
----
+- 展示精选 Minecraft 整合包
+- 提供资源来源、热度信息或简介
+- 帮助玩家快速筛选感兴趣的内容
 
-## 📊 数据来源
+### 2. 视频推荐
 
-- [B站](https://bilibili.com) — 整合包视频与 UP 主数据
-- [BBSMC](https://bbsmc.net) — 中文 MC 资源下载站
-- [CurseForge](https://curseforge.com/minecraft/modpacks) — 全球最大 MC 模组平台
-- [Modrinth](https://modrinth.com/modpacks) — 开源 MC 整合包平台
+- 收录与整合包相关的视频内容
+- 方便玩家通过视频了解玩法、特色和安装效果
 
-> ⚠️ **数据仅供参考，非广告推荐**。收录不收取费用，排序基于算法综合热度，不受商业因素影响。
+### 3. 资源站入口
 
----
+- 提供 CurseForge、Modrinth、BBSMC、B站等常用入口
+- 方便玩家快速跳转到外部资源站
 
-## 📋 项目文件
+### 4. 关于与说明
 
-| 文件 | 说明 |
-|------|------|
-| `output/Custom.xaml` | PCL2 自定义主页（核心输出） |
-| `output/version.txt` | 当前版本号 |
-| `data/version.json` | 版本元数据（含更新日志） |
-| `src/generator.py` | XAML 生成脚本 |
-| `src/scrape_links.py` | 数据采集脚本 |
-| `docs/usage.md` | 安装与使用教程 |
-| `docs/maintenance.md` | 维护说明 |
+- 说明项目用途、数据来源和维护状态
+- 明确该主页仅用于资源导航与推荐，不代表官方排名
 
 ---
 
-## 📰 更新日志
+## 数据来源
 
-查看 [CHANGELOG.md](CHANGELOG.md) 了解版本变更。
+本主页中的整合包、视频和资源站信息主要来源于公开可访问的平台，包括但不限于：
 
----
+- CurseForge
+- Modrinth
+- BBSMC
+- B站
+- 其他 Minecraft 社区公开资源
 
-## 🐛 问题反馈
-
-如发现链接失效、内容错误或有改进建议，请在 GitCode 提交 Issue：
-
-[➡ 提交反馈](https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues)
-
----
-
-## 💝 致谢
-
-- [龙腾猫跃](https://afdian.com/a/LTCat) — PCL2 启动器作者
-- [Light Beacon](https://github.com/Light-Beacon/PCL2-NewsHomepage) — PCL2 主页生态开创者
-- [EYicheng](https://github.com/EYicheng/PCL2-TodayHomepage) — 主页 README 结构参考
-- Gen X Soft Club — 暗黑中世纪视觉风格灵感
-- B站 MC 区创作者 & 社区维护者
+所有第三方内容的版权归原作者或原平台所有。本项目仅做信息整理、导航与推荐展示。
 
 ---
 
-## 📜 许可证
+## 免责声明
 
-| 部分 | 范围 | 许可证 |
-|------|------|--------|
-| 代码 | `src/` 目录下脚本 | [MIT License](LICENSE-CODE) |
-| 内容 | XAML 主页、文档、截图 | [CC BY-NC-SA 4.0](LICENSE-CONTENT) |
+本项目仅提供 Minecraft 整合包相关信息的整理、推荐和跳转入口，不托管第三方整合包文件，不代表任何平台或作者的官方立场。
+
+页面中涉及的整合包、视频、图片、名称和链接，其版权与解释权归原作者、发布者或对应平台所有。
+
+如果相关内容存在侵权、失效或不适合展示的情况，请通过 Issue 联系删除或修改。
+
+---
+
+## 鸣谢
+
+- PCL2 启动器及其自定义主页功能
+- Minecraft 社区中的整合包作者、视频作者和资源站维护者
+- 为本项目提出建议和反馈的玩家
+
+---
+
+## 版权声明
+
+- 本项目自制 README、配置说明和主页结构内容采用项目仓库声明的许可证
+- 第三方资源名称、链接、图片、视频和整合包信息归原作者或平台所有
+- 禁止将本项目包装成官方推荐榜单或商业广告页
