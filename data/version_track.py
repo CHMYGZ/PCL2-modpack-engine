@@ -90,7 +90,7 @@ def main():
 
     # Update version.json changelog
     changelog = v.setdefault("changelog", [])
-    entry = f"v{v['version']} - {today}"
+    entry = f"{v['version']} - {today}"
     if not changelog or changelog[0] != entry:
         changelog.insert(0, entry)
         changelog[:] = changelog[:10]
