@@ -1,9 +1,15 @@
 {
-  "version": "v10",
+  "version": "v10.1",
   "build_date": "2026-05-04",
-  "modpack_count": 22,
-  "data_sources": ["B站", "BBSMC", "CurseForge", "Modrinth"],
+  "modpack_count": 42,
+  "data_sources": [
+    "B站",
+    "BBSMC",
+    "CurseForge",
+    "Modrinth"
+  ],
   "changelog": [
+    "vv10.1 - 每日同步 2026-05-04",
     "v10 - 移除 MyWorld 品牌标识",
     "v9  - 重构 README，模块化结构",
     "v8  - 添加版本号自检机制"
