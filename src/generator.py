@@ -172,13 +172,15 @@ def generate():
                EventType="打开网页"
                EventData="{escape(url)}"
                Type="Clickable" />''')
-    
+
+    total_modpacks = len(modpacks)
+
     xaml = f'''<!--
   ═══════════════════════════════════════════════
-  PCL2 · MyWorld B站热门整合包推荐 v10
+  PCL2 整合包推荐引擎
   数据源: B站 + BBSMC + CurseForge + Modrinth
   📥BBSMC:{bbsmc_count} 📥直链:{scraped_count} 🎬B站:{bili_count}
-  更新: (bimal)
+  更新: {datetime.now().strftime('%Y-%m-%d %H:%M')}
   ═══════════════════════════════════════════════
 -->
 
@@ -187,11 +189,14 @@ def generate():
 <!-- ═══════════════════════════════════════════ -->
 <local:MyCard Margin="0,0,0,16" Title="🏠">
      <StackPanel Margin="16,18,16,14">
-          <TextBlock Text="感谢您订阅 Minecraft 推荐引擎" FontSize="15" FontWeight="Bold"
+          <TextBlock Text="感谢您订阅 PCL2 整合包推荐引擎" FontSize="15" FontWeight="Bold"
                Foreground="{{DynamicResource ColorBrush1}}"
                HorizontalAlignment="Center" />
-          <TextBlock Text="MyWorld · B站热门整合包 · 每日自动更新" FontSize="11"
-               Foreground="{{DynamicResource ColorBrush4}}"
+          <TextBlock Text="聚合 B站 / BBSMC / CurseForge / Modrinth 的 Minecraft 整合包推荐主页" FontSize="11"
+               Foreground="{{DynamicResource ColorBrush5}}"
+               HorizontalAlignment="Center" Margin="0,4,0,0" />
+          <TextBlock Text="PCL2 · 整合包推荐 · 每日自动更新 · 数据仅供参考，非广告推荐" FontSize="10"
+               Foreground="{{DynamicResource ColorBrush6}}"
                HorizontalAlignment="Center" Margin="0,4,0,0" />
      </StackPanel>
 </local:MyCard>
@@ -276,14 +281,16 @@ def generate():
                     <ColumnDefinition Width="Auto" />
                </Grid.ColumnDefinitions>
                <StackPanel Grid.Column="0">
-                    <TextBlock Text="MyWorld · 整合包推荐引擎" FontSize="18" FontWeight="Bold"
+                    <TextBlock Text="PCL2 整合包推荐引擎" FontSize="18" FontWeight="Bold"
                          Foreground="{{DynamicResource ColorBrush1}}" Margin="0,0,0,8" />
-                    <TextBlock Text="By GDSGDHG" FontSize="13" TextWrapping="Wrap"
+                    <TextBlock Text="By GDSGDHG · 版本号见 output/version.txt" FontSize="13" TextWrapping="Wrap"
                          Foreground="{{DynamicResource ColorBrush4}}" Margin="0,0,0,6" />
                     <TextBlock Text="数据来源: B站 · BBSMC · CurseForge · Modrinth" FontSize="12" TextWrapping="Wrap"
                          Foreground="{{DynamicResource ColorBrush5}}" Margin="0,0,0,4" />
-                    <TextBlock Text="仅收录2025年1月起发布的整合包视频 · (bimal)" FontSize="11" TextWrapping="Wrap"
+                    <TextBlock Text="最后更新: {datetime.now().strftime('%Y-%m-%d')} · 共{total_modpacks}个整合包" FontSize="11" TextWrapping="Wrap"
                          Foreground="{{DynamicResource ColorBrush6}}" Margin="0,0,0,4" />
+                    <TextBlock Text="数据仅供参考，非广告推荐" FontSize="10" TextWrapping="Wrap"
+                         Foreground="{{DynamicResource ColorBrush7}}" Margin="0,0,0,2" />
                     <TextBlock Text="致谢: PCL2 · B站创作者 · 社区维护者" FontSize="11" TextWrapping="Wrap"
                          Foreground="{{DynamicResource ColorBrush6}}" Margin="0,0,0,0" />
                </StackPanel>

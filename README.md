@@ -44,14 +44,6 @@ https://raw.gitcode.com/2401_84211770/PCL2-modpack-engine/raw/main/output/Custom
 
 ---
 
-## 📸 截图
-
-| 折叠态 | 整合包展开 | 关于区 |
-|:------:|:----------:|:------:|
-| ![折叠态](screenshots/collapsed.png) | ![展开态](screenshots/expanded.png) | ![关于](screenshots/about.png) |
-
----
-
 ## 📊 数据来源
 
 - [B站](https://bilibili.com) — 整合包视频与 UP 主数据
