@@ -1,142 +1,109 @@
 # PCL2 整合包推荐引擎
 
-![项目横幅](https://raw.gitcode.com/2401_84211770/PCL2-modpack-engine/raw/main/docs/images/banner.png)
+![PCL2 整合包推荐引擎](docs/images/banner.png)
 
 [![更新周期](https://img.shields.io/badge/更新-每日自动-8A2BE2)](https://gitcode.com/2401_84211770/PCL2-modpack-engine)
-[![许可证](https://img.shields.io/badge/许可证-MIT%2FCC--BY--NC--SA--4.0-green)](LICENSE-CODE)
+[![版本](https://img.shields.io/badge/版本-2026.05.04--001-blue)](output/version.txt)
+[![许可证-代码](https://img.shields.io/badge/代码-MIT-green)](LICENSE-CODE)
+[![许可证-内容](https://img.shields.io/badge/内容-CC--BY--NC--SA--4.0-orange)](LICENSE-CONTENT)
 
-> **在 Plain Craft Launcher 2 中展示 Minecraft 热门整合包推荐主页**  
-> Gen X Soft Club 暗黑中世纪风格 · 每日自动更新 · 多平台数据聚合
-
-- [PCL2 整合包推荐引擎](#pcl2-整合包推荐引擎)
-  - [核心功能](#核心功能)
-  - [使用说明](#使用说明)
-  - [内容模块](#内容模块)
-  - [技术架构](#技术架构)
-  - [鸣谢](#鸣谢)
-  - [版权声明](#版权声明)
-    - [内容部分](#内容部分)
-    - [代码部分](#代码部分)
+> **聚合 B站 / BBSMC / CurseForge / Modrinth 的 Minecraft 整合包推荐主页**  
+> Plain Craft Launcher 2 联网自定义主页 · 暗黑中世纪风格 · 每日自动更新
 
 ---
 
-## 核心功能
-
-### 1. **整合包聚合推荐** ⚔️
-- 📥 **BBSMC 直链下载** — 自动采集 BBSMC 平台最新热门整合包，一键直链下载
-- 📦 **CurseForge / Modrinth 同步** — 整合国际主流模组平台数据
-- 🎬 **B站热门整合包视频** — 精选 B站 MC 区高播放量整合包推荐视频，附视频链接
-
-### 2. **MC 创作者中心** 🛡️
-- 👤 **B站 UP 主推荐** — 籽岷 · 黒山大叔 · 大炒面制造者Cen · Nor叔 · 卡慕SaMa 等知名创作者
-- 🔗 **一键跳转** — 直接跳转 B站 UP 主主页 / 视频 / 直播间
-
-### 3. **自动化系统** 🔄
-- 🤖 **每日自动更新** — 通过自动化流水线定时采集数据、生成 XAML 主页
-- 📊 **版本追踪** — 每次更新自动提交到仓库，可追溯历史版本
-- ⚡ **增量更新** — 本地数据缓存机制，减少重复采集
-
----
-
-## 使用说明
-
-在 PCL2 启动器中：
-
-1. 打开 **设置 → 个性化 → 自定义主页**
-2. 点击 **「联网更新」**
-3. 在「下载地址」中输入：
+## 📥 联网更新地址
 
 ```
 https://raw.gitcode.com/2401_84211770/PCL2-modpack-engine/raw/main/output/Custom.xaml
 ```
 
-4. 返回启动页，加载完成即可使用
+---
 
-> 💡 **提示**：如果网络波动导致加载失败，刷新主页即可重试。
+## 🚀 使用路径
+
+1. 打开 **Plain Craft Launcher 2**
+2. **设置** ⚙️ → **个性化** → **自定义主页**
+3. 在 **「联网更新」** 区域点击 **「下载地址」**
+4. 输入上方联网更新地址 → **「确定」**
+5. 返回启动页即可
+
+> 💡 详细图文教程：[安装与使用教程](docs/usage.md)
 
 ---
 
-## 内容模块
+## ✨ 功能
 
-### 1. **整合包精选** 🗡️
-- BBSMC 热门整合包直链列表（含大小、版本、下载量）
-- CurseForge / Modrinth 国际平台精选
-- 每项包含简介文字、下载来源标识
-
-### 2. **热门视频推荐** 🎬
-- B站 MC 区整合包视频推荐
-- 按播放量排序展示
-- 点击直接跳转 B站视频页面
-
-### 3. **创作者推荐** 👤
-- B站知名 MC 创作者卡片展示
-- 支持跳转 UP 主主页 / 视频合集 / 直播间
-- 持续更新创作者列表
-
-### 4. **资讯动态** 📰
-- 更新日志与最新改动
-- 主页版本号展示
-- 反馈入口
-
----
-
-## 技术架构
-
-### 数据流
-
-```
-[B站 API] ──┐
-[BBSMC] ────┤──→ [Python 采集器] ──→ [XAML 生成] ──→ [GitCode 发布] ──→ [PCL2 加载]
-[CurseForge] ─┘
-[Modrinth] ──┘
-```
-
-### 技术栈
-
-| 组件 | 说明 |
+| 模块 | 说明 |
 |------|------|
-| **XAML** | PCL2 原生自定义主页语言，WPF 风格 |
-| **Python** | 数据采集、处理与 XAML 自动生成 |
-| **GitCode** | 代码托管与原始文件分发（Raw CDN） |
-| **PCL2** | Plain Craft Launcher 2 启动器 |
-
-### 目录结构
-
-```
-├── output/          # 生成的 XAML 主页文件
-├── src/             # Python 采集与生成脚本
-├── data/            # 数据缓存与配置
-├── docs/            # 文档与设计图
-├── LICENSE-CODE     # 代码许可证 (MIT)
-├── LICENSE-CONTENT  # 内容许可证 (CC BY-NC-SA 4.0)
-└── README.md
-```
+| 🗡️ 整合包推荐 | BBSMC/CurseForge/Modrinth 热门整合包一键直达 |
+| 🎬 视频推荐 | B站 MC 区热门整合包视频，点击跳转观看 |
+| 👤 创作者中心 | 籽岷 · 黒山大叔 · 卡慕SaMa · Nor叔 等知名 UP 主 |
+| 🔄 每日更新 | 每日 07:00 自动同步最新数据 |
+| 🔍 多源聚合 | B站 / BBSMC / CurseForge / Modrinth 四源整合 |
 
 ---
 
-## 鸣谢
+## 📸 截图
 
-- **[龙腾猫跃](https://afdian.com/a/LTCat)** — **[PCL2](https://github.com/Meloong-Git/PCL)** 启动器作者
-- **[Light Beacon](https://github.com/Light-Beacon/PCL2-NewsHomepage)** — PCL2 主页生态开创者，灵感来源
-- **[Gen X Soft Club](https://genxsoft.club)** — 暗黑中世纪视觉风格灵感
-- **B站 MC 区 UP 主与社区维护者** — 持续产出的优质内容
-
-> （排名不分先后）
+| 折叠态 | 整合包展开 | 关于区 |
+|:------:|:----------:|:------:|
+| ![折叠态](screenshots/collapsed.png) | ![展开态](screenshots/expanded.png) | ![关于](screenshots/about.png) |
 
 ---
 
-## 版权声明
+## 📊 数据来源
 
-### 内容部分
+- [B站](https://bilibili.com) — 整合包视频与 UP 主数据
+- [BBSMC](https://bbsmc.net) — 中文 MC 资源下载站
+- [CurseForge](https://curseforge.com/minecraft/modpacks) — 全球最大 MC 模组平台
+- [Modrinth](https://modrinth.com/modpacks) — 开源 MC 整合包平台
 
-- **范围**：`output/` 目录下的 `.xaml` 文件、`docs/` 文档、`README.md`
-- **采用** **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** 许可
-- **包含的第三方数据版权归原始平台所有**（B站视频/UP主信息、BBSMC/CurseForge/Modrinth 整合包信息）
+> ⚠️ **数据仅供参考，非广告推荐**。收录不收取费用，排序基于算法综合热度，不受商业因素影响。
 
-### 代码部分
+---
 
-- **范围**：`src/` 目录下的 Python 脚本
-- **采用** **[MIT License](LICENSE-CODE)** 许可
+## 📋 项目文件
 
-> [!IMPORTANT]
-> **重要声明**：本系统采集的整合包数据来自 B站、BBSMC、CurseForge、Modrinth 等公开平台，数据版权归属于原始平台和创作者。本仓库仅提供技术整合与视觉呈现，不对第三方数据的内容与版权负责，用户需自行确保合规使用。
+| 文件 | 说明 |
+|------|------|
+| `output/Custom.xaml` | PCL2 自定义主页（核心输出） |
+| `output/version.txt` | 当前版本号 |
+| `data/version.json` | 版本元数据（含更新日志） |
+| `src/generator.py` | XAML 生成脚本 |
+| `src/scrape_links.py` | 数据采集脚本 |
+| `docs/usage.md` | 安装与使用教程 |
+| `docs/maintenance.md` | 维护说明 |
+
+---
+
+## 📰 更新日志
+
+查看 [CHANGELOG.md](CHANGELOG.md) 了解版本变更。
+
+---
+
+## 🐛 问题反馈
+
+如发现链接失效、内容错误或有改进建议，请在 GitCode 提交 Issue：
+
+[➡ 提交反馈](https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues)
+
+---
+
+## 💝 致谢
+
+- [龙腾猫跃](https://afdian.com/a/LTCat) — PCL2 启动器作者
+- [Light Beacon](https://github.com/Light-Beacon/PCL2-NewsHomepage) — PCL2 主页生态开创者
+- [EYicheng](https://github.com/EYicheng/PCL2-TodayHomepage) — 主页 README 结构参考
+- Gen X Soft Club — 暗黑中世纪视觉风格灵感
+- B站 MC 区创作者 & 社区维护者
+
+---
+
+## 📜 许可证
+
+| 部分 | 范围 | 许可证 |
+|------|------|--------|
+| 代码 | `src/` 目录下脚本 | [MIT License](LICENSE-CODE) |
+| 内容 | XAML 主页、文档、截图 | [CC BY-NC-SA 4.0](LICENSE-CONTENT) |
