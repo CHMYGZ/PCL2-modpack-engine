@@ -2,8 +2,8 @@
   ═══════════════════════════════════════════════
   PCL2 整合包推荐引擎
   数据源: B站 + BBSMC + CurseForge + Modrinth
-  📥BBSMC:8 📥直链:1 🎬B站:13
-  更新: 2026-05-04 18:52
+  📥BBSMC:8 📥直链:0 🎬B站:14
+  更新: 2026-05-05 08:06
   ═══════════════════════════════════════════════
 -->
 
@@ -76,9 +76,9 @@
                          Type="Clickable" />
                     <local:MyListItem Margin="-2,0,10,0"
                          Title="⚙科技 🗺空岛  FTB Skies"
-                         Info="▸ 📥直链下载 · 352万播放"
+                         Info="▸ 🎬B站视频 · 352万播放"
                          EventType="打开网页"
-                         EventData="https://pan.quark.cn/s/4fd0d04aecb3"
+                         EventData="https://www.bilibili.com/video/BV1SJGbzLE6e/"
                          Type="Clickable" />
                     <local:MyListItem Margin="-2,0,10,0"
                          Title="⚡混合  永恒的MC2"
@@ -369,7 +369,7 @@
                          Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,6" />
                     <TextBlock Text="数据来源: B站 · BBSMC · CurseForge · Modrinth" FontSize="12" TextWrapping="Wrap"
                          Foreground="{DynamicResource ColorBrush5}" Margin="0,0,0,4" />
-                    <TextBlock Text="最后更新: 2026-05-04 · 共22个整合包" FontSize="11" TextWrapping="Wrap"
+                    <TextBlock Text="最后更新: 2026-05-05 · 共22个整合包" FontSize="11" TextWrapping="Wrap"
                          Foreground="{DynamicResource ColorBrush6}" Margin="0,0,0,4" />
                     <TextBlock Text="数据仅供参考，非广告推荐" FontSize="10" TextWrapping="Wrap"
                          Foreground="{DynamicResource ColorBrush7}" Margin="0,0,0,2" />
