@@ -2,12 +2,11 @@
   {
     "name": "你好，新世代",
     "version": "1.20.1",
-    "genres": [
-      "⚡混合",
-      "🏰冒险"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1PbAczPE4o/",
-    "bili_play_str": "26万播放",
+    "curseforge_url": null,
+    "bbsmc_url": null,
+    "mcmod_url": null,
+    "modrinth_url": null,
     "baidu_pan": "https://pan.baidu.com/s/1t4R2F8kPg0ab-N6GFDp9Pg",
     "quark_pan": "https://pan.quark.cn/s/dbe95e59f19e",
     "note": "机械动力6.0.8+Voxy+瓦尔基里·作者MCshaying"
@@ -15,125 +14,133 @@
   {
     "name": "落幕曲",
     "version": "1.20.1",
-    "genres": [
-      "🧙魔法"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1RPTxzcELj/",
-    "bili_play_str": "174万播放",
+    "curseforge_url": null,
     "bbsmc_url": "https://bbsmc.net/modpack/luomuqu",
+    "mcmod_url": null,
+    "modrinth_url": null,
+    "baidu_pan": null,
     "quark_pan": "https://pan.quark.cn/s/4e69ec77f734",
     "note": "枪械+拔刀剑+冒险·作者末影蘸酱"
   },
   {
     "name": "Better MC",
     "version": "1.20.1",
-    "genres": [
-      "🌿休闲"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1DrE2z1EcF/",
-    "bili_play_str": "175万播放",
     "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4",
+    "bbsmc_url": null,
+    "mcmod_url": null,
+    "modrinth_url": null,
+    "baidu_pan": null,
+    "quark_pan": null,
     "note": "海外热门优化整合包·Forge/Fabric双版本"
   },
   {
     "name": "BMC4",
     "version": "1.20.1",
-    "genres": [
-      "🌿休闲"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1DrE2z1EcF/",
-    "bili_play_str": "175万播放",
     "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4",
+    "bbsmc_url": null,
+    "mcmod_url": null,
+    "modrinth_url": null,
+    "baidu_pan": null,
+    "quark_pan": null,
     "note": "Better MC第四版·优化原版体验"
   },
   {
     "name": "Cobblemon",
     "version": "1.20.1",
-    "genres": [
-      "🎮宝可梦"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1xBmdBDEvU/",
-    "bili_play_str": "149万播放",
+    "curseforge_url": null,
+    "bbsmc_url": null,
+    "mcmod_url": null,
     "modrinth_url": "https://modrinth.com/modpack/cobblemon-fabric",
+    "baidu_pan": null,
+    "quark_pan": null,
     "note": "国际原版宝可梦整合包·Cobblemon核心"
   },
   {
     "name": "我的世界方块宝可梦",
     "version": "1.20.1",
-    "genres": [
-      "🎮宝可梦"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1xBmdBDEvU/",
-    "bili_play_str": "149万播放",
+    "curseforge_url": null,
+    "bbsmc_url": null,
+    "mcmod_url": null,
+    "modrinth_url": null,
+    "baidu_pan": null,
     "quark_pan": "https://pan.quark.cn/s/0e284262d63b",
     "note": "国产宝可梦·去吧方可梦大师·全图鉴"
   },
   {
     "name": "ATM9",
     "version": "1.20.1",
-    "genres": [
-      "⚡混合"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1JGZpYjEDo/",
-    "bili_play_str": "118万播放",
     "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-9",
+    "bbsmc_url": null,
+    "mcmod_url": null,
+    "modrinth_url": null,
+    "baidu_pan": null,
+    "quark_pan": null,
     "note": "All The Mods 9·最大水槽包之一"
   },
   {
     "name": "More Biomes",
     "version": "基岩版",
-    "genres": [
-      "📦其他"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1whHrzfEU7/",
-    "bili_play_str": "1.8万播放",
+    "curseforge_url": null,
+    "bbsmc_url": null,
+    "mcmod_url": null,
+    "modrinth_url": null,
+    "baidu_pan": null,
+    "quark_pan": null,
     "note": "Minecraft Marketplace更多生物群系Add-On"
   },
   {
     "name": "远梦之棺",
     "version": "1.20.1",
-    "genres": [
-      "🧙魔法"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1u3RVBRELJ/",
-    "bili_play_str": "1万播放",
+    "curseforge_url": null,
     "bbsmc_url": "https://bbsmc.net/modpack/dream-coffin",
+    "mcmod_url": null,
+    "modrinth_url": null,
+    "baidu_pan": null,
+    "quark_pan": null,
     "note": "高质量战斗RPG·全球百万下载·作者P1nero"
   },
   {
     "name": "元素觉醒",
     "version": "1.20.1",
-    "genres": [
-      "🎮RPG",
-      "🧙魔法"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1T9GFz8EN4/",
-    "bili_play_str": "37万播放",
+    "curseforge_url": null,
+    "bbsmc_url": null,
+    "mcmod_url": null,
+    "modrinth_url": null,
+    "baidu_pan": null,
+    "quark_pan": null,
     "note": "60+BOSS·元素魔法·大型魔改RPG·作者Sh1ntaro"
   },
   {
     "name": "咒次元",
     "version": "1.20.1",
-    "genres": [
-      "🧙魔法",
-      "🏰冒险"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1QN6HYnE5W/",
-    "bili_play_str": "14万播放",
     "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/spell-dimension",
     "bbsmc_url": "https://bbsmc.net/modpack/spell-dimension",
     "mcmod_url": "https://www.mcmod.cn/modpack/1024.html",
+    "modrinth_url": null,
+    "baidu_pan": null,
+    "quark_pan": null,
     "note": "纯魔法战斗·任务引导·作者Karashok_Leo"
   },
   {
     "name": "凡人修仙传",
     "version": "1.20.1",
-    "genres": [
-      "🧙魔法",
-      "🏰冒险"
-    ],
     "bili_url": "https://www.bilibili.com/video/BV1KEu4ztEQH/",
-    "bili_play_str": "25万播放",
+    "curseforge_url": null,
+    "bbsmc_url": null,
+    "mcmod_url": null,
+    "modrinth_url": null,
+    "baidu_pan": null,
+    "quark_pan": null,
     "note": "修仙RPG·境界突破·作者世傲吖"
   }
 ]

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 PCL2 自定义主页生成器 v10
-数据源: B站+BBSMC+CurseForge+Modrinth · 热门视频取代直播模块
+数据源: B站+BBSMC+CurseForge+Modrinth · 全B站视频推荐+下方下载链接
 """
 
 import hashlib, json, re
@@ -11,22 +11,37 @@ from pathlib import Path
 OUTPUT = Path(__file__).parent.parent / "output" / "Custom.xaml"
 VERSION = Path(__file__).parent.parent / "output" / "Custom.xaml.ini"
 MODPACK_FILE = Path(__file__).parent.parent / "data" / "modpack_final.json"
+ENRICHED_FILE = Path(__file__).parent.parent / "data" / "modpack_enriched.json"
 LINKS_CACHE = Path(__file__).parent.parent / "data" / "download_links_cache.json"
 SEED_FILE = Path(__file__).parent.parent / "data" / "seed_modpacks.json"
 
-# B站MC热门视频（定期更新）
+# B站MC热门视频（40条·定期更新）
+# 结构: UP主频道(10) + 精选视频(10) + B站搜索话题(20)
 HOT_VIDEOS = [
+    # ── UP主频道 ──
     ("籽岷 · MC模组推荐合集", "https://space.bilibili.com/686127/video"),
     ("黒山大叔 · 红石科技", "https://space.bilibili.com/19428259/video"),
     ("老迪来咯 · MC搞笑实况", "https://space.bilibili.com/27996286/video"),
     ("黑猫大少爷 · MC生存", "https://space.bilibili.com/4831263/video"),
     ("卡慕SaMa · MC日常", "https://space.bilibili.com/9596327/video"),
-    ("大炒面制造者Cen · MC热门", "https://space.bilibili.com/14890801/video"),
     ("Nor叔 · MC极限生存", "https://space.bilibili.com/17425003/video"),
+    ("大炒面制造者Cen · MC热门", "https://space.bilibili.com/14890801/video"),
     ("萝卜吃米洛 · MC日常", "https://space.bilibili.com/5007752/video"),
     ("Minecraft官方频道", "https://space.bilibili.com/43310262/video"),
-    ("MC整合包推荐搜索", "https://search.bilibili.com/all?keyword=Minecraft+整合包+推荐"),
-    ("Minecraft Live 合集", "https://search.bilibili.com/all?keyword=Minecraft+Live"),
+    ("小周MC · 游戏实况", "https://space.bilibili.com/4072634/video"),
+    # ── 精选热门视频 ──
+    ("🔥 2024年度MC十大神包289万", "https://www.bilibili.com/video/BV1p1421C75Q/"),
+    ("🔥 一个MC包2000万下载量256万", "https://www.bilibili.com/video/BV15M4m127dH/"),
+    ("🔥 10款大型冒险向神包215万", "https://www.bilibili.com/video/BV1J24y1R7GT/"),
+    ("🔥 2024年度MC十佳包127万", "https://www.bilibili.com/video/BV1Bpq9Y7ECV/"),
+    ("🔥 五个顶级僵尸末日神包124万", "https://www.bilibili.com/video/BV1Zp4y1o71R/"),
+    ("🔥 2025年度MC最佳102万", "https://www.bilibili.com/video/BV1CWvZBREYA/"),
+    ("🔥 远梦之棺 一小时超长版93万", "https://www.bilibili.com/video/BV1Z4zYBnE4T/"),
+    ("🔥 MC最出名恐怖模组排名92万", "https://www.bilibili.com/video/BV1ff5KzTE9A/"),
+    ("🔥 ATM10双人生存实况81万", "https://www.bilibili.com/video/BV1ugG1z4EG8/"),
+    ("🔥 12个高版本寄生虫模组75万", "https://www.bilibili.com/video/BV1yp421179i/"),
+    # ── B站搜索话题 ──
+    ("MC热门作品搜索", "https://search.bilibili.com/all?keyword=Minecraft+整合包+推荐"),
     ("我的世界搞笑瞬间", "https://search.bilibili.com/all?keyword=我的世界+搞笑"),
     ("MC速通世界纪录", "https://search.bilibili.com/all?keyword=Minecraft+速通"),
     ("我的世界建筑欣赏", "https://search.bilibili.com/all?keyword=我的世界+建筑"),
@@ -36,13 +51,23 @@ HOT_VIDEOS = [
     ("Minecraft动画短片", "https://search.bilibili.com/all?keyword=Minecraft+动画"),
     ("我的世界100天挑战", "https://search.bilibili.com/all?keyword=我的世界+100天"),
     ("MC多人生存系列", "https://search.bilibili.com/all?keyword=MC+多人+生存"),
+    ("MC科技模组", "https://search.bilibili.com/all?keyword=Minecraft+科技+整合包"),
+    ("MC空岛生存", "https://search.bilibili.com/all?keyword=MC+空岛+生存"),
+    ("Minecraft Live 合集", "https://search.bilibili.com/all?keyword=Minecraft+Live"),
+    ("MC宝可梦世界", "https://search.bilibili.com/all?keyword=MC+宝可梦+整合包"),
+    ("MC魔法纪元", "https://search.bilibili.com/all?keyword=Minecraft+魔法+整合包"),
+    ("MC冒险地图", "https://search.bilibili.com/all?keyword=Minecraft+冒险+地图"),
+    ("MC硬核生存", "https://search.bilibili.com/all?keyword=MC+硬核+生存"),
+    ("MC机械动力", "https://search.bilibili.com/all?keyword=Create+机械动力+Minecraft"),
+    ("MC暮色森林", "https://search.bilibili.com/all?keyword=暮色森林+Minecraft"),
+    ("MC恐怖模组", "https://search.bilibili.com/all?keyword=Minecraft+恐怖+模组"),
 ]
 
 def escape(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 def load_modpacks():
-    """加载整合包数据 — 种子优先，缓存补全"""
+    """加载整合包数据 — 种子优先，enriched覆盖，缓存补全"""
     packs = []
     seen = set()
     
@@ -66,50 +91,101 @@ def load_modpacks():
                 seen.add(name)
                 packs.append(mp)
     
+    # 3. Enriched数据覆盖（补充版本/平台等字段）
+    if ENRICHED_FILE.exists():
+        with open(ENRICHED_FILE, 'r', encoding='utf-8') as f:
+            enriched_list = json.load(f)
+        enriched_map = {e['name']: e for e in enriched_list}
+        for mp in packs:
+            if mp['name'] in enriched_map:
+                e = enriched_map[mp['name']]
+                for key in ('version', 'curseforge_url', 'bbsmc_url', 'mcmod_url',
+                           'modrinth_url', 'baidu_pan', 'quark_pan', 'note',
+                           'bili_url', 'bili_play_str'):
+                    if key in e and e[key]:
+                        mp[key] = e[key]
+    
     return packs
 
+# ── 已知下载链接（CurseForge / Modrinth / 网盘）──
+KNOWN_DOWNLOADS = {
+    "RLCraft": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/rlcraft"),
+    "RLCraft Dregora": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"),
+    "GreedyCraft": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/greedycraft"),
+    "Better MC": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4"),
+    "BMC4": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4"),
+    "SkyFactory 4": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/skyfactory-4"),
+    "ATM9": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/all-the-mods-9"),
+    "All The Mods 10": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10"),
+    "Vault Hunters 3": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2"),
+    "GregTech New Horizons": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/gt-new-horizons"),
+    "GTNH": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/gt-new-horizons"),
+    "Cobblemon": ("Modrinth", "https://modrinth.com/modpack/cobblemon-fabric"),
+    "Create: Above and Beyond": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/create-above-and-beyond"),
+}
+
 def load_download_links():
-    if not LINKS_CACHE.exists():
-        return {}
-    with open(LINKS_CACHE, 'r', encoding='utf-8') as f:
-        cache = json.load(f)
-    TRUSTED = {
-        'DawnCraft': 'curseforge.com/minecraft/modpacks/dawn-craft',
-        'FTB Skies': 'pan.quark.cn',
-        'Vault Hunters': 'curseforge.com/minecraft/modpacks/vault-hunters-',
-    }
-    verified = {}
-    for name, r in cache.get('results', {}).items():
-        if r['status'] == 'found' and r.get('links') and name in TRUSTED:
-            clean = [l for l in r['links'] if TRUSTED[name] in l.lower()]
-            if clean:
-                verified[name] = clean[0]
-    return verified
-def make_item(mp, dl_links, index, is_seed=False):
-    """生成单个整合包的 MyListItem"""
+    """加载下载链接: 已知链接 + 缓存推理"""
+    dl_map = dict(KNOWN_DOWNLOADS)  # (label, url)
+    
+    # 补充 BBSMC 链接
+    packs = load_modpacks()
+    for mp in packs:
+        if mp.get('bbsmc_url') and mp['name'] not in dl_map:
+            dl_map[mp['name']] = ("BBSMC", mp['bbsmc_url'])
+    
+    # 补充抓取链接
+    if LINKS_CACHE.exists():
+        with open(LINKS_CACHE, 'r', encoding='utf-8') as f:
+            cache = json.load(f)
+        for name, r in cache.get('results', {}).items():
+            if name in dl_map:
+                continue
+            if r['status'] == 'found' and r.get('links'):
+                url = r['links'][0]
+                # 确定平台标签
+                if 'curseforge' in url.lower():
+                    label = "CurseForge"
+                elif 'modrinth' in url.lower():
+                    label = "Modrinth"
+                elif 'pan.baidu' in url.lower():
+                    label = "百度网盘"
+                elif 'pan.quark' in url.lower():
+                    label = "夸克网盘"
+                elif 'pan.huang1111' in url.lower():
+                    label = "huang1111网盘"
+                else:
+                    label = "直链"
+                dl_map[name] = (label, url)
+    
+    return dl_map
+
+def make_item(mp, dl_info, index, is_seed=False):
+    """生成单个整合包: B站视频 + 版本/平台信息"""
     name = escape(mp['name'][:25])
     genres = mp.get('genres', ['📦'])
     genre_str = ' '.join(genres[:2])
-    play = mp.get('bili_play_str', '?播放')
-    
-    # 链接优先级: BBSMC > 抓取 > B站视频
-    if mp.get('bbsmc_url'):
-        url = escape(mp['bbsmc_url'])
-        link_type = "📥BBSMC下载"
-    elif mp['name'] in dl_links:
-        url = escape(dl_links[mp['name']])
-        link_type = "📥直链下载"
-    else:
-        url = escape(mp.get('bili_url', '#'))
-        link_type = "🎬B站视频"
-    
+    play = mp.get('bili_play_str', '?')
+    bili_url = escape(mp.get('bili_url', '#'))
     prefix = "🆕 " if is_seed else ""
+    
+    # 版本
+    version = mp.get('version', '')
+    ver_str = f" · {version}" if version else ""
+    
+    # 平台可用性 (从enriched数据)
+    platforms = []
+    if mp.get('curseforge_url'): platforms.append('CF')
+    if mp.get('bbsmc_url'): platforms.append('BS')
+    if mp.get('mcmod_url'): platforms.append('百科')
+    if mp.get('modrinth_url'): platforms.append('MR')
+    platform_str = f" · 📥{'/'.join(platforms)}" if platforms else ""
     
     return f'''                    <local:MyListItem Margin="-2,0,10,0"
                          Title="{prefix}{genre_str}  {name}"
-                         Info="▸ {link_type} · {play}"
+                         Info="▸ 🎬B站 · {play}{ver_str}{platform_str}"
                          EventType="打开网页"
-                         EventData="{url}"
+                         EventData="{bili_url}"
                          Type="Clickable" />'''
 def generate():
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -120,9 +196,9 @@ def generate():
         print("ERROR: modpack_final.json not found")
         return ""
     
+    dl_count = sum(1 for m in modpacks if m['name'] in dl_links)
+    bili_count = len(modpacks)
     bbsmc_count = sum(1 for m in modpacks if m.get('bbsmc_url'))
-    scraped_count = sum(1 for m in modpacks if m['name'] in dl_links and not m.get('bbsmc_url'))
-    bili_count = len(modpacks) - bbsmc_count - scraped_count
     # 取前50，分左右两列。种子条目插在最前面
     # 识别种子条目数量
     seed_count = 0
@@ -139,8 +215,8 @@ def generate():
     def is_seed(mp, idx):
         return idx < seed_count
     
-    left_items = [make_item(mp, dl_links, i, is_seed(mp, i)) for i, mp in enumerate(left_packs)]
-    right_items = [make_item(mp, dl_links, i+half, is_seed(mp, i+half)) for i, mp in enumerate(right_packs)]
+    left_items = [make_item(mp, dl_links.get(mp['name']), i, is_seed(mp, i)) for i, mp in enumerate(left_packs)]
+    right_items = [make_item(mp, dl_links.get(mp['name']), i+half, is_seed(mp, i+half)) for i, mp in enumerate(right_packs)]
     
     # ── 快速按钮栏 ──
     buttons = [
@@ -162,7 +238,9 @@ def generate():
     
     # ── 热门视频栏 ──
     vid_icons = ["🎬", "🔧", "😂", "🏗", "🎮", "🌟", "🎨", "🎯", "⚔", "📖",
-                 "🎤", "🤣", "⏱", "🏰", "⚡", "📦", "✨", "🎞", "💯", "👥"]
+                 "🎤", "🤣", "⏱", "🏰", "⚡", "📦", "✨", "🎞", "💯", "👥",
+                 "🔥", "💀", "🗡️", "🛡️", "🧙", "🌍", "🏆", "🎲", "👾", "💎",
+                 "🕹️", "🎭", "🗺️", "🌟", "⚗️", "🌿", "🧟", "🔮", "⛏️", "🎪"]
     vid_items = []
     for i, (title, url) in enumerate(HOT_VIDEOS):
         icon = vid_icons[i % len(vid_icons)]
@@ -179,7 +257,7 @@ def generate():
   ═══════════════════════════════════════════════
   PCL2 整合包推荐引擎
   数据源: B站 + BBSMC + CurseForge + Modrinth
-  📥BBSMC:{bbsmc_count} 📥直链:{scraped_count} 🎬B站:{bili_count}
+  📥BBSMC:{bbsmc_count} 🎬B站视频:{bili_count} 📥直链下载:{dl_count}
   更新: {datetime.now().strftime('%Y-%m-%d %H:%M')}
   ═══════════════════════════════════════════════
 -->
@@ -224,7 +302,7 @@ def generate():
                Foreground="{{DynamicResource ColorBrush1}}"
                HorizontalAlignment="Center" Margin="0,0,0,10" />
           <local:MyHint IsWarn="False" Theme="Yellow"
-               Text="🔥硬核 ⚙科技 🏰冒险 🧙魔法 🌿休闲 🗺空岛 🎮宝可梦 ⚡混合 | 📥BBSMC · 📥直链 · 🎬B站视频 · CurseForge/Modrinth收录"
+               Text="🔥硬核 ⚙科技 🏰冒险 🧙魔法 🌿休闲 🗺空岛 🎮宝可梦 ⚡混合 | 🎬B站视频推荐 · 下方 📥下载链接"
                Margin="0,0,0,12" />
 
           <Grid>
@@ -261,10 +339,10 @@ def generate():
                     <ColumnDefinition Width="*" />
                </Grid.ColumnDefinitions>
                <StackPanel Grid.Column="0">
-{chr(10).join(vid_items[:10])}
+{chr(10).join(vid_items[:20])}
                </StackPanel>
                <StackPanel Grid.Column="2">
-{chr(10).join(vid_items[10:])}
+{chr(10).join(vid_items[20:])}
                </StackPanel>
           </Grid>
      </StackPanel>
@@ -285,7 +363,7 @@ def generate():
                          Foreground="{{DynamicResource ColorBrush1}}" Margin="0,0,0,8" />
                     <TextBlock Text="By GDSGDHG · 版本号见 output/version.txt" FontSize="13" TextWrapping="Wrap"
                          Foreground="{{DynamicResource ColorBrush4}}" Margin="0,0,0,6" />
-                    <TextBlock Text="数据来源: B站 · BBSMC · CurseForge · Modrinth" FontSize="12" TextWrapping="Wrap"
+                    <TextBlock Text="数据来源: B站视频 + CurseForge/Modrinth 下载" FontSize="12" TextWrapping="Wrap"
                          Foreground="{{DynamicResource ColorBrush5}}" Margin="0,0,0,4" />
                     <TextBlock Text="最后更新: {datetime.now().strftime('%Y-%m-%d')} · 共{total_modpacks}个整合包" FontSize="11" TextWrapping="Wrap"
                          Foreground="{{DynamicResource ColorBrush6}}" Margin="0,0,0,4" />
@@ -319,11 +397,10 @@ def main():
     dl_links = load_download_links()
     
     print(f"📦 整合包数据: {len(modpacks)} 个")
-    bbsmc = sum(1 for m in modpacks if m.get('bbsmc_url'))
-    scraped = sum(1 for m in modpacks if m['name'] in dl_links and not m.get('bbsmc_url'))
-    print(f"   📥 BBSMC直链: {bbsmc}")
-    print(f"   📥 抓取直链: {scraped}")
-    print(f"   🎬 B站视频: {len(modpacks) - bbsmc - scraped}")
+    bili = sum(1 for m in modpacks if m.get('bili_url', '#') != '#')
+    dl = sum(1 for m in modpacks if m['name'] in dl_links)
+    print(f"   🎬 B站视频: {bili}")
+    print(f"   📥 下载链接: {dl}")
     print(f"   🎬 热门视频: {len(HOT_VIDEOS)} 个")
     
     print("\n生成 XAML...")
