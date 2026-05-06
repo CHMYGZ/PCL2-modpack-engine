@@ -15,52 +15,39 @@ ENRICHED_FILE = Path(__file__).parent.parent / "data" / "modpack_enriched.json"
 LINKS_CACHE = Path(__file__).parent.parent / "data" / "download_links_cache.json"
 SEED_FILE = Path(__file__).parent.parent / "data" / "seed_modpacks.json"
 
-# B站MC热门视频（40条·定期更新）
-# 结构: UP主频道(10) + 精选视频(10) + B站搜索话题(20)
+# B站MC热门视频（精简版·同类型保留最高播放）
+# 结构: UP主频道(6) + 精选视频(7) + B站搜索话题(14) = 27条
 HOT_VIDEOS = [
-    # ── UP主频道 ──
+    # ── UP主频道 · 按类型精简 ──
     ("籽岷 · MC模组推荐合集", "https://space.bilibili.com/686127/video"),
     ("黒山大叔 · 红石科技", "https://space.bilibili.com/19428259/video"),
     ("老迪来咯 · MC搞笑实况", "https://space.bilibili.com/27996286/video"),
-    ("黑猫大少爷 · MC生存", "https://space.bilibili.com/4831263/video"),
-    ("卡慕SaMa · MC日常", "https://space.bilibili.com/9596327/video"),
     ("Nor叔 · MC极限生存", "https://space.bilibili.com/17425003/video"),
     ("大炒面制造者Cen · MC热门", "https://space.bilibili.com/14890801/video"),
-    ("萝卜吃米洛 · MC日常", "https://space.bilibili.com/5007752/video"),
     ("Minecraft官方频道", "https://space.bilibili.com/43310262/video"),
-    ("小周MC · 游戏实况", "https://space.bilibili.com/4072634/video"),
-    # ── 精选热门视频 ──
-    ("🔥 2024年度MC十大神包289万", "https://www.bilibili.com/video/BV1p1421C75Q/"),
-    ("🔥 一个MC包2000万下载量256万", "https://www.bilibili.com/video/BV15M4m127dH/"),
-    ("🔥 10款大型冒险向神包215万", "https://www.bilibili.com/video/BV1J24y1R7GT/"),
-    ("🔥 2024年度MC十佳包127万", "https://www.bilibili.com/video/BV1Bpq9Y7ECV/"),
-    ("🔥 五个顶级僵尸末日神包124万", "https://www.bilibili.com/video/BV1Zp4y1o71R/"),
-    ("🔥 2025年度MC最佳102万", "https://www.bilibili.com/video/BV1CWvZBREYA/"),
-    ("🔥 远梦之棺 一小时超长版93万", "https://www.bilibili.com/video/BV1Z4zYBnE4T/"),
-    ("🔥 MC最出名恐怖模组排名92万", "https://www.bilibili.com/video/BV1ff5KzTE9A/"),
-    ("🔥 ATM10双人生存实况81万", "https://www.bilibili.com/video/BV1ugG1z4EG8/"),
-    ("🔥 12个高版本寄生虫模组75万", "https://www.bilibili.com/video/BV1yp421179i/"),
-    # ── B站搜索话题 ──
+    # ── 精选热门视频 · 同合集保留最高播放 ──
+    ("🔥 年度MC十大神包289万", "https://www.bilibili.com/video/BV1p1421C75Q/"),
+    ("🔥 一个包2000万下载256万", "https://www.bilibili.com/video/BV15M4m127dH/"),
+    ("🔥 10款冒险向神包215万", "https://www.bilibili.com/video/BV1J24y1R7GT/"),
+    ("🔥 五个僵尸末日神包124万", "https://www.bilibili.com/video/BV1Zp4y1o71R/"),
+    ("🔥 远梦之棺 超长版93万", "https://www.bilibili.com/video/BV1Z4zYBnE4T/"),
+    ("🔥 恐怖模组排名92万", "https://www.bilibili.com/video/BV1ff5KzTE9A/"),
+    ("🔥 ATM10双人生存81万", "https://www.bilibili.com/video/BV1ugG1z4EG8/"),
+    # ── B站搜索话题 · 合并同类 ──
     ("MC热门作品搜索", "https://search.bilibili.com/all?keyword=Minecraft+整合包+推荐"),
     ("我的世界搞笑瞬间", "https://search.bilibili.com/all?keyword=我的世界+搞笑"),
     ("MC速通世界纪录", "https://search.bilibili.com/all?keyword=Minecraft+速通"),
     ("我的世界建筑欣赏", "https://search.bilibili.com/all?keyword=我的世界+建筑"),
-    ("MC红石黑科技", "https://search.bilibili.com/all?keyword=MC+红石"),
+    ("MC红石机械", "https://search.bilibili.com/all?keyword=Create+机械动力+Minecraft"),
     ("我的世界模组推荐", "https://search.bilibili.com/all?keyword=我的世界+模组+推荐"),
     ("MC光影材质展示", "https://search.bilibili.com/all?keyword=Minecraft+光影"),
     ("Minecraft动画短片", "https://search.bilibili.com/all?keyword=Minecraft+动画"),
     ("我的世界100天挑战", "https://search.bilibili.com/all?keyword=我的世界+100天"),
     ("MC多人生存系列", "https://search.bilibili.com/all?keyword=MC+多人+生存"),
-    ("MC科技模组", "https://search.bilibili.com/all?keyword=Minecraft+科技+整合包"),
     ("MC空岛生存", "https://search.bilibili.com/all?keyword=MC+空岛+生存"),
-    ("Minecraft Live 合集", "https://search.bilibili.com/all?keyword=Minecraft+Live"),
     ("MC宝可梦世界", "https://search.bilibili.com/all?keyword=MC+宝可梦+整合包"),
-    ("MC魔法纪元", "https://search.bilibili.com/all?keyword=Minecraft+魔法+整合包"),
-    ("MC冒险地图", "https://search.bilibili.com/all?keyword=Minecraft+冒险+地图"),
-    ("MC硬核生存", "https://search.bilibili.com/all?keyword=MC+硬核+生存"),
-    ("MC机械动力", "https://search.bilibili.com/all?keyword=Create+机械动力+Minecraft"),
+    ("MC魔法冒险", "https://search.bilibili.com/all?keyword=Minecraft+魔法+整合包"),
     ("MC暮色森林", "https://search.bilibili.com/all?keyword=暮色森林+Minecraft"),
-    ("MC恐怖模组", "https://search.bilibili.com/all?keyword=Minecraft+恐怖+模组"),
 ]
 
 def escape(s):
@@ -337,12 +324,17 @@ def generate():
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="16" />
                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="16" />
+                    <ColumnDefinition Width="*" />
                </Grid.ColumnDefinitions>
                <StackPanel Grid.Column="0">
-{chr(10).join(vid_items[:20])}
+{chr(10).join(vid_items[:9])}
                </StackPanel>
                <StackPanel Grid.Column="2">
-{chr(10).join(vid_items[20:])}
+{chr(10).join(vid_items[9:18])}
+               </StackPanel>
+               <StackPanel Grid.Column="4">
+{chr(10).join(vid_items[18:])}
                </StackPanel>
           </Grid>
      </StackPanel>

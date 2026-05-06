@@ -2,8 +2,8 @@
   ═══════════════════════════════════════════════
   PCL2 整合包推荐引擎
   数据源: B站 + BBSMC + CurseForge + Modrinth
-  📥BBSMC:3 🎬B站视频:12 📥直链下载:8
-  更新: 2026-05-05 10:59
+  📥BBSMC:4 🎬B站视频:28 📥直链下载:10
+  更新: 2026-05-06 22:00
   ═══════════════════════════════════════════════
 -->
 
@@ -70,15 +70,15 @@
                <StackPanel Grid.Column="0">
                     <local:MyListItem Margin="-2,0,10,0"
                          Title="🆕 ⚡混合 🏰冒险  你好，新世代"
-                         Info="▸ 🎬B站 · 新发布 · 1.20.1"
+                         Info="▸ 🎬B站 · 27万播放 · 1.20.1"
                          EventType="打开网页"
                          EventData="https://www.bilibili.com/video/BV1PbAczPE4o/"
                          Type="Clickable" />
                     <local:MyListItem Margin="-2,0,10,0"
                          Title="🧙魔法  落幕曲"
-                         Info="▸ 🎬B站 · 174万播放 · 1.20.1 · 📥BS"
+                         Info="▸ 🎬B站 · 265万播放 · 1.20.1 · 📥BS"
                          EventType="打开网页"
-                         EventData="https://www.bilibili.com/video/BV1RPTxzcELj/"
+                         EventData="https://www.bilibili.com/video/BV1etG5zCEvm/"
                          Type="Clickable" />
                     <local:MyListItem Margin="-2,0,10,0"
                          Title="🌿休闲  Better MC"
@@ -104,8 +104,6 @@
                          EventType="打开网页"
                          EventData="https://www.bilibili.com/video/BV1xBmdBDEvU/"
                          Type="Clickable" />
-               </StackPanel>
-               <StackPanel Grid.Column="2">
                     <local:MyListItem Margin="-2,0,10,0"
                          Title="⚡混合  ATM9"
                          Info="▸ 🎬B站 · 118万播放 · 1.20.1 · 📥CF"
@@ -120,7 +118,7 @@
                          Type="Clickable" />
                     <local:MyListItem Margin="-2,0,10,0"
                          Title="🧙魔法  远梦之棺"
-                         Info="▸ 🎬B站 · 1万播放 · 1.20.1 · 📥BS"
+                         Info="▸ 🎬B站 · 1.4万播放 · 1.20.1 · 📥BS"
                          EventType="打开网页"
                          EventData="https://www.bilibili.com/video/BV1u3RVBRELJ/"
                          Type="Clickable" />
@@ -142,6 +140,104 @@
                          EventType="打开网页"
                          EventData="https://www.bilibili.com/video/BV1KEu4ztEQH/"
                          Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="💀恐怖  恐惧深渊"
+                         Info="▸ 🎬B站 · 49万播放 · 1.19.2 · 📥百科"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1fg4y1X7KG/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🗺空岛  随机空岛"
+                         Info="▸ 🎬B站 · 46万播放 · 1.16.5-1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1hqioYrEwX/"
+                         Type="Clickable" />
+               </StackPanel>
+               <StackPanel Grid.Column="2">
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🌿休闲  森罗万藏"
+                         Info="▸ 🎬B站 · 42万播放 · 1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1FsE2ztEEA/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🗡RPG  DawnCraft"
+                         Info="▸ 🎬B站 · 38万播放 · 1.18.2 · 📥CF"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1Km411C7Mx/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="⚙科技  GTNH"
+                         Info="▸ 🎬B站 · 34万播放 · 1.7.10"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1BpF6zfEKh/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🧟末日  Cursed Walking"
+                         Info="▸ 🎬B站 · 30万播放 · 1.20.1 · 📥CF"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1Yf421Z7G8/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🏰冒险 🧙魔法  龙之冒险：新征程"
+                         Info="▸ 🎬B站 · 132万播放 · 1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1dX9ZYcELf/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="⚙科技  齿轮盛宴"
+                         Info="▸ 🎬B站 · 65万播放 · 1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1zvNozWECh/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🗡RPG 🧙魔法  殉道之路"
+                         Info="▸ 🎬B站 · 58万播放 · 1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1U1LxzrEnE/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🗡RPG ⚔战斗  史诗战斗冒险"
+                         Info="▸ 🎬B站 · 45万播放 · 1.20.1 · 📥BS"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV14yBwByEWV/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🌿休闲 🏰冒险  探索自然2"
+                         Info="▸ 🎬B站 · 43万播放 · 1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1gRreYbEkg/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🌿休闲  香草纪元:食旅纪行"
+                         Info="▸ 🎬B站 · 23万播放 · 1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV13mFWzBEkg/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="⚙科技  CTI 匠魂科技"
+                         Info="▸ 🎬B站 · 8.8万播放 · 1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1mv411771N/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="⚔战斗  BFF"
+                         Info="▸ 🎬B站 · 8.0万播放 · 1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1zMWKeNEhg/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="⚙科技  Pure Create 6.0"
+                         Info="▸ 🎬B站 · 13万播放 · 1.20.1 · 📥百科"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1SK421t784/"
+                         Type="Clickable" />
+                    <local:MyListItem Margin="-2,0,10,0"
+                         Title="🗡RPG ⚔战斗  终焉决斗"
+                         Info="▸ 🎬B站 · 6.0万播放 · 1.20.1"
+                         EventType="打开网页"
+                         EventData="https://www.bilibili.com/video/BV1pvhYz4Eub/"
+                         Type="Clickable" />
                </StackPanel>
           </Grid>
      </StackPanel>
@@ -160,6 +256,8 @@
                Margin="0,0,0,12" />
           <Grid>
                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="16" />
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="16" />
                     <ColumnDefinition Width="*" />
@@ -184,228 +282,152 @@
                EventData="https://space.bilibili.com/27996286/video"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🏗  黑猫大少爷 · MC生存"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://space.bilibili.com/4831263/video"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="🎮  卡慕SaMa · MC日常"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://space.bilibili.com/9596327/video"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="🌟  Nor叔 · MC极限生存"
+               Title="🏗  Nor叔 · MC极限生存"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://space.bilibili.com/17425003/video"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🎨  大炒面制造者Cen · MC热门"
+               Title="🎮  大炒面制造者Cen · MC热门"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://space.bilibili.com/14890801/video"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🎯  萝卜吃米洛 · MC日常"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://space.bilibili.com/5007752/video"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="⚔  Minecraft官方频道"
+               Title="🌟  Minecraft官方频道"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://space.bilibili.com/43310262/video"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="📖  小周MC · 游戏实况"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://space.bilibili.com/4072634/video"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="🎤  🔥 2024年度MC十大神包289万"
+               Title="🎨  🔥 年度MC十大神包289万"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://www.bilibili.com/video/BV1p1421C75Q/"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🤣  🔥 一个MC包2000万下载量256万"
+               Title="🎯  🔥 一个包2000万下载256万"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://www.bilibili.com/video/BV15M4m127dH/"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="⏱  🔥 10款大型冒险向神包215万"
+               Title="⚔  🔥 10款冒险向神包215万"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://www.bilibili.com/video/BV1J24y1R7GT/"
                Type="Clickable" />
+               </StackPanel>
+               <StackPanel Grid.Column="2">
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🏰  🔥 2024年度MC十佳包127万"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://www.bilibili.com/video/BV1Bpq9Y7ECV/"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="⚡  🔥 五个顶级僵尸末日神包124万"
+               Title="📖  🔥 五个僵尸末日神包124万"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://www.bilibili.com/video/BV1Zp4y1o71R/"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="📦  🔥 2025年度MC最佳102万"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://www.bilibili.com/video/BV1CWvZBREYA/"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="✨  🔥 远梦之棺 一小时超长版93万"
+               Title="🎤  🔥 远梦之棺 超长版93万"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://www.bilibili.com/video/BV1Z4zYBnE4T/"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🎞  🔥 MC最出名恐怖模组排名92万"
+               Title="🤣  🔥 恐怖模组排名92万"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://www.bilibili.com/video/BV1ff5KzTE9A/"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="💯  🔥 ATM10双人生存实况81万"
+               Title="⏱  🔥 ATM10双人生存81万"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://www.bilibili.com/video/BV1ugG1z4EG8/"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="👥  🔥 12个高版本寄生虫模组75万"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://www.bilibili.com/video/BV1yp421179i/"
-               Type="Clickable" />
-               </StackPanel>
-               <StackPanel Grid.Column="2">
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="🔥  MC热门作品搜索"
+               Title="🏰  MC热门作品搜索"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=Minecraft+整合包+推荐"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="💀  我的世界搞笑瞬间"
+               Title="⚡  我的世界搞笑瞬间"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=我的世界+搞笑"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🗡️  MC速通世界纪录"
+               Title="📦  MC速通世界纪录"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=Minecraft+速通"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🛡️  我的世界建筑欣赏"
+               Title="✨  我的世界建筑欣赏"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=我的世界+建筑"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🧙  MC红石黑科技"
+               Title="🎞  MC红石机械"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
-               EventData="https://search.bilibili.com/all?keyword=MC+红石"
+               EventData="https://search.bilibili.com/all?keyword=Create+机械动力+Minecraft"
                Type="Clickable" />
+               </StackPanel>
+               <StackPanel Grid.Column="4">
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🌍  我的世界模组推荐"
+               Title="💯  我的世界模组推荐"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=我的世界+模组+推荐"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🏆  MC光影材质展示"
+               Title="👥  MC光影材质展示"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=Minecraft+光影"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🎲  Minecraft动画短片"
+               Title="🔥  Minecraft动画短片"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=Minecraft+动画"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="👾  我的世界100天挑战"
+               Title="💀  我的世界100天挑战"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=我的世界+100天"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="💎  MC多人生存系列"
+               Title="🗡️  MC多人生存系列"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=MC+多人+生存"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🕹️  MC科技模组"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://search.bilibili.com/all?keyword=Minecraft+科技+整合包"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="🎭  MC空岛生存"
+               Title="🛡️  MC空岛生存"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=MC+空岛+生存"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🗺️  Minecraft Live 合集"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://search.bilibili.com/all?keyword=Minecraft+Live"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="🌟  MC宝可梦世界"
+               Title="🧙  MC宝可梦世界"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=MC+宝可梦+整合包"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="⚗️  MC魔法纪元"
+               Title="🌍  MC魔法冒险"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=Minecraft+魔法+整合包"
                Type="Clickable" />
           <local:MyListItem Margin="-2,0,10,0"
-               Title="🌿  MC冒险地图"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://search.bilibili.com/all?keyword=Minecraft+冒险+地图"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="🧟  MC硬核生存"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://search.bilibili.com/all?keyword=MC+硬核+生存"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="🔮  MC机械动力"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://search.bilibili.com/all?keyword=Create+机械动力+Minecraft"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="⛏️  MC暮色森林"
+               Title="🏆  MC暮色森林"
                Info="▸ 点击前往 B站观看"
                EventType="打开网页"
                EventData="https://search.bilibili.com/all?keyword=暮色森林+Minecraft"
-               Type="Clickable" />
-          <local:MyListItem Margin="-2,0,10,0"
-               Title="🎪  MC恐怖模组"
-               Info="▸ 点击前往 B站观看"
-               EventType="打开网页"
-               EventData="https://search.bilibili.com/all?keyword=Minecraft+恐怖+模组"
                Type="Clickable" />
                </StackPanel>
           </Grid>
@@ -429,7 +451,7 @@
                          Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,6" />
                     <TextBlock Text="数据来源: B站视频 + CurseForge/Modrinth 下载" FontSize="12" TextWrapping="Wrap"
                          Foreground="{DynamicResource ColorBrush5}" Margin="0,0,0,4" />
-                    <TextBlock Text="最后更新: 2026-05-05 · 共12个整合包" FontSize="11" TextWrapping="Wrap"
+                    <TextBlock Text="最后更新: 2026-05-06 · 共28个整合包" FontSize="11" TextWrapping="Wrap"
                          Foreground="{DynamicResource ColorBrush6}" Margin="0,0,0,4" />
                     <TextBlock Text="数据仅供参考，非广告推荐" FontSize="10" TextWrapping="Wrap"
                          Foreground="{DynamicResource ColorBrush7}" Margin="0,0,0,2" />
