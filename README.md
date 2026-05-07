@@ -66,16 +66,10 @@ PCL2 整合包推荐引擎是一个用于 PCL2 启动器的联网自定义主页
 1. 打开 **「设置」**
 2. 进入 **「个性化」**
 3. 找到 **「自定义主页」**
-4. 在 **「联网更新」** 中填入（任选其一）：
+4. 在 **「联网更新」** 中填入：
 
-**推荐（国内速度更快）：**
 ```
 https://qawsedrftgyhujiko.fun/pcl2/Custom.xaml
-```
-
-**备选（GitCode 直链）：**
-```
-https://raw.gitcode.com/2401_84211770/PCL2-modpack-engine/raw/main/output/Custom.xaml
 ```
 
 5. 保存后刷新主页即可使用
