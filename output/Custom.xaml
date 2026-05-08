@@ -3,7 +3,7 @@
    PCL2 整合包推荐引擎 · 暗黑中世纪风格设计
    数据源: B站 + BBSMC + CurseForge + Modrinth
    📥BBSMC:4 🎬B站视频:28 📥直链下载:13
-   更新: 2026-05-08 22:03
+   更新: 2026-05-08 22:05
   ═══════════════════════════════════════════════
 -->
 
@@ -960,80 +960,3 @@
 </local:MyCard>
 
 <!-- ================================ -->
-<!--  ⛏ 关于 · HeroInfoCard v2  -->
-<!-- ================================ -->
-<!-- 配置：主标题/副标题/按钮文字 改下方对应 Text 属性即可 -->
-<local:MyCard Margin="0,0,0,0" Title="">
-     <!-- 主容器：玻璃质感卡片 -->
-     <Border Background="#E8F5F5F7" CornerRadius="10" Padding="0,0,0,0"
-          BorderBrush="#309B59B6" BorderThickness="1" MinHeight="120">
-          <Border.Effect>
-               <DropShadowEffect Color="#30000000" BlurRadius="14" ShadowDepth="3" Direction="270" />
-          </Border.Effect>
-          <StackPanel>
-               <!-- 内容区：Grid 保证左右分栏 -->
-               <Grid Margin="24,16,16,16">
-                    <Grid.ColumnDefinitions>
-                         <ColumnDefinition Width="*" />
-                         <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
-
-                    <!-- === 左侧：图标 + 主标题 + 副标题 === -->
-                    <!-- @config: 改下方 TextBlock Text 即可修改标题和副标题 -->
-                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                         <StackPanel Orientation="Horizontal">
-                              <TextBlock Text="⚒" FontSize="16" 
-                                   Foreground="#9B59B6" VerticalAlignment="Center" Margin="0,0,10,0" />
-                              <TextBlock x:Name="MainTitle" Text="PCL2 整合包推荐引擎" 
-                                   FontSize="20" FontWeight="Bold"
-                                   Foreground="#9B59B6" VerticalAlignment="Center" />
-                         </StackPanel>
-                         <TextBlock x:Name="SubTitle" Text="By GDSGDHG" FontSize="11"
-                              Foreground="#B07CC6" Margin="26,3,0,0" />
-                    </StackPanel>
-
-                    <!-- === 右侧：竖排快捷入口 === -->
-                    <!-- @config: 改下方 TextBlock Text 修改按钮文字 -->
-                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                         <local:MyButton Background="Transparent" BorderThickness="0"
-                              Padding="14,8,14,8"
-                              ToolTip="刷新当前主页内容" EventType="刷新主页">
-                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-                                   <TextBlock Text="↻" FontSize="16"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" />
-                                   <TextBlock Text="刷新" FontSize="11"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" Margin="0,2,0,0" />
-                              </StackPanel>
-                         </local:MyButton>
-                         <local:MyButton Background="Transparent" BorderThickness="0"
-                              Padding="14,8,14,8" Margin="0,4,0,0"
-                              ToolTip="前往GitCode提交Issue"
-                              EventType="打开网页"
-                              EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
-                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-                                   <TextBlock Text="📮" FontSize="15"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" />
-                                   <TextBlock Text="致谢" FontSize="11"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" Margin="0,2,0,0" />
-                              </StackPanel>
-                         </local:MyButton>
-                    </StackPanel>
-               </Grid>
-
-               <!-- 底部紫色强调渐变条（紫色→透明渐变效果） -->
-               <Border Height="3" CornerRadius="0,0,10,10">
-                    <Border.Background>
-                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                              <GradientStop Color="#9B59B6" Offset="0.0" />
-                              <GradientStop Color="#B07CC6" Offset="0.5" />
-                              <GradientStop Color="#309B59B6" Offset="1.0" />
-                         </LinearGradientBrush>
-                    </Border.Background>
-               </Border>
-          </StackPanel>
-     </Border>
-</local:MyCard>

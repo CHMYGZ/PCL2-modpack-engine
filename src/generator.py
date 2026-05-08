@@ -447,6 +447,7 @@ def generate():
 </local:MyCard>
 
 <!-- ================================ -->
+'''
     return xaml
 
 def update_version(xaml):
