@@ -1,19 +1,18 @@
 #!/bin/bash
-# PCL2 主页同步到 spark-4643 服务器
+# PCL2 主页同步到阿里云 ECS
+# PCL2 域名: qawsedrftgyhujiko.fun (Cloudflare proxy)
 set -e
 
-HOST="nlhdst@100.118.0.63"
+HOST="ecs"
 DEST="/var/www/pcl2-homepage"
+TMP="/tmp/pcl2-sync-$$"
 
-echo "📤 同步到 spark-4643..."
+echo "📤 同步到阿里云 ECS..."
 
-scp output/Custom.xaml "$HOST:$DEST/"
-scp output/Custom.xaml.ini "$HOST:$DEST/"
-scp output/version.txt "$HOST:$DEST/"
+# 打包后通过 SSH 管道传输（绕过权限问题）
+ssh "$HOST" "mkdir -p $DEST/icons"
+tar czf - output/Custom.xaml output/Custom.xaml.ini output/version.txt \
+  $( [ -d icons ] && echo "icons" || echo "" ) | \
+  ssh "$HOST" "sudo tar xzf - -C $DEST && sudo chown -R www-data:www-data $DEST"
 
-# 如果有图标目录，也同步
-if [ -d "icons" ]; then
-    rsync -avz --delete icons/ "$HOST:$DEST/icons/" 2>/dev/null || true
-fi
-
-echo "✅ 同步完成 — PCL2 刷新即可"
+echo "✅ 同步完成 — PCL2 刷新即可 (ECS 本地 serve)"
