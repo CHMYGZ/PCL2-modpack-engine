@@ -450,31 +450,54 @@ def generate():
 <!--  ⛏ 关于 · 方块工坊      -->
 <!-- ================================ -->
 <local:MyCard Margin="0,0,0,0" Title="关于">
-     <StackPanel Margin="24,30,24,28">
-          <Grid>
-               <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="Auto" />
-               </Grid.ColumnDefinitions>
-               <StackPanel Grid.Column="0">
-                    <TextBlock Text="PCL2 整合包推荐引擎" FontSize="18" FontWeight="Bold"
-                         Foreground="{{DynamicResource ColorBrush1}}" Margin="0,0,0,6" />
-                    <TextBlock Text="By GDSGDHG" FontSize="12"
-                         Foreground="{{DynamicResource ColorBrush4}}" Margin="0,0,0,6" />
-                    <TextBlock Text="致谢: PCL2 · B站创作者 · 社区维护者" FontSize="11"
-                         Foreground="{{DynamicResource ColorBrush6}}" Margin="0,0,0,2" />
-                    <TextBlock Text="数据仅供参考，非广告推荐" FontSize="10"
-                         Foreground="{{DynamicResource ColorBrush7}}" />
-               </StackPanel>
-               <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                    <local:MyButton Text="⟳ 刷新" Width="80" Padding="12,8,12,8"
-                         ToolTip="刷新当前主页内容"
-                         EventType="刷新主页" Margin="0,0,0,8" />
-                    <local:MyButton Text="📮 反馈" Width="80" Padding="12,8,12,8"
-                         ToolTip="前往GitCode提交Issue"
-                         EventType="打开网页" EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues" />
-               </StackPanel>
-          </Grid>
+     <StackPanel>
+          <!-- 顶栏：图标+标题+操作按钮 -->
+          <Border Background="#2D2D2D" Padding="20,14,20,14" CornerRadius="8,8,0,0">
+               <Grid>
+                    <Grid.ColumnDefinitions>
+                         <ColumnDefinition Width="Auto" />
+                         <ColumnDefinition Width="*" />
+                         <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" Background="#3A3A3A" 
+                         CornerRadius="6" Width="36" Height="36" Margin="0,0,14,0">
+                         <TextBlock Text="⚒" FontSize="18" 
+                              HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                         <TextBlock Text="PCL2 整合包推荐引擎" FontSize="16" FontWeight="Bold"
+                              Foreground="{{DynamicResource ColorBrush1}}" />
+                         <TextBlock Text="v2026.05.08 · By GDSGDHG" FontSize="10"
+                              Foreground="{{DynamicResource ColorBrush4}}" Margin="0,2,0,0" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                         <local:MyButton Text="⟳" Width="36" Height="36" Padding="0"
+                              FontSize="16" ToolTip="刷新主页" EventType="刷新主页" Margin="0,0,6,0" />
+                         <local:MyButton Text="📮" Width="36" Height="36" Padding="0"
+                              FontSize="16" ToolTip="反馈"
+                              EventType="打开网页"
+                              EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues" />
+                    </StackPanel>
+               </Grid>
+          </Border>
+          <!-- 底部：致谢与声明 -->
+          <Border Background="#252525" Padding="20,12,20,12" CornerRadius="0,0,8,8">
+               <Grid>
+                    <Grid.ColumnDefinitions>
+                         <ColumnDefinition Width="Auto" />
+                         <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" Background="#383838" 
+                         CornerRadius="10" Padding="8,4,8,4" Margin="0,0,10,0">
+                         <TextBlock Text="致谢" FontSize="9" FontWeight="Bold"
+                              Foreground="{{DynamicResource ColorBrush5}}" />
+                    </Border>
+                    <TextBlock Grid.Column="1" Text="PCL2 · B站创作者 · 社区维护者" FontSize="10"
+                         Foreground="{{DynamicResource ColorBrush6}}" VerticalAlignment="Center" />
+               </Grid>
+               <TextBlock Text="数据仅供参考，非广告推荐" FontSize="9"
+                    Foreground="{{DynamicResource ColorBrush7}}" Margin="0,6,0,0" />
+          </Border>
      </StackPanel>
 </local:MyCard>'''
     return xaml
