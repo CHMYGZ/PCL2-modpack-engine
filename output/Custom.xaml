@@ -3,7 +3,7 @@
    PCL2 整合包推荐引擎 · 暗黑中世纪风格设计
    数据源: B站 + BBSMC + CurseForge + Modrinth
    📥BBSMC:4 🎬B站视频:28 📥直链下载:13
-   更新: 2026-05-08 21:39
+   更新: 2026-05-08 21:42
   ═══════════════════════════════════════════════
 -->
 
@@ -962,81 +962,59 @@
 <!-- ================================ -->
 <!--  ⛏ 关于 · HeroInfoCard      -->
 <!-- ================================ -->
-<local:MyCard Margin="0,0,0,0" Title="关于">
-     <!-- 主卡片：半透明白色玻璃质感 -->
+<local:MyCard Margin="0,0,0,0" Title="">
      <Border Background="#E8F0F2F5" CornerRadius="8" Padding="24,14,24,14"
-          BorderBrush="#3099B59B" BorderThickness="1" Height="Auto" MinHeight="110">
+          BorderBrush="#3099B59B" BorderThickness="1" Height="Auto" MinHeight="90">
           <Border.Effect>
                <DropShadowEffect Color="#40000000" BlurRadius="12" ShadowDepth="2" Direction="270" />
           </Border.Effect>
-          <StackPanel>
-               <!-- 内容区：左侧标题 + 右侧按钮 -->
-               <Grid>
-                    <Grid.ColumnDefinitions>
-                         <ColumnDefinition Width="*" />
-                         <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
+          <Grid>
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+               </Grid.ColumnDefinitions>
 
-                    <!-- 左侧：图标 + 主标题 + 副标题 -->
-                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                         <StackPanel Orientation="Horizontal" Margin="0,0,0,2">
-                              <TextBlock Text="⚒" FontSize="15" 
-                                   Foreground="#9B59B6" VerticalAlignment="Center" Margin="0,0,8,0" />
-                              <TextBlock Text="PCL2 整合包推荐引擎" FontSize="18" FontWeight="Bold"
-                                   Foreground="#9B59B6" VerticalAlignment="Center" />
+               <!-- 左侧：⚒ + PCL2 整合包推荐引擎 + By GDSGDHG -->
+               <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,1">
+                         <TextBlock Text="⚒" FontSize="15" 
+                              Foreground="#9B59B6" VerticalAlignment="Center" Margin="0,0,8,0" />
+                         <TextBlock Text="PCL2 整合包推荐引擎" FontSize="18" FontWeight="Bold"
+                              Foreground="#9B59B6" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <TextBlock Text="By GDSGDHG" FontSize="10"
+                         Foreground="#B07CC6" Margin="23,0,0,0" />
+               </StackPanel>
+
+               <!-- 右侧：竖排快捷入口 -->
+               <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                    <local:MyButton Background="Transparent" BorderThickness="0"
+                         Padding="10,6,10,6"
+                         ToolTip="刷新当前主页内容" EventType="刷新主页">
+                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                              <TextBlock Text="↻" FontSize="15"
+                                   Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
+                                   HorizontalAlignment="Center" />
+                              <TextBlock Text="刷新" FontSize="10"
+                                   Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
+                                   HorizontalAlignment="Center" Margin="0,1,0,0" />
                          </StackPanel>
-                         <TextBlock Text="聚合 B站 / BBSMC / CurseForge / Modrinth · 每日自动同步" FontSize="10"
-                              Foreground="#B07CC6" Margin="23,0,0,0" />
-                    </StackPanel>
-
-                    <!-- 右侧：竖排快捷入口（上刷新 + 下致谢） -->
-                    <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="0,0,0,0">
-                         <local:MyButton Background="Transparent" BorderThickness="0"
-                              Padding="10,6,10,6"
-                              ToolTip="刷新当前主页内容" EventType="刷新主页">
-                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-                                   <TextBlock Text="↻" FontSize="15"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" />
-                                   <TextBlock Text="刷新" FontSize="10"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" Margin="0,1,0,0" />
-                              </StackPanel>
-                         </local:MyButton>
-                         <local:MyButton Background="Transparent" BorderThickness="0"
-                              Padding="10,6,10,6" Margin="0,2,0,0"
-                              ToolTip="前往GitCode提交Issue"
-                              EventType="打开网页"
-                              EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
-                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-                                   <TextBlock Text="📮" FontSize="14"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" />
-                                   <TextBlock Text="致谢" FontSize="10"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" Margin="0,1,0,0" />
-                              </StackPanel>
-                         </local:MyButton>
-                    </StackPanel>
-               </Grid>
-
-               <!-- 底部紫色强调渐变条 -->
-               <Border Background="#9B59B6" Height="2" CornerRadius="1" 
-                    Margin="0,10,0,0" Opacity="0.6" />
-
-               <!-- 底部版权信息 -->
-               <Grid Margin="0,6,0,0">
-                    <Grid.ColumnDefinitions>
-                         <ColumnDefinition Width="Auto" />
-                         <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <Border Grid.Column="0" Background="#2099B59B" CornerRadius="8" 
-                         Padding="6,2,6,2" Margin="0,0,8,0">
-                         <TextBlock Text="致谢" FontSize="9" Foreground="#B07CC6" />
-                    </Border>
-                    <TextBlock Grid.Column="1" Text="PCL2 · B站创作者 · 社区维护者 · 数据仅供参考"
-                         FontSize="9" Foreground="#B07CC6" VerticalAlignment="Center" />
-               </Grid>
-          </StackPanel>
+                    </local:MyButton>
+                    <local:MyButton Background="Transparent" BorderThickness="0"
+                         Padding="10,6,10,6" Margin="0,2,0,0"
+                         ToolTip="前往GitCode提交Issue"
+                         EventType="打开网页"
+                         EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
+                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                              <TextBlock Text="📮" FontSize="14"
+                                   Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
+                                   HorizontalAlignment="Center" />
+                              <TextBlock Text="致谢" FontSize="10"
+                                   Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
+                                   HorizontalAlignment="Center" Margin="0,1,0,0" />
+                         </StackPanel>
+                    </local:MyButton>
+               </StackPanel>
+          </Grid>
      </Border>
 </local:MyCard>
