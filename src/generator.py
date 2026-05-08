@@ -447,6 +447,67 @@ def generate():
 </local:MyCard>
 
 <!-- ================================ -->
+
+<!-- ================================ -->
+<!--  ⛏ 关于 · HeroInfoCard v2      -->
+<!-- ================================ -->
+<local:MyCard Margin="0,0,0,0" Title="">
+     <Border Background="#E8F5F5F7" CornerRadius="10" Padding="0,0,0,0"
+          BorderBrush="#309B59B6" BorderThickness="1" MinHeight="120">
+          <Border.Effect>
+               <DropShadowEffect Color="#30000000" BlurRadius="14" ShadowDepth="3" Direction="270" />
+          </Border.Effect>
+          <StackPanel>
+               <Grid Margin="24,16,16,16">
+                    <Grid.ColumnDefinitions>
+                         <ColumnDefinition Width="*" />
+                         <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                         <StackPanel Orientation="Horizontal">
+                              <TextBlock Text="⚒" FontSize="16" 
+                                   Foreground="#9B59B6" VerticalAlignment="Center" Margin="0,0,10,0" />
+                              <TextBlock Text="PCL2 整合包推荐引擎" 
+                                   FontSize="20" FontWeight="Bold"
+                                   Foreground="#9B59B6" VerticalAlignment="Center" />
+                         </StackPanel>
+                         <TextBlock Text="By GDSGDHG" FontSize="11"
+                              Foreground="#B07CC6" Margin="26,3,0,0" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                         <local:MyButton Background="Transparent" BorderThickness="0"
+                              Padding="14,8,14,8"
+                              ToolTip="刷新当前主页内容" EventType="刷新主页">
+                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                                   <TextBlock Text="↻" FontSize="16"
+                                        Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold"
+                                        HorizontalAlignment="Center" />
+                                   <TextBlock Text="刷新" FontSize="11"
+                                        Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold"
+                                        HorizontalAlignment="Center" Margin="0,2,0,0" />
+                              </StackPanel>
+                         </local:MyButton>
+                         <local:MyButton Background="Transparent" BorderThickness="0"
+                              Padding="14,8,14,8" Margin="0,4,0,0"
+                              ToolTip="前往GitCode提交Issue"
+                              EventType="打开网页"
+                              EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
+                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                                   <TextBlock Text="📮" FontSize="15"
+                                        Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold"
+                                        HorizontalAlignment="Center" />
+                                   <TextBlock Text="致谢" FontSize="11"
+                                        Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold"
+                                        HorizontalAlignment="Center" Margin="0,2,0,0" />
+                              </StackPanel>
+                         </local:MyButton>
+                    </StackPanel>
+               </Grid>
+               <Border Height="3" CornerRadius="0,0,10,10" Background="#9B59B6" Opacity="0.5" />
+          </StackPanel>
+     </Border>
+</local:MyCard>
+
 '''
     return xaml
 
