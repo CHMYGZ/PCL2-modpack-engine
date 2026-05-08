@@ -1,14 +1,15 @@
 {
-  "version": "v10.12",
-  "build_date": "2026-05-07",
+  "version": "v10.13",
+  "build_date": "2026-05-08",
   "modpack_count": 55,
   "data_sources": [
-    "B站",
+    "B\u7ad9",
     "BBSMC",
     "CurseForge",
     "Modrinth"
   ],
   "changelog": [
+    "v10.13 - 2026-05-08",
     "v10.12 - 2026-05-07",
     "v10.11 - 2026-05-05",
     "v10.10 - 2026-05-05",
