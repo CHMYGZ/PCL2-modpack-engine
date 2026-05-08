@@ -3,7 +3,7 @@
    PCL2 整合包推荐引擎 · 暗黑中世纪风格设计
    数据源: B站 + BBSMC + CurseForge + Modrinth
    📥BBSMC:4 🎬B站视频:28 📥直链下载:13
-   更新: 2026-05-08 21:33
+   更新: 2026-05-08 21:37
   ═══════════════════════════════════════════════
 -->
 
@@ -989,24 +989,29 @@
                               Foreground="#B07CC6" Margin="23,0,0,0" />
                     </StackPanel>
 
-                    <!-- 右侧：快捷操作 -->
+                    <!-- 右侧：快捷操作（纯文本按钮，跟随主题色） -->
                     <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
-                         <local:MyButton Padding="8,6,8,6" Margin="0,0,6,0"
-                              FontSize="12" Foreground="#9B59B6"
+                         <local:MyButton Background="Transparent" BorderThickness="0"
+                              Padding="6,2,6,2" Margin="0,0,4,0"
                               ToolTip="刷新当前主页内容" EventType="刷新主页">
                               <StackPanel Orientation="Horizontal">
-                                   <TextBlock Text="↻" FontSize="13" Foreground="#9B59B6" Margin="0,0,4,0" />
-                                   <TextBlock Text="刷新" FontSize="11" Foreground="#9B59B6" />
+                                   <TextBlock Text="↻" FontSize="14"
+                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
+                                        Margin="0,0,4,0" />
+                                   <TextBlock Text="刷新" FontSize="12"
+                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold" />
                               </StackPanel>
                          </local:MyButton>
-                         <local:MyButton Padding="8,6,8,6"
-                              FontSize="12" Foreground="#9B59B6"
+                         <local:MyButton Background="Transparent" BorderThickness="0"
+                              Padding="6,2,6,2"
                               ToolTip="前往GitCode提交Issue"
                               EventType="打开网页"
                               EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
                               <StackPanel Orientation="Horizontal">
-                                   <TextBlock Text="📮" FontSize="12" Margin="0,0,4,0" />
-                                   <TextBlock Text="致谢" FontSize="11" Foreground="#9B59B6" />
+                                   <TextBlock Text="📮" FontSize="13" Margin="0,0,4,0"
+                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold" />
+                                   <TextBlock Text="致谢" FontSize="12"
+                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold" />
                               </StackPanel>
                          </local:MyButton>
                     </StackPanel>
