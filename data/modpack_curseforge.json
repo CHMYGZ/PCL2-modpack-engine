@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "RLCraft",
+    "slug": "rlcraft",
+    "downloads": 28985351,
+    "summary": "A modpack specially designed to bring an incredibly hardcore and semi-realism challenge revolving around survival, RPG elements, and adventure-like exploration.",
+    "mc_version": "1.12.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/rlcraft"
+  },
+  {
+    "name": "The Pixelmon Modpack",
+    "slug": "the-pixelmon-modpack",
+    "downloads": 19773799,
+    "summary": "This is a Modpack designed to give players an easy time getting started.",
+    "mc_version": "1.16.5",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/the-pixelmon-modpack"
+  },
+  {
+    "name": "All the Mods 10 - ATM10",
+    "slug": "all-the-mods-10",
+    "downloads": 17644864,
+    "summary": "The top pack of 2025 with around 500 mods! Tons of quests and a proper endgame. ",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10"
+  },
+  {
+    "name": "Better MC [FORGE] BMC4",
+    "slug": "better-mc-forge-bmc4",
+    "downloads": 16683180,
+    "summary": "Version 1.20.1 | A Proper Vanilla+ Modpack | Don't play Vanilla play this!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4"
+  },
+  {
+    "name": "SkyFactory 4",
+    "slug": "skyfactory-4",
+    "downloads": 13585945,
+    "summary": "The ultimate skyblock modpack! Watch development at: darkosto.tv/SkyFactoryLive",
+    "mc_version": "1.12.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/skyfactory-4"
+  },
+  {
+    "name": "All the Mods 9 - ATM9",
+    "slug": "all-the-mods-9",
+    "downloads": 13466196,
+    "summary": "ATM9 has over 400 mods loaded and countless quests and a built in proper endgame. Can you craft the ATM Star? Do you dare take on the Gregstar?",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-9"
+  },
+  {
+    "name": "Prominence™ II: Hasturian Era",
+    "slug": "prominence-2-hasturian-era",
+    "downloads": 11243987,
+    "summary": "Lore-rich RPG modpack built on custom content. Level up and get stronger with the Talent Tree, forge and upgrade your own artifact weapon, and fight powerful bosses to stop the Void’s invasion.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era"
+  },
+  {
+    "name": "DawnCraft - Echoes of Legends",
+    "slug": "dawn-craft",
+    "downloads": 10097103,
+    "summary": "Souls-like RPG modpack w/ Unique Questing System!",
+    "mc_version": "1.18.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/dawn-craft"
+  },
+  {
+    "name": "Cursed Walking - A Modern Zombie Apocalypse",
+    "slug": "cursed-walking-a-modern-zombie-apocalypse",
+    "downloads": 7669138,
+    "summary": "A fully fledged zombie apocalypse modpack for the newest versions of Minecraft.",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cursed-walking-a-modern-zombie-apocalypse"
+  },
+  {
+    "name": "DeceasedCraft - Urban Zombie Apocalypse",
+    "slug": "deceasedcraft",
+    "downloads": 7164705,
+    "summary": "Explore, loot and shoot your way through cities overrun by the infected in this zombie apocalypse modpack. Master the tech tree, craft better and stronger equipment, and eventually brave the radioacti",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/deceasedcraft"
+  },
+  {
+    "name": "SevTech: Ages",
+    "slug": "sevtech-ages",
+    "downloads": 7068192,
+    "summary": "The ultimate advanced progression modpack! Watch development at: darkosto.tv/SevTechLive",
+    "mc_version": "1.12.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/sevtech-ages"
+  },
+  {
+    "name": "Fabulously Optimized",
+    "slug": "fabulously-optimized",
+    "downloads": 7001270,
+    "summary": "Beautiful graphics, speedy performance and familiar features in a simple package. Tiny Takeover beta!",
+    "mc_version": "1.21.11",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/fabulously-optimized"
+  },
+  {
+    "name": "FTB Presents SkyFactory 3",
+    "slug": "ftb-presents-skyfactory-3",
+    "downloads": 6744654,
+    "summary": "It's skyblock like you've never seen it before!",
+    "mc_version": "1.10.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ftb-presents-skyfactory-3"
+  },
+  {
+    "name": "Vault Hunters Third Edition",
+    "slug": "vault-hunters-1-18-2",
+    "downloads": 5754675,
+    "summary": "Action RPG in Minecraft! Level up, learn talents and abilities, build a base, build farms collect the 25 artifacts and defeat the final boss!",
+    "mc_version": "1.18.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2"
+  },
+  {
+    "name": "Cave Horror Project 1",
+    "slug": "cave-horror-project",
+    "downloads": 5701263,
+    "summary": "Forge 1.20.1 | All quests got a rework! | Best horror modpack with quests and story! PLAY NOW!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cave-horror-project"
+  },
+  {
+    "name": "StoneBlock",
+    "slug": "stoneblock",
+    "downloads": 4856334,
+    "summary": "Kinda like SkyBlock, except you don't start with a tree and you're surrounded by stone",
+    "mc_version": "1.12.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/stoneblock"
+  },
+  {
+    "name": "MC  Eternal",
+    "slug": "minecraft-eternal",
+    "downloads": 4822748,
+    "summary": "Something for everyone I promise! Hybrid pack with some fun twists, Over 1000+ Quests and challenges to complete!",
+    "mc_version": "1.12.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/minecraft-eternal"
+  },
+  {
+    "name": "Roguelike Adventures and Dungeons 2",
+    "slug": "roguelike-adventures-and-dungeons-2",
+    "downloads": 4467514,
+    "summary": "Exploration-based rogue-like modpack with quests, Character and Tool leveling, tons of new structures, Twilight Forest, Blue Skies, Undergarden, Tropicraft, Bumblezone, Atum 2 dimensions and more!",
+    "mc_version": "1.16.5",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-2"
+  },
+  {
+    "name": "Cisco's Fantasy Medieval RPG [Ultimate]",
+    "slug": "ciscos-adventure-rpg-ultimate",
+    "downloads": 4440970,
+    "summary": "Explore a definitive medieval RPG experience featuring deep custom lore, powerful equipment and handcrafted quests , playable solo or with freinds.",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ciscos-adventure-rpg-ultimate"
+  },
+  {
+    "name": "FTB Presents Stoneblock 2",
+    "slug": "ftb-presents-stoneblock-2",
+    "downloads": 4384819,
+    "summary": "The Stoneblock you like, now just even better then before! New mods, new dimensions, and new bosses! ",
+    "mc_version": "1.12.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ftb-presents-stoneblock-2"
+  },
+  {
+    "name": "Crazy Craft Updated",
+    "slug": "crazy-craft-updated",
+    "downloads": 4237644,
+    "summary": "Crazy Craft but in 1.16.5,  Spend Hundreds of Hours, Exploring and having Fun!",
+    "mc_version": "1.16.5",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/crazy-craft-updated"
+  },
+  {
+    "name": "All in One [Modded One Block]",
+    "slug": "all-in-one-modded-one-block",
+    "downloads": 4025078,
+    "summary": "A true modded One Block Pack with 11 different phases.",
+    "mc_version": "1.16.5",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/all-in-one-modded-one-block"
+  },
+  {
+    "name": "Immersed With Shaders",
+    "slug": "immersed-with-shaders",
+    "downloads": 3792381,
+    "summary": "NeoForge & Fabric Modpack, Spectacular Visuals, Boosted FPS, Immersive sounds, QoL mods, Works on vanilla servers",
+    "mc_version": "1.18.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/immersed-with-shaders"
+  },
+  {
+    "name": "DarkRPG - RPG with Magic, Origins, Quests, Adventure",
+    "slug": "darkrpg",
+    "downloads": 3642530,
+    "summary": "RPG Modpack, 1800+ Quests, Origins, Magic, Bosses, MMO Server, Fabric Edition, Latest RPG Adventure!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/darkrpg"
+  },
+  {
+    "name": "COBBLEVERSE - Pokemon Adventure [Cobblemon]",
+    "slug": "cobbleverse-cobblemon",
+    "downloads": 3517814,
+    "summary": "Start a true Pokémon adventure in Minecraft: Cobblemon 1.7.3 | ALL 1025 Pokémon! | ALL 93 Mega Evolutions | Gyms & Badges | Starter Kit | Unique Structures | Custom Music | Shaders | Optimized | So mu",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cobbleverse-cobblemon"
+  },
+  {
+    "name": "Cobblemon Official Modpack [Fabric]",
+    "slug": "cobblemon-fabric",
+    "downloads": 3469501,
+    "summary": "The official modpack of the Cobblemon mod, for Fabric!",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cobblemon-fabric"
+  },
+  {
+    "name": "All the Mods 9 - To the Sky - atm9sky",
+    "slug": "all-the-mods-9-to-the-sky",
+    "downloads": 2987085,
+    "summary": "Starting with only a tree, fill the void with large amounts of technology and magic!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-9-to-the-sky"
+  },
+  {
+    "name": "Forever Stranded",
+    "slug": "forever-stranded",
+    "downloads": 2888221,
+    "summary": "Forever alone on a dry hot world can you survive and rebuild",
+    "mc_version": "1.10.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/forever-stranded"
+  },
+  {
+    "name": "Beyond Depth",
+    "slug": "beyond-depth",
+    "downloads": 2856621,
+    "summary": "Challenging Exploration Modpack | New dimensions | Tough bosses | Enhanced combat | Endless exploration.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/beyond-depth"
+  },
+  {
+    "name": "Fear Nightfall: Remains of Chaos",
+    "slug": "fear-nightfall",
+    "downloads": 2745181,
+    "summary": "Made for CO-OP. A unique, immersive and difficult horror modpack with a campaign and tons of custom content.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/fear-nightfall"
+  },
+  {
+    "name": "All the Mods 10: To the Sky   ATM10SKY",
+    "slug": "all-the-mods-10-sky",
+    "downloads": 2600726,
+    "summary": "Starting with only a tree, fill the void with large amounts of technology and magic!",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10-sky"
+  },
+  {
+    "name": "Craftoria",
+    "slug": "craftoria",
+    "downloads": 2516160,
+    "summary": "500+ mods and 2000+ quests featuring tech, magic, automation, exploration, and deep progression with custom content and balanced gameplay",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/craftoria"
+  },
+  {
+    "name": "Craft to Exile 2 (VR Support)",
+    "slug": "craft-to-exile-2",
+    "downloads": 2365856,
+    "summary": "Path of Exile | Diablo | Co-op | Uber Bosses | Maps | VR Support | Steam Deck/Controller Compat.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/craft-to-exile-2"
+  },
+  {
+    "name": "FTB StoneBlock 4",
+    "slug": "ftb-stoneblock-4",
+    "downloads": 2330786,
+    "summary": "The stone remembers. Dive into StoneBlock 4, the next evolution of Minecraft’s underground survival: explore handcrafted Vaults, learn from ancient Echoes, power the World Engine, all on 1.21.1 ",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4"
+  },
+  {
+    "name": "Better MC [NEOFORGE] BMC5",
+    "slug": "better-mc-neoforge-bmc5",
+    "downloads": 2244676,
+    "summary": "Version 1.21.1 | Vanilla+ Experience With The Player in Mind | A New Era of Better MC!",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/better-mc-neoforge-bmc5"
+  },
+  {
+    "name": "BigChadGuys Plus (w/ Cobblemon!)",
+    "slug": "bcg",
+    "downloads": 2198656,
+    "summary": "Stardew Valley meets Pokémon! Prepare for a cozy adventure with built-in shaders, multiplayer, quests, recipes, and more!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/bcg"
+  },
+  {
+    "name": "InsaneCraft Modpack",
+    "slug": "insanecraft-modpack",
+    "downloads": 2076767,
+    "summary": "The Official Insane Craft Modpack",
+    "mc_version": "1.12",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/insanecraft-modpack"
+  },
+  {
+    "name": "Modern Skyblock 3: Departed",
+    "slug": "modern-skyblock-3-departed",
+    "downloads": 2035804,
+    "summary": "A pack departing from the old progression system based around recipe changes | Without Ex Nihilo | 3 Modes | 250+ Mods | 1k+ Quests | for MC 1.12",
+    "mc_version": "1.12.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/modern-skyblock-3-departed"
+  },
+  {
+    "name": "Better Adventures+",
+    "slug": "better-adventures-plus",
+    "downloads": 1879255,
+    "summary": "200+ mods that make Minecraft feel like a sequel",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/better-adventures-plus"
+  },
+  {
+    "name": "Lucky World Invasion",
+    "slug": "lucky-world-invasion",
+    "downloads": 1853511,
+    "summary": "Lucky Block Challenge, can you defeat the Ender Dragon before invading and killing you?",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/lucky-world-invasion"
+  },
+  {
+    "name": "Fantasy MC Fabric",
+    "slug": "fantasy-minecraft-fabric",
+    "downloads": 1817462,
+    "summary": "Minecraft But It’s Fantasy",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/fantasy-minecraft-fabric"
+  },
+  {
+    "name": "Homestead - A Cozy Survival Experience",
+    "slug": "homestead-cozy",
+    "downloads": 1799122,
+    "summary": "Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create the cozy life you've always dreamed ",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/homestead-cozy"
+  },
+  {
+    "name": "RLCraft Dregora",
+    "slug": "rlcraft-dregora",
+    "downloads": 1795032,
+    "summary": "RLCraft meets Dregora in this specially designed modpack to curate a special unique experience.",
+    "mc_version": "1.12.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+  },
+  {
+    "name": "Integrated MC",
+    "slug": "integrated-minecraft",
+    "downloads": 1777923,
+    "summary": "A dungeon-busting modpack focused on complete integration between mods. The goal is for it to feel like Minecraft 2.0!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/integrated-minecraft"
+  },
+  {
+    "name": "DREAD - A Horror Survival Pack",
+    "slug": "dread-arrenek",
+    "downloads": 1753505,
+    "summary": "The most immersive and scariest Horror Modpack for Minecraft, made to make you feel fear and DREAD. Made by Arrenek on YouTube.",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/dread-arrenek"
+  },
+  {
+    "name": "Zeefski Jujutsu Kaisen Craft",
+    "slug": "zjjk",
+    "downloads": 1739430,
+    "summary": "Experience the world of JJK and try to overcome the King of The Curses! - Orca's Jujutsu Craft (Sorcery Fight) | JJC SF",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/zjjk"
+  },
+  {
+    "name": "Solo Leveling - Reawakening",
+    "slug": "solo-leveling-reawakening",
+    "downloads": 1673586,
+    "summary": "⬆️Strange gates have appeared in the world of Minecraft, bringing with them unspeakable power and danger. Begin your journey as a weak survivor and rise through the ranks to become the most powerful h",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/solo-leveling-reawakening"
+  },
+  {
+    "name": "Valhelsia 6",
+    "slug": "valhelsia-6",
+    "downloads": 1668728,
+    "summary": "A modpack in 1.20.1 with a mixture of technology, magic, exploration and adventure...",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/valhelsia-6"
+  },
+  {
+    "name": "Dungeon Heroes (RPG Series)",
+    "slug": "dungeon-heroes",
+    "downloads": 1640138,
+    "summary": "⚔️ Explore, Triumph, Loot - Together! - Vanilla+ dungeon crawler",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/dungeon-heroes"
+  },
+  {
+    "name": "GT New Horizons",
+    "slug": "gt-new-horizons",
+    "downloads": 1613160,
+    "summary": "Large Modpack with every recipe Gregified",
+    "mc_version": "1.7.10",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/gt-new-horizons"
+  },
+  {
+    "name": "Create: Perfect World",
+    "slug": "create-perfect-world",
+    "downloads": 1498203,
+    "summary": "Create-focused lightweight modpack from MrBeardstone's YouTube Series",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/create-perfect-world"
+  },
+  {
+    "name": "All of Create",
+    "slug": "aoc",
+    "downloads": 1497913,
+    "summary": "The Ultimate Create Experience | Create 6.0 with 50+ Addons, Quests and Great Performance",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/aoc"
+  },
+  {
+    "name": "Boosted FPS (Performance Optimized) (FB)",
+    "slug": "boosted-fps",
+    "downloads": 1437630,
+    "summary": "FPS Boosting Modpack Featuring Performance Mods! on Fabric 26.1+ Latest",
+    "mc_version": "1.19.4",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/boosted-fps"
+  },
+  {
+    "name": "NightfallCraft - The Casket of Reveries",
+    "slug": "nightfallcraft-the-casket-of-reveries",
+    "downloads": 1396892,
+    "summary": "Souls-like RPG modpack w/ Unique Story Line and Quest!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/nightfallcraft-the-casket-of-reveries"
+  },
+  {
+    "name": "FTB StoneBlock 3",
+    "slug": "ftb-stoneblock-3",
+    "downloads": 1380815,
+    "summary": "In a world surrounded by stone, build yourself a subterranean kingdom that really rocks! Use magic and technology to forge your realm to your designs.",
+    "mc_version": "1.18.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-3"
+  },
+  {
+    "name": "Better MC [FABRIC] BMC3",
+    "slug": "better-mc-fabric-bmc3",
+    "downloads": 1365207,
+    "summary": "Version 1.21.1 | Vanilla+ Experience With The Player in Mind | A New Era of Better MC!",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/better-mc-fabric-bmc3"
+  },
+  {
+    "name": "SkyFactory 5",
+    "slug": "skyfactory-5",
+    "downloads": 1345472,
+    "summary": "The void is your canvas and you are the artist! Watch development at: darkosto.tv/SkyFactoryLive",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/skyfactory-5"
+  },
+  {
+    "name": "TerraFirmaGreg-Modern",
+    "slug": "terrafirmagreg-modern",
+    "downloads": 1317260,
+    "summary": "Want more survival and exploration with your tech? A TerraFirmaCraft + GregTech modpack for 1.20.1.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/terrafirmagreg-modern"
+  },
+  {
+    "name": "All the Mons - ATMons",
+    "slug": "all-the-mons",
+    "downloads": 1308935,
+    "summary": "All the Mods 10 + Cobblemon with full, customised content bridging the gap.",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/all-the-mons"
+  },
+  {
+    "name": "MC Eternal 2",
+    "slug": "mc-eternal-2",
+    "downloads": 1289948,
+    "summary": "Something for everyone I promise! Hybrid pack with some fun twists, Hundreds of Quests and Challenges to complete!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/mc-eternal-2"
+  },
+  {
+    "name": "FTB OceanBlock 2",
+    "slug": "ftb-oceanblock-2",
+    "downloads": 1287057,
+    "summary": "Nothing but endless ocean. No land. No rescue. You’re alone - or so you think...",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ftb-oceanblock-2"
+  },
+  {
+    "name": "Create Ultimate Selection – Create Quests | Create Addons [1.20.1]",
+    "slug": "create-ultimate-selection",
+    "downloads": 1060572,
+    "summary": "CREATE 6.0 AND QUESTS - With the Best Create Mods: Unlock the Full Potential of Engineering, Automation, and Innovation in Minecraft",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/create-ultimate-selection"
+  },
+  {
+    "name": "Cobblemon - Mega Pokemon in Cobblemon + Trainer Gyms + Cobblemon with Friends + Cobblemon MMO RPG for Cobblemon Realms",
+    "slug": "cobblemon-smp-adventure",
+    "downloads": 1041360,
+    "summary": "⭐ The Ultimate Cobblemon Modpack for Pokemon In Minecraft! 👑  ",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cobblemon-smp-adventure"
+  },
+  {
+    "name": "HORROR - Into The Backrooms - Found Footage (horror) (dweller)",
+    "slug": "into-the-backrooms-found-footage-horror",
+    "downloads": 999970,
+    "summary": "You are trapped in the Backrooms, where flickering lights, entities, and anomalies are found, trapping you in a liminal nightmare",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/into-the-backrooms-found-footage-horror"
+  },
+  {
+    "name": "Project Architect 2",
+    "slug": "project-architect-2",
+    "downloads": 991994,
+    "summary": "Dive into a meticulously crafted modpack focused on automation and EMC generation, allowing you to transform raw materials into valuable resources effortlessly with ProjectE custom automation challeng",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/project-architect-2"
+  },
+  {
+    "name": "Society: Sunlit Valley",
+    "slug": "society-sunlit-valley",
+    "downloads": 967203,
+    "summary": "A Stardew Valley experience! In-depth farming, animal raising, and fishing with mechanics straight from the game!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/society-sunlit-valley"
+  },
+  {
+    "name": "Prehistoric World - Dinosaurs, Adventure & Quests | NEW PREHISTORY UPDATE!",
+    "slug": "prehistoric-world-dinosaurs-adventure",
+    "downloads": 956223,
+    "summary": "Create your Jurassic Park! Find fossils, revive dinosaurs, and embark on epic quests in a Prehistoric World!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/prehistoric-world-dinosaurs-adventure"
+  },
+  {
+    "name": "Endless Horror - The ULTIMATE Horror Experience",
+    "slug": "endless-horror-the-ultimate-horror-modpack",
+    "downloads": 946985,
+    "summary": "A horror modpack that contains almost every genre of horror, as well as every horror mod made for this version. It contains a couple of extra content mods to keep play throughs interesting, as well as",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/endless-horror-the-ultimate-horror-modpack"
+  },
+  {
+    "name": "Linggango",
+    "slug": "linggango",
+    "downloads": 945407,
+    "summary": "A Terraria-inspired modpack featuring unique progression, custom mechanics, and 3,000+ quests.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/linggango"
+  },
+  {
+    "name": "Modded OneBlock",
+    "slug": "one-block-modded",
+    "downloads": 941990,
+    "summary": "Ever wanted to play one block modded well here it is. data pack and world by IJAMinecrafts",
+    "mc_version": "1.15.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/one-block-modded"
+  },
+  {
+    "name": "Optifine but faster",
+    "slug": "optifine-but-faster",
+    "downloads": 889751,
+    "summary": "This modpack has all the features of optifine but faster",
+    "mc_version": "1.17",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/optifine-but-faster"
+  },
+  {
+    "name": "Isle of Berk (Claws of Berk)",
+    "slug": "new-berks-dawn",
+    "downloads": 838481,
+    "summary": "HTTYD in Minecraft! Enjoy a Modpack filled with Dragons, Vikings, Dungeons, HTTYD references and so much more!...",
+    "mc_version": "1.18.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/new-berks-dawn"
+  },
+  {
+    "name": "Complex Pixelmon - The #1 Pokemon Adventure in Pixelmon - Multiplayer Pixelmon - Pixelmon Adventure - Pixelmon & Pokemon SMP",
+    "slug": "complex-gaming-pixelmon",
+    "downloads": 821989,
+    "summary": "⚡Pixelmon: The Pokemon Academy ⚡-- Pixelmon MMO -  Explore, battle, and grow your pixelmon team—starting your legendary pixelmon adventure! Featuring mods like pixelmon reforged - Optimized for multip",
+    "mc_version": "1.16.5",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/complex-gaming-pixelmon"
+  },
+  {
+    "name": "Abyssal Ascent",
+    "slug": "abyssal-ascent",
+    "downloads": 795325,
+    "summary": "A Modpack utilising immersive portals stacking 8 different dimensions vertically, each with their own ecosystem, resources, biodiversity and challenges, and you spawn at the very bottom of this world,",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/abyssal-ascent"
+  },
+  {
+    "name": "Cobblemon SMP - The #1 Legendary Pokemon Adventure ",
+    "slug": "complex-cobblemon",
+    "downloads": 782055,
+    "summary": "✅💯 The Ultimate Pokémon Academy! 💯✅ Catch, train, and level your Pokémon with friends in Cobblemon. Enjoy mods included in cobbleverse, Level up, and grow all your mons —starting your cobblemon verse ",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/complex-cobblemon"
+  },
+  {
+    "name": "DarkRPG - RPG with Vampires, Dragons, Magic, Quests, Adventure",
+    "slug": "darkrpg-forge",
+    "downloads": 760832,
+    "summary": "RPG Modpack, Vampires, Dragons, Quests, Magic, 65 Bosses, Souls Combat, MMO Server, Forge Edition Latest RPG Adventure!",
+    "mc_version": "1.19.4",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/darkrpg-forge"
+  },
+  {
+    "name": "Star Technology",
+    "slug": "star-technology",
+    "downloads": 758317,
+    "summary": "One of the first GregTech CEu Modern packs! It's a skyblock, btw.",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/star-technology"
+  },
+  {
+    "name": "One Block Horror",
+    "slug": "one-block-horror",
+    "downloads": 753755,
+    "summary": "A one block modded to be horror and make it very difficult to reach the final objective.",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/one-block-horror"
+  },
+  {
+    "name": "Reclamation - Reclaim the World!",
+    "slug": "reclamation-reclaim-the-world",
+    "downloads": 734540,
+    "summary": "Reclaim the world! A semi-expert modpack about bringing life back to a barren world.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/reclamation-reclaim-the-world"
+  },
+  {
+    "name": "Cobblemon - Star Academy (Legacy)",
+    "slug": "cobblemon-star-academy",
+    "downloads": 716388,
+    "summary": "A Cobblemon modpack with multiplayer-focused QOL additions",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cobblemon-star-academy"
+  },
+  {
+    "name": "Soulrend - Dark Fantasy RPG Soulslike",
+    "slug": "soulrend",
+    "downloads": 693795,
+    "summary": "Forge 1.20.1 | A soulslike action RPG adventure with epic combat, quests, bosses, factions, and more",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/soulrend"
+  },
+  {
+    "name": "Liminal Industries",
+    "slug": "liminal-industries",
+    "downloads": 649077,
+    "summary": "Explore, conquer and industrialise the liminal backrooms with tech and magic",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/liminal-industries"
+  },
+  {
+    "name": "Cisco's Fantasy Medieval RPG [Dragonfyre]",
+    "slug": "ciscos-fantasy-medieval-rpg-dragonfyre",
+    "downloads": 636321,
+    "summary": "Set 1000 years after the events of Ultimate, Dragonfyre continues the saga with the same deep lore, custom equipment and focus on multiplayer adventure.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ciscos-fantasy-medieval-rpg-dragonfyre"
+  },
+  {
+    "name": "Just Create SMP",
+    "slug": "just-create-smp",
+    "downloads": 604976,
+    "summary": "Just Create and a few QOL mods in Minecraft SMP - Official pack of the Just Create SMP",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/just-create-smp"
+  },
+  {
+    "name": "Guns N' Dragons",
+    "slug": "gunsndragons",
+    "downloads": 599732,
+    "summary": "A fantasy modpack about dragons and guns.",
+    "mc_version": "1.18.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/gunsndragons"
+  },
+  {
+    "name": "ZOMBIEMANIA - A Modern Zombie Apocalypse",
+    "slug": "zombiemania",
+    "downloads": 578772,
+    "summary": "This modpack is a highly realistic zombie apocalypse experience. They hear your voices. They react to your gunshots. And they smell your blood. Set in a bleak, wintry world, survival is more than a ch",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/zombiemania"
+  },
+  {
+    "name": "Amazing Xray",
+    "slug": "amazing-xray",
+    "downloads": 540254,
+    "summary": "Xray, xray, xray! Find ores super quickly.",
+    "mc_version": "1.16.5",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/amazing-xray"
+  },
+  {
+    "name": "ZombieCraft: Zombie Apocalypse",
+    "slug": "zombiecraft-apocalypse",
+    "downloads": 523422,
+    "summary": "Survive in an apocalypse world, with big Cities, Guns and evolving Zombies.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/zombiecraft-apocalypse"
+  },
+  {
+    "name": "Distant Horizons & Iris Shaders",
+    "slug": "distant-horizons-iris-shaders",
+    "downloads": 522688,
+    "summary": "A stable & convenient way to use Distant Horizons & Iris Shaders",
+    "mc_version": "1.21.5",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/distant-horizons-iris-shaders"
+  },
+  {
+    "name": "Biohazard: Project Genesis - The Ultimate Apocalypse",
+    "slug": "biohazard-project-genesis",
+    "downloads": 518048,
+    "summary": "A groundbreaking apocalyptic modpack blending nuclear fallout with zombie and fungal nightmares. Features deep storyline, advanced weapons, custom crafting system, dynamic difficulty, and multiplayer ",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/biohazard-project-genesis"
+  },
+  {
+    "name": "Create'a Colony",
+    "slug": "createa-colony",
+    "downloads": 472145,
+    "summary": "A modpack intended to combine the Create and Minecolonies experience into one!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/createa-colony"
+  },
+  {
+    "name": "Beyond Cosmo",
+    "slug": "beyond-cosmo",
+    "downloads": 456895,
+    "summary": "Action packed Sci-Fi Modpack | High Tech Guns | Warfare | Industrial Evolution | Space Exploration",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/beyond-cosmo"
+  },
+  {
+    "name": "Wynncraft Plus",
+    "slug": "wynncraft-plus",
+    "downloads": 454080,
+    "summary": "Wynncraft Plus was created to provide an enhanced experience on Wynncraft!",
+    "mc_version": "1.21.4",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/wynncraft-plus"
+  },
+  {
+    "name": "Stacia 2 Expert",
+    "slug": "stacia-2-expert",
+    "downloads": 453521,
+    "summary": "Hundreds Of Expert and More Challenging Recipes! | +150 Exclusive Items! | Craftable Creative Items! | Infinite Possibilities!",
+    "mc_version": "1.19.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/stacia-2-expert"
+  },
+  {
+    "name": "Cobblemon Academy 2.0",
+    "slug": "cobblemon-academy-2-0",
+    "downloads": 446803,
+    "summary": "Welcome back to the Academy! Your journey to become an elite trainer continues here.",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cobblemon-academy-2-0"
+  },
+  {
+    "name": "More FPS [FORGE] - Increase FPS & Shaders (1.21 UPDATE)",
+    "slug": "more-fps-modpack",
+    "downloads": 433894,
+    "summary": "Modpack designed to increase the number of FPS in Minecraft with Forge.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/more-fps-modpack"
+  },
+  {
+    "name": "Otherworld [Dungeons & Dragons]",
+    "slug": "otherworld-dnd",
+    "downloads": 422674,
+    "summary": "Fantasy RPG Story modpack based off the DnD 5e Handbook [Inspired by Baldur's Gate 3]",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/otherworld-dnd"
+  },
+  {
+    "name": "Ocean Outlast",
+    "slug": "ocean-outlast",
+    "downloads": 409847,
+    "summary": "Expert, Tech, Magic, Exploration, 1900+ Quests, Dungeons, Inspired by Skyblock while unique ",
+    "mc_version": "1.12.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ocean-outlast"
+  },
+  {
+    "name": "Prodigium Reforged",
+    "slug": "prodigium-reforged",
+    "downloads": 407664,
+    "summary": "Highly inspired by Terraria, defeat bosses to progress thanks to a unique progression system. Combat, adventure and RPG oriented modpack, a lot of custom content.",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/prodigium-reforged"
+  },
+  {
+    "name": "FTB Skies 2",
+    "slug": "ftb-skies-2",
+    "downloads": 393455,
+    "summary": "Our skyblock experience built for Minecraft 1.21.1 with a focus on rewarding gameplay, custom mechanics, and player-driven progression!",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ftb-skies-2"
+  },
+  {
+    "name": "Ascendra",
+    "slug": "ascendra",
+    "downloads": 386137,
+    "summary": "Start Your Journey into a Magic-Packed, Explorative Modpack | Tough Boss Fights | Overhauled Progression | Immersive Questlines & a Bit of Tech",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ascendra"
+  },
+  {
+    "name": "Cobblemon Academy (Legacy)",
+    "slug": "cobblemon-academy",
+    "downloads": 381026,
+    "summary": "Welcome to the Academy! Your training journey begins here.",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cobblemon-academy"
+  },
+  {
+    "name": "Create Ultimate Selection 2 – Create Aeronautics | Create Addons & Quests ",
+    "slug": "create-ultimate-selection-2",
+    "downloads": 350244,
+    "summary": "NEW: Create Aeronautics! Unlock the full potential of engineering, automation, and innovation with the best Create mods.",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/create-ultimate-selection-2"
+  },
+  {
+    "name": "JJKL Jujutsu Kaisen Craft",
+    "slug": "jujutsu-jjkl-craft",
+    "downloads": 348485,
+    "summary": "A modpack with Jujutsu mods made for fun with friends or even alone.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/jujutsu-jjkl-craft"
+  },
+  {
+    "name": "OptiFabriс",
+    "slug": "optifabric-modpack",
+    "downloads": 348143,
+    "summary": "Best alternative to OptiFine",
+    "mc_version": "1.21.11",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/optifabric-modpack"
+  },
+  {
+    "name": "Over Stars",
+    "slug": "over-stars",
+    "downloads": 336639,
+    "summary": "Challenging Tech-RPG Progression Pack, Unique Quests & Storyline, Tech Ages, Ferocious Bosses, Detailed Worlds, Limitless Adventures",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/over-stars"
+  },
+  {
+    "name": "Create: Perfect World 2",
+    "slug": "create-perfect-world-2",
+    "downloads": 335516,
+    "summary": "Create-focused lightweight modpack from MrBeardstone's YouTube Series - Perfect World 2",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/create-perfect-world-2"
+  },
+  {
+    "name": "Ultimate Lucky Oneblock",
+    "slug": "ulo",
+    "downloads": 328582,
+    "summary": "Lucky block Oneblock, enhanced with automation, machines, gear, bosses, and QoL features.",
+    "mc_version": "1.20.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ulo"
+  },
+  {
+    "name": "One Lucky Block - Skyblock / OneBlock with Dimensions",
+    "slug": "oneluckyblock",
+    "downloads": 319722,
+    "summary": "A unique modded OneBlock experience, featuring 5 dimensions, automation mods and lucky blocks.",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/oneluckyblock"
+  },
+  {
+    "name": "Epic Shaders - All The Shaders",
+    "slug": "epic-shaders",
+    "downloads": 319073,
+    "summary": "Vanilla themed modpack with lot of shaders (150+) & some quality of life mods (26.1+ Latest)",
+    "mc_version": "1.20.4",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/epic-shaders"
+  },
+  {
+    "name": "Cobblemon.gg - #1 Cobblemon Experience - Game of The Year",
+    "slug": "cobblemon-gg",
+    "downloads": 297938,
+    "summary": "🔥 Welcome to Elite Trainer Cobblemon - Master Multiverse.  Cobblemon.gg is your premier destination for an unparalleled Minecraft – Cobblemon – Pokémon experience!",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cobblemon-gg"
+  },
+  {
+    "name": "Better OneBlock [One Block]",
+    "slug": "better-oneblock",
+    "downloads": 291955,
+    "summary": "A modpack created to improve the vanilla One Block experience.",
+    "mc_version": "1.21",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/better-oneblock"
+  },
+  {
+    "name": "Ben 10 | Omnicraft - Alien Evolution & Omnitrix RPG",
+    "slug": "omnicraft-modpack",
+    "downloads": 275743,
+    "summary": "Craft the Omnitrix & transform into Ben 10 Aliens | Play the #1 Ben 10 Modpack",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/omnicraft-modpack"
+  },
+  {
+    "name": "Fresh & Smooth",
+    "slug": "fresh-and-smooth",
+    "downloads": 273710,
+    "summary": "Making Minecraft As Animated, and As Fresh As possible (similar to Actions & Stuff pack)",
+    "mc_version": "1.21.11",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/fresh-and-smooth"
+  },
+  {
+    "name": "SUPERIOR - RPG",
+    "slug": "superior-the-greatest-rpg-modpack-ever-made",
+    "downloads": 261000,
+    "summary": "Superior to every other RPG modpack",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/superior-the-greatest-rpg-modpack-ever-made"
+  },
+  {
+    "name": "Project Infinity 0.1",
+    "slug": "project-infinity-0-1",
+    "downloads": 233098,
+    "summary": "Project Infinity is a versatile modpack that takes you on a journey through technology, magic, and the cosmos. Build compact automation or colossal factories, craft custom multiblocks, and tackle an a",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/project-infinity-0-1"
+  },
+  {
+    "name": "HORROR - One Block (dweller) ",
+    "slug": "one-block-horror-dweller",
+    "downloads": 218513,
+    "summary": "It's regular one block survival, but with many dwellers to give you a chilling experience (optimized)",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/one-block-horror-dweller"
+  },
+  {
+    "name": "A Shattered Prophecy (The Broken Script)",
+    "slug": "a-shattered-prophecy",
+    "downloads": 211734,
+    "summary": "Pure ARG Experience, with quests and lore !",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/a-shattered-prophecy"
+  },
+  {
+    "name": "Distant Horizons Pack (With Shaders)",
+    "slug": "distant-horizons-pack-with-shaders",
+    "downloads": 210983,
+    "summary": "A light pack from AsianHalfSquat for some unique and beautiful exploration",
+    "mc_version": "1.20.4",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/distant-horizons-pack-with-shaders"
+  },
+  {
+    "name": "The Pioneers",
+    "slug": "the-pioneers",
+    "downloads": 205517,
+    "summary": "Brave the new worlds. Whether you be a magician, machinist, explorer, or architect, there is something new to discover!",
+    "mc_version": "1.8.9",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/the-pioneers"
+  },
+  {
+    "name": "Horrorland - New Horror Modpack (Herobrine, Cave Dweller...) | Horror+",
+    "slug": "horrorland",
+    "downloads": 198202,
+    "summary": "A modpack only for the bravest! The most terrifying and beloved by the community mods, quests, evil creatures, dark environments, and much more awaits you in Horrorland...",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/horrorland"
+  },
+  {
+    "name": "One Piece: The Ultimate Experience",
+    "slug": "one-piece-the-ultimate-experience",
+    "downloads": 196916,
+    "summary": "The ultimate One Piece adventure in Minecraft — sail, fight, explore, and become legend.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/one-piece-the-ultimate-experience"
+  },
+  {
+    "name": "Timeless and classics Guns + More",
+    "slug": "timeless-and-classics-guns-more",
+    "downloads": 194262,
+    "summary": "This is a recreation of the Timeless and Classics Guns mod but with more mods!",
+    "mc_version": "1.18.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/timeless-and-classics-guns-more"
+  },
+  {
+    "name": "waccyy's Fantasia",
+    "slug": "waccyys-fantasia",
+    "downloads": 177792,
+    "summary": "A modpack aiming to capture the immersive fantasy RPG experience like the Elder Scrolls games.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/waccyys-fantasia"
+  },
+  {
+    "name": "After The Nukes",
+    "slug": "after-the-nukes",
+    "downloads": 172728,
+    "summary": "Begin a true Fallout adventure in a devastated wasteland world with extremely high difficulty, Trading, Factions, and Quests.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/after-the-nukes"
+  },
+  {
+    "name": "Essential Perfected",
+    "slug": "essential-perfected-fabric",
+    "downloads": 168832,
+    "summary": "Essential, Mods, Shaders, resource packs! Great!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/essential-perfected-fabric"
+  },
+  {
+    "name": "[ Horrorria ]  -   the horror of from fog Dweller scariest herobrine creepypasta  fear entity screamers slenderman hor null lick",
+    "slug": "horrorria",
+    "downloads": 159994,
+    "summary": "Survive Horrorria withe a creepy with herrobrine cave dweller and slenderman face jump scare screamer and creep in the fog immersive nightmare feature psychological paranoia blood supernatural spirits",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/horrorria"
+  },
+  {
+    "name": "Official Tensura: Reincarnated Survival Server",
+    "slug": "official-tensura-reincarnated-server-modpack",
+    "downloads": 159321,
+    "summary": "Modpack for the Official Tensura:Reincarnated server by the mod creators.",
+    "mc_version": "1.19.2",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/official-tensura-reincarnated-server-modpack"
+  },
+  {
+    "name": "A Virtual Wonderland (wonderland.jar)",
+    "slug": "virtual-wonderland",
+    "downloads": 152312,
+    "summary": "A very liminal Horror modpack that uses the wonderland.jar mod. This mod can be played either on PC or in Virtual Reality.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/virtual-wonderland"
+  },
+  {
+    "name": "All the Mods 11 - ATM11",
+    "slug": "all-the-mods-11",
+    "downloads": 149391,
+    "summary": "Super early alpha for 26.1.2",
+    "mc_version": "未知",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-11"
+  },
+  {
+    "name": "Desolate Planet - A Crash Landing Remake",
+    "slug": "desolate-planet",
+    "downloads": 148061,
+    "summary": "Survive on a desolate planet with limited water, while managing heat and thirst. Progress through the quest tree, learn the secrets of the planet, and build up technology to escape!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/desolate-planet"
+  },
+  {
+    "name": "Cobblemon Eternal: The Minecraft Pokémon Experience",
+    "slug": "cobblemon-eternal-edition",
+    "downloads": 147230,
+    "summary": "✨ Play Cobblemon in a Magical World! Quests! Legendaries! Explore and Gotta Catch ‘Em All!",
+    "mc_version": "1.21",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cobblemon-eternal-edition"
+  },
+  {
+    "name": "CobbleGalaxy - Cobblemon",
+    "slug": "cobblegalaxy-cobblemon",
+    "downloads": 143431,
+    "summary": "Cobblemon Modpack - Add Pokemon to your Minecraft world! Increases FPS! Multiplayer server with Gyms, Tournaments, Mega Evolutions, & more!",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cobblegalaxy-cobblemon"
+  },
+  {
+    "name": "Chosen's Create: Integrated",
+    "slug": "chosens-create-integrated",
+    "downloads": 139961,
+    "summary": "Experience a reimagined Create journey by ChosenArchitect, seamlessly integrating Ars Nouveau, Just Dire Things, Refined Storage 2, and Replication into a unified, accessible progression.",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/chosens-create-integrated"
+  },
+  {
+    "name": "HORIZONS - Beyond Your Eyes | Unofficial",
+    "slug": "horizons-beyond-your-eyes",
+    "downloads": 136563,
+    "summary": "A new modpack with the main feature of Distant Horizons! Discover a new and improved vanilla world.",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/horizons-beyond-your-eyes"
+  },
+  {
+    "name": "Vanilla+ Lightweight | Beta 26.1.2!",
+    "slug": "vanilla-lightweight-reborn",
+    "downloads": 134737,
+    "summary": "A vanilla+ modpack with a few mods so you can enjoy lag-free gameplay on a low-spec computer!",
+    "mc_version": "1.21.11",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/vanilla-lightweight-reborn"
+  },
+  {
+    "name": "All of Create - Aeronautics",
+    "slug": "all-of-create-aeronautics",
+    "downloads": 125212,
+    "summary": "The Ultimate Create Aeronautics Experience | Create Aeronautics with 50+ Addons, Quests and Great Performance",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/all-of-create-aeronautics"
+  },
+  {
+    "name": "Tactical Survivor",
+    "slug": "tactical-survivor",
+    "downloads": 118230,
+    "summary": "This is the most realistic Military Survival Simulation. This is  Tactical Survivor",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/tactical-survivor"
+  },
+  {
+    "name": "BETTER FANTASY - Overture",
+    "slug": "better-fantasy-overture",
+    "downloads": 109518,
+    "summary": "Fantasy Challenging Exploration Modpack - New Dimensions - Bosses and much more!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/better-fantasy-overture"
+  },
+  {
+    "name": "Reimagined",
+    "slug": "reimagined-forge",
+    "downloads": 107623,
+    "summary": "Imagine what Minecraft could be!",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/reimagined-forge"
+  },
+  {
+    "name": "Modded Together",
+    "slug": "moddedtogether",
+    "downloads": 104296,
+    "summary": "Fantasy-Driven Exploration modpack built on integration and balance. Travel the world to discover new technologies, bosses, magic and more. Designed and built for Mass Multiplayer, Co-Op or Singleplay",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/moddedtogether"
+  },
+  {
+    "name": "Agmundr - Zombie Apocalypse",
+    "slug": "agmundr-zombie-apocalypse",
+    "downloads": 97811,
+    "summary": "Face The Apocalypse | Custom Classes | Custom Difficulties | 240+ Mods",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/agmundr-zombie-apocalypse"
+  },
+  {
+    "name": "Endless Rise Remastered",
+    "slug": "endless-rise",
+    "downloads": 95425,
+    "summary": "Modpack about Evolution from Primitive to Space for 1.16.5 Forge with 600+ Quests | 1000+ Changed Recipes | Custom Items | Custom Designs | and more!",
+    "mc_version": "1.16.5",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/endless-rise"
+  },
+  {
+    "name": "Arcadia Echoes Of Power V2",
+    "slug": "arcadia-echoes-of-power-v2",
+    "downloads": 86826,
+    "summary": "The missing link between steam and spells: an interconnected expert pack where industry fuels magic and exploration unlocks technology.",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/arcadia-echoes-of-power-v2"
+  },
+  {
+    "name": "Beyond Ocean",
+    "slug": "beyond-ocean",
+    "downloads": 82823,
+    "summary": "Ocean Survival Modpack | Explore | Dive into the unknown | Survive",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/beyond-ocean"
+  },
+  {
+    "name": "[TaCZ] Timeless and Classics Zero Guns + addons and other mods",
+    "slug": "tacz-timeless-and-classics-zero-guns-addons-and",
+    "downloads": 77743,
+    "summary": "[TaCZ] Timeless and Classics Zero Guns + addons and other mods",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/tacz-timeless-and-classics-zero-guns-addons-and"
+  },
+  {
+    "name": "Fractured Opolis",
+    "slug": "fractured-opolis",
+    "downloads": 65636,
+    "summary": "The world Fractured, travel across custom dimensions and worlds to finally go back to the overworld ",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/fractured-opolis"
+  },
+  {
+    "name": "Avalon Reborn",
+    "slug": "avalon-reborn",
+    "downloads": 48525,
+    "summary": "Sequel to Avalon Forge",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/avalon-reborn"
+  },
+  {
+    "name": "KEO RPG optimized",
+    "slug": "keo-rpg-optimized",
+    "downloads": 33861,
+    "summary": "Keo RPG is a fully Spanish, highly optimized modpack with over 200 mods that lets you rediscover Minecraft with freedom, RPG classes, magic, and epic bosses.",
+    "mc_version": "1.21.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/keo-rpg-optimized"
+  },
+  {
+    "name": "Magic Valley",
+    "slug": "magic-valley",
+    "downloads": 30140,
+    "summary": "This pack has something for everyone Magic/Tech/Adventure/and Homesteading no matter which path you chose they all allow you to progress.",
+    "mc_version": "1.20.1",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/magic-valley"
+  }
+]

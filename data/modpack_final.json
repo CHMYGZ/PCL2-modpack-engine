@@ -305,5 +305,238 @@
     "bili_url": "https://www.bilibili.com/video/BV1pvhYz4Eub/",
     "bili_play_str": "6.0万播放",
     "note": "史诗战斗类只狼·终焉决斗2·作者凝星制作组"
+  },
+  {
+    "name": "愚者 - The Fool",
+    "version": "1.20.1",
+    "genres": [
+      "🧙魔法",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1eo18BREZi/",
+    "bili_play_str": "237万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/the-fool",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/the-fool",
+    "note": "愚弄、伪装、欺诈·年度最有趣整合包"
+  },
+  {
+    "name": "脆骨症",
+    "version": "1.20.1",
+    "genres": [
+      "💀恐怖",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1tx4y1U7av/",
+    "bili_play_str": "136万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/no-flesh-within-chest",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/no-flesh-within-chest",
+    "note": "No Flesh Within Chest·恐怖冒险·胸腔怪物"
+  },
+  {
+    "name": "Valhelsia 3",
+    "version": "1.20.1",
+    "genres": [
+      "🏰冒险",
+      "⚡混合"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV19a411477B/",
+    "bili_play_str": "57万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/valhelsia-3",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/valhelsia-3",
+    "note": "全球热门·接近300万下载"
+  },
+  {
+    "name": "剑与王国",
+    "version": "1.21.1",
+    "genres": [
+      "🗡RPG",
+      "⚔战斗"
+    ],
+    "bbsmc_url": "https://bbsmc.net/modpack/sword-and-kingdom",
+    "note": "中世纪王国冒险·剑术与魔法"
+  },
+  {
+    "name": "家园 - Homestead",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1M5NwzJEvT/",
+    "bili_play_str": "24万播放",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/homestead",
+    "note": "温馨生存·种田建家·百万下载"
+  },
+  {
+    "name": "神话:起源",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "🧙魔法"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1avHJz2EiP/",
+    "bili_play_str": "73万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/5.0",
+    "note": "高难度爽包·神话探险之旅"
+  },
+  {
+    "name": "RLCraft",
+    "version": "1.12.2",
+    "genres": [
+      "💀恐怖",
+      "🗡RPG"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/rlcraft",
+    "note": "2900万下载·最硬核MC整合包·生存难度极高"
+  },
+  {
+    "name": "SkyFactory 4",
+    "version": "1.12.2",
+    "genres": [
+      "⚙科技",
+      "🗺空岛"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/skyfactory-4",
+    "note": "经典空岛科技·1360万下载"
+  },
+  {
+    "name": "Prominence II",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "🏰冒险"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era",
+    "note": "1124万下载·RPG冒险·任务驱动"
+  },
+  {
+    "name": "DeceasedCraft",
+    "version": "1.20.1",
+    "genres": [
+      "🧟末日",
+      "🏰冒险"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/deceasedcraft",
+    "note": "716万下载·丧尸末日生存·城市探索"
+  },
+  {
+    "name": "Vault Hunters 3",
+    "version": "1.18.2",
+    "genres": [
+      "🗡RPG",
+      "🏰冒险"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2",
+    "note": "575万下载·宝藏猎人·RPG地下城"
+  },
+  {
+    "name": "Cave Horror",
+    "version": "1.20.1",
+    "genres": [
+      "💀恐怖",
+      "🏰冒险"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cave-horror-project",
+    "note": "570万下载·洞穴恐怖·生存探索"
+  },
+  {
+    "name": "Roguelike Adventures 2",
+    "version": "1.16.5",
+    "genres": [
+      "🗡RPG",
+      "🏰冒险"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-2",
+    "note": "446万下载·Roguelike地牢冒险"
+  },
+  {
+    "name": "Crazy Craft Updated",
+    "version": "1.16.5",
+    "genres": [
+      "⚡混合",
+      "🎮宝可梦"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/crazy-craft-updated",
+    "note": "经典Crazy Craft续作·423万下载"
+  },
+  {
+    "name": "DarkRPG",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "🧙魔法"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/darkrpg",
+    "note": "364万下载·黑暗RPG·魔法与任务"
+  },
+  {
+    "name": "Craftoria",
+    "version": "1.21.1",
+    "genres": [
+      "⚡混合",
+      "⚙科技"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/craftoria",
+    "note": "251万下载·综合型整合包·高版本"
+  },
+  {
+    "name": "FTB StoneBlock 4",
+    "version": "1.21.1",
+    "genres": [
+      "🗺空岛",
+      "⚙科技"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4",
+    "note": "FTB官方石头世界系列·233万下载"
+  },
+  {
+    "name": "Better Adventures+",
+    "version": "1.19.2",
+    "genres": [
+      "🏰冒险",
+      "🗡RPG"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/better-adventures-plus",
+    "note": "187万下载·冒险探索·任务系统"
+  },
+  {
+    "name": "Lucky World Invasion",
+    "version": "1.20.1",
+    "genres": [
+      "⚡混合",
+      "🏰冒险"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/lucky-world-invasion",
+    "note": "185万下载·幸运方块·怪物入侵"
+  },
+  {
+    "name": "Create: Above and Beyond",
+    "version": "1.16.5",
+    "genres": [
+      "⚙科技",
+      "🏗机械"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/create-above-and-beyond",
+    "note": "Create官方专家包·自动化进阶"
+  },
+  {
+    "name": "Beyond Depth",
+    "version": "1.20.1",
+    "genres": [
+      "💀恐怖",
+      "🏰冒险"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/beyond-depth",
+    "note": "285万下载·深海恐怖·探索深渊"
+  },
+  {
+    "name": "Craft to Exile 2",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "⚔战斗"
+    ],
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/craft-to-exile-2",
+    "note": "236万下载·暗黑like·装备驱动RPG"
   }
 ]

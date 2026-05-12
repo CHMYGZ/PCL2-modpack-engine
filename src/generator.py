@@ -25,15 +25,15 @@ HOT_VIDEOS = [
     ("Nor叔 · MC极限生存", "https://space.bilibili.com/17425003/video"),
     ("大炒面制造者Cen · MC热门", "https://space.bilibili.com/14890801/video"),
     ("Minecraft官方频道", "https://space.bilibili.com/43310262/video"),
-    # ── 精选热门视频 · 同合集保留最高播放 ──
+    # ── 精选热门视频 · 更新于2026-05-12 · 按播放量排序 ──
+    ("🔥 乌托邦探险3.2 365万", "https://www.bilibili.com/video/BV1Kf421X7cg/"),
+    ("🔥 中世纪王国100天 364万", "https://www.bilibili.com/video/BV1bE421P7zG/"),
     ("🔥 年度MC十大神包289万", "https://www.bilibili.com/video/BV1p1421C75Q/"),
     ("🔥 一个包2000万下载256万", "https://www.bilibili.com/video/BV15M4m127dH/"),
+    ("🔥 方块宝可梦ZA 254万", "https://www.bilibili.com/video/BV1VNLRzYERC/"),
+    ("🔥 愚者第二季 237万", "https://www.bilibili.com/video/BV1eo18BREZi/"),
     ("🔥 10款冒险向神包215万", "https://www.bilibili.com/video/BV1J24y1R7GT/"),
-    ("🔥 五个僵尸末日神包124万", "https://www.bilibili.com/video/BV1Zp4y1o71R/"),
-    ("🔥 远梦之棺 超长版93万", "https://www.bilibili.com/video/BV1Z4zYBnE4T/"),
-    ("🔥 恐怖模组排名92万", "https://www.bilibili.com/video/BV1ff5KzTE9A/"),
-    ("🔥 ATM10双人生存81万", "https://www.bilibili.com/video/BV1ugG1z4EG8/"),
-    # ── B站搜索话题 · 合并同类 ──
+# ── B站搜索话题 · 合并同类 ──
     ("MC热门作品搜索", "https://search.bilibili.com/all?keyword=Minecraft+整合包+推荐"),
     ("我的世界搞笑瞬间", "https://search.bilibili.com/all?keyword=我的世界+搞笑"),
     ("MC速通世界纪录", "https://search.bilibili.com/all?keyword=Minecraft+速通"),
@@ -375,7 +375,7 @@ def generate():
 <!-- ================================ -->
 <!--  🔴 快速导航 · 四大传送门   -->
 <!-- ================================ -->
-<local:MyCard Margin="0,0,0,20" Title="⚡️ 快速导航" CanSwap="True">
+<local:MyCard Margin="0,0,0,20" Title="⚡️ 快速导航">
      <StackPanel Margin="24,30,24,20">
           <local:MyHint IsWarn="False" Theme="Blue"
                Text="常用资源站点一键直达 · B站搜索 + CurseForge + Modrinth + BBSMC 四大数据源"
@@ -389,7 +389,7 @@ def generate():
 <!-- ================================ -->
 <!--  🏗 整合包推荐 · 方块精选   -->
 <!-- ================================ -->
-<local:MyCard Margin="0,0,0,20" Title="Minecraft 整合包推荐" CanSwap="True" IsSwaped="True">
+<local:MyCard Margin="0,0,0,20" Title="Minecraft 整合包推荐">
      <StackPanel Margin="24,35,24,18">
           <TextBlock Text="整合包推荐" FontSize="22" FontWeight="Bold"
                Foreground="{{DynamicResource ColorBrush1}}"
@@ -417,7 +417,7 @@ def generate():
 <!-- ================================ -->
 <!--  🎬 视频推荐 · 映像大厅   -->
 <!-- ================================ -->
-<local:MyCard Margin="0,0,0,20" Title="Minecraft 视频推荐" CanSwap="True" IsSwaped="True">
+<local:MyCard Margin="0,0,0,20" Title="Minecraft 视频推荐">
      <StackPanel Margin="24,32,24,18">
           <TextBlock Text="视频推荐" FontSize="22" FontWeight="Bold"
                Foreground="{{DynamicResource ColorBrush1}}"
@@ -449,66 +449,98 @@ def generate():
 <!-- ================================ -->
 
 <!-- ================================ -->
-<!--  ⛏ 关于 · HeroInfoCard v2      -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!--  ⛏ 关于 · 匹配栏目风格         -->
 <!-- ================================ -->
 <local:MyCard Margin="0,0,0,0" Title="">
-     <Border Background="#E8F5F5F7" CornerRadius="10" Padding="0,0,0,0"
-          BorderBrush="#309B59B6" BorderThickness="1" MinHeight="120">
-          <Border.Effect>
-               <DropShadowEffect Color="#30000000" BlurRadius="14" ShadowDepth="3" Direction="270" />
-          </Border.Effect>
-          <StackPanel>
-               <Grid Margin="24,16,16,16">
-                    <Grid.ColumnDefinitions>
-                         <ColumnDefinition Width="*" />
-                         <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                         <StackPanel Orientation="Horizontal">
-                              <TextBlock Text="⚒" FontSize="16" 
-                                   Foreground="#9B59B6" VerticalAlignment="Center" Margin="0,0,10,0" />
-                              <TextBlock Text="PCL2 整合包推荐引擎" 
-                                   FontSize="20" FontWeight="Bold"
-                                   Foreground="#9B59B6" VerticalAlignment="Center" />
-                         </StackPanel>
+     <StackPanel>
+          <Grid Margin="24,22,14,22">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+               </Grid.ColumnDefinitions>
+               <!-- 左侧：标题 + 作者 -->
+               <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                    <StackPanel Orientation="Horizontal">
+                         <TextBlock Text="PCL2" FontSize="18"
+                              Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold" VerticalAlignment="Center" />
+                         <TextBlock Text=" 整合包推荐引擎" 
+                              FontSize="18" FontWeight="Bold"
+                              Foreground="{{DynamicResource ColorBrush1}}" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
                          <TextBlock Text="By GDSGDHG" FontSize="11"
-                              Foreground="#B07CC6" Margin="26,3,0,0" />
+                              Foreground="{{DynamicResource ColorBrush5}}" FontWeight="Bold" />
+                         <TextBlock Text=" · " FontSize="11"
+                              Foreground="{{DynamicResource ColorBrush5}}" FontWeight="Bold" />
+                         <TextBlock Text="数据源" FontSize="11"
+                              Foreground="{{DynamicResource ColorBrush5}}" FontWeight="Bold" />
+                         <TextBlock Text=" B站 · BBSMC · CF · MR" FontSize="11"
+                              Foreground="{{DynamicResource ColorBrush5}}" FontWeight="Bold" />
                     </StackPanel>
-                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                         <local:MyButton Background="Transparent" BorderThickness="0"
-                              Padding="14,8,14,8"
-                              ToolTip="刷新当前主页内容" EventType="刷新主页">
-                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-                                   <TextBlock Text="↻" FontSize="16"
-                                        Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" />
-                                   <TextBlock Text="刷新" FontSize="11"
-                                        Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" Margin="0,2,0,0" />
-                              </StackPanel>
-                         </local:MyButton>
-                         <local:MyButton Background="Transparent" BorderThickness="0"
-                              Padding="14,8,14,8" Margin="0,4,0,0"
-                              ToolTip="前往GitCode提交Issue"
-                              EventType="打开网页"
-                              EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
-                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-                                   <TextBlock Text="📮" FontSize="15"
-                                        Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" />
-                                   <TextBlock Text="致谢" FontSize="11"
-                                        Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" Margin="0,2,0,0" />
-                              </StackPanel>
-                         </local:MyButton>
-                    </StackPanel>
-               </Grid>
-               <Border Height="3" CornerRadius="0,0,10,10" Background="#9B59B6" Opacity="0.5" />
-          </StackPanel>
-     </Border>
-</local:MyCard>
-
-'''
+               </StackPanel>
+               <!-- 右侧：刷新 + 反馈（竖排堆叠） -->
+               <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                    <local:MyButton BorderThickness="0" Padding="14,6,14,6"
+                         ToolTip="刷新当前主页内容" EventType="刷新主页">
+                         <StackPanel Orientation="Horizontal">
+                              <TextBlock Text="↻" FontSize="14" FontWeight="Bold"
+                                   Foreground="{{DynamicResource ColorBrush1}}"
+                                   VerticalAlignment="Center" Margin="0,0,4,0" />
+                              <TextBlock Text="刷新" FontSize="12" FontWeight="Bold"
+                                   Foreground="{{DynamicResource ColorBrush1}}"
+                                   VerticalAlignment="Center" />
+                         </StackPanel>
+                    </local:MyButton>
+                    <local:MyButton BorderThickness="0" Padding="14,6,14,6" Margin="0,6,0,0"
+                         ToolTip="前往GitCode提交Issue"
+                         EventType="打开网页"
+                         EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
+                         <StackPanel Orientation="Horizontal">
+                              <TextBlock Text="📮" FontSize="12" FontWeight="Bold"
+                                   Foreground="{{DynamicResource ColorBrush1}}"
+                                   VerticalAlignment="Center" Margin="0,0,4,0" />
+                              <TextBlock Text="反馈" FontSize="12" FontWeight="Bold"
+                                   Foreground="{{DynamicResource ColorBrush1}}"
+                                   VerticalAlignment="Center" />
+                         </StackPanel>
+                    </local:MyButton>
+               </StackPanel>
+          </Grid>
+     </StackPanel>
+</local:MyCard>'''
     return xaml
 
 def update_version(xaml):

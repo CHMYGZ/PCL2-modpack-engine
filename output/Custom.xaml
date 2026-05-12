@@ -2,8 +2,8 @@
   ═══════════════════════════════════════════════
    PCL2 整合包推荐引擎 · 暗黑中世纪风格设计
    数据源: B站 + BBSMC + CurseForge + Modrinth
-   📥BBSMC:4 🎬B站视频:28 📥直链下载:13
-   更新: 2026-05-12 21:05
+   📥BBSMC:9 🎬B站视频:50 📥直链下载:22
+   更新: 2026-05-13 07:00
   ═══════════════════════════════════════════════
 -->
 
@@ -25,7 +25,7 @@
 <!-- ================================ -->
 <!--  🔴 快速导航 · 四大传送门   -->
 <!-- ================================ -->
-<local:MyCard Margin="0,0,0,20" Title="⚡️ 快速导航" CanSwap="True">
+<local:MyCard Margin="0,0,0,20" Title="⚡️ 快速导航">
      <StackPanel Margin="24,30,24,20">
           <local:MyHint IsWarn="False" Theme="Blue"
                Text="常用资源站点一键直达 · B站搜索 + CurseForge + Modrinth + BBSMC 四大数据源"
@@ -82,7 +82,7 @@
 <!-- ================================ -->
 <!--  🏗 整合包推荐 · 方块精选   -->
 <!-- ================================ -->
-<local:MyCard Margin="0,0,0,20" Title="Minecraft 整合包推荐" CanSwap="True" IsSwaped="True">
+<local:MyCard Margin="0,0,0,20" Title="Minecraft 整合包推荐">
      <StackPanel Margin="24,35,24,18">
           <TextBlock Text="整合包推荐" FontSize="22" FontWeight="Bold"
                Foreground="{DynamicResource ColorBrush1}"
@@ -308,8 +308,6 @@
                     EventData="https://www.bilibili.com/video/BV1hqioYrEwX/"
                     Type="Clickable" />
           </Grid>
-               </StackPanel>
-               <StackPanel Grid.Column="2">
           <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
                <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="22" />
@@ -475,6 +473,8 @@
                     EventData="https://www.bilibili.com/video/BV1mv411771N/"
                     Type="Clickable" />
           </Grid>
+               </StackPanel>
+               <StackPanel Grid.Column="2">
           <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
                <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="22" />
@@ -520,6 +520,336 @@
                     EventData="https://www.bilibili.com/video/BV1pvhYz4Eub/"
                     Type="Clickable" />
           </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/CommandBlock.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="愚者 - The Fool"
+                    Info="▸ 🎬B站 · 237万播放 · 1.20.1 · 📥BS"
+                    EventType="打开网页"
+                    EventData="https://www.bilibili.com/video/BV1eo18BREZi/"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="脆骨症"
+                    Info="▸ 🎬B站 · 136万播放 · 1.20.1 · 📥BS"
+                    EventType="打开网页"
+                    EventData="https://www.bilibili.com/video/BV1tx4y1U7av/"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Anvil.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Valhelsia 3"
+                    Info="▸ 🎬B站 · 57万播放 · 1.20.1 · 📥BS"
+                    EventType="打开网页"
+                    EventData="https://www.bilibili.com/video/BV19a411477B/"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Anvil.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="剑与王国"
+                    Info="▸ 🎬B站 · ? · 1.21.1 · 📥BS"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Grass.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="家园 - Homestead"
+                    Info="▸ 🎬B站 · 24万播放 · 1.20.1"
+                    EventType="打开网页"
+                    EventData="https://www.bilibili.com/video/BV1M5NwzJEvT/"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Anvil.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="神话:起源"
+                    Info="▸ 🎬B站 · 73万播放 · 1.20.1 · 📥BS"
+                    EventType="打开网页"
+                    EventData="https://www.bilibili.com/video/BV1avHJz2EiP/"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="RLCraft"
+                    Info="▸ 🎬B站 · ? · 1.12.2"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Egg.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="SkyFactory 4"
+                    Info="▸ 🎬B站 · ? · 1.12.2"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Anvil.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Prominence II"
+                    Info="▸ 🎬B站 · ? · 1.20.1"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="DeceasedCraft"
+                    Info="▸ 🎬B站 · ? · 1.20.1"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Anvil.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Vault Hunters 3"
+                    Info="▸ 🎬B站 · ? · 1.18.2"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Cave Horror"
+                    Info="▸ 🎬B站 · ? · 1.20.1"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Anvil.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Roguelike Adventures 2"
+                    Info="▸ 🎬B站 · ? · 1.16.5"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/RedstoneLampOn.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Crazy Craft Updated"
+                    Info="▸ 🎬B站 · ? · 1.16.5"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Anvil.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="DarkRPG"
+                    Info="▸ 🎬B站 · ? · 1.20.1"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/RedstoneLampOn.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Craftoria"
+                    Info="▸ 🎬B站 · ? · 1.21.1"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Egg.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="FTB StoneBlock 4"
+                    Info="▸ 🎬B站 · ? · 1.21.1"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Anvil.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Better Adventures+"
+                    Info="▸ 🎬B站 · ? · 1.19.2"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/RedstoneLampOn.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Lucky World Invasion"
+                    Info="▸ 🎬B站 · ? · 1.20.1"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Fabric.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Create: Above and Beyond"
+                    Info="▸ 🎬B站 · ? · 1.16.5"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Beyond Depth"
+                    Info="▸ 🎬B站 · ? · 1.20.1"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="18" Height="18"
+                    Source="pack://application:,,,/images/Blocks/Anvil.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="Craft to Exile 2"
+                    Info="▸ 🎬B站 · ? · 1.20.1"
+                    EventType="打开网页"
+                    EventData="#"
+                    Type="Clickable" />
+          </Grid>
                </StackPanel>
           </Grid>
      </StackPanel>
@@ -528,7 +858,7 @@
 <!-- ================================ -->
 <!--  🎬 视频推荐 · 映像大厅   -->
 <!-- ================================ -->
-<local:MyCard Margin="0,0,0,20" Title="Minecraft 视频推荐" CanSwap="True" IsSwaped="True">
+<local:MyCard Margin="0,0,0,20" Title="Minecraft 视频推荐">
      <StackPanel Margin="24,32,24,18">
           <TextBlock Text="视频推荐" FontSize="22" FontWeight="Bold"
                Foreground="{DynamicResource ColorBrush1}"
@@ -644,10 +974,10 @@
                     Source="pack://application:,,,/images/Blocks/RedstoneLampOn.png"
                     VerticalAlignment="Center" HorizontalAlignment="Left" />
                <local:MyListItem Grid.Column="1"
-                    Title="🔥 年度MC十大神包289万"
+                    Title="🔥 乌托邦探险3.2 365万"
                     Info="▸ 点击前往 B站观看"
                     EventType="打开网页"
-                    EventData="https://www.bilibili.com/video/BV1p1421C75Q/"
+                    EventData="https://www.bilibili.com/video/BV1Kf421X7cg/"
                     Type="Clickable" />
           </Grid>
           <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
@@ -657,6 +987,38 @@
                </Grid.ColumnDefinitions>
                <local:MyImage Grid.Column="0" Width="16" Height="16"
                     Source="pack://application:,,,/images/Blocks/Fabric.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="🔥 中世纪王国100天 364万"
+                    Info="▸ 点击前往 B站观看"
+                    EventType="打开网页"
+                    EventData="https://www.bilibili.com/video/BV1bE421P7zG/"
+                    Type="Clickable" />
+          </Grid>
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="16" Height="16"
+                    Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"
+                    VerticalAlignment="Center" HorizontalAlignment="Left" />
+               <local:MyListItem Grid.Column="1"
+                    Title="🔥 年度MC十大神包289万"
+                    Info="▸ 点击前往 B站观看"
+                    EventType="打开网页"
+                    EventData="https://www.bilibili.com/video/BV1p1421C75Q/"
+                    Type="Clickable" />
+          </Grid>
+               </StackPanel>
+               <StackPanel Grid.Column="2">
+          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22" />
+                    <ColumnDefinition Width="*" />
+               </Grid.ColumnDefinitions>
+               <local:MyImage Grid.Column="0" Width="16" Height="16"
+                    Source="pack://application:,,,/images/Blocks/Egg.png"
                     VerticalAlignment="Center" HorizontalAlignment="Left" />
                <local:MyListItem Grid.Column="1"
                     Title="🔥 一个包2000万下载256万"
@@ -671,45 +1033,13 @@
                     <ColumnDefinition Width="*" />
                </Grid.ColumnDefinitions>
                <local:MyImage Grid.Column="0" Width="16" Height="16"
-                    Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"
-                    VerticalAlignment="Center" HorizontalAlignment="Left" />
-               <local:MyListItem Grid.Column="1"
-                    Title="🔥 10款冒险向神包215万"
-                    Info="▸ 点击前往 B站观看"
-                    EventType="打开网页"
-                    EventData="https://www.bilibili.com/video/BV1J24y1R7GT/"
-                    Type="Clickable" />
-          </Grid>
-               </StackPanel>
-               <StackPanel Grid.Column="2">
-          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
-               <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="22" />
-                    <ColumnDefinition Width="*" />
-               </Grid.ColumnDefinitions>
-               <local:MyImage Grid.Column="0" Width="16" Height="16"
-                    Source="pack://application:,,,/images/Blocks/Egg.png"
-                    VerticalAlignment="Center" HorizontalAlignment="Left" />
-               <local:MyListItem Grid.Column="1"
-                    Title="🔥 五个僵尸末日神包124万"
-                    Info="▸ 点击前往 B站观看"
-                    EventType="打开网页"
-                    EventData="https://www.bilibili.com/video/BV1Zp4y1o71R/"
-                    Type="Clickable" />
-          </Grid>
-          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
-               <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="22" />
-                    <ColumnDefinition Width="*" />
-               </Grid.ColumnDefinitions>
-               <local:MyImage Grid.Column="0" Width="16" Height="16"
                     Source="pack://application:,,,/images/Blocks/Grass.png"
                     VerticalAlignment="Center" HorizontalAlignment="Left" />
                <local:MyListItem Grid.Column="1"
-                    Title="🔥 远梦之棺 超长版93万"
+                    Title="🔥 方块宝可梦ZA 254万"
                     Info="▸ 点击前往 B站观看"
                     EventType="打开网页"
-                    EventData="https://www.bilibili.com/video/BV1Z4zYBnE4T/"
+                    EventData="https://www.bilibili.com/video/BV1VNLRzYERC/"
                     Type="Clickable" />
           </Grid>
           <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
@@ -721,10 +1051,10 @@
                     Source="pack://application:,,,/images/Blocks/RedstoneBlock.png"
                     VerticalAlignment="Center" HorizontalAlignment="Left" />
                <local:MyListItem Grid.Column="1"
-                    Title="🔥 恐怖模组排名92万"
+                    Title="🔥 愚者第二季 237万"
                     Info="▸ 点击前往 B站观看"
                     EventType="打开网页"
-                    EventData="https://www.bilibili.com/video/BV1ff5KzTE9A/"
+                    EventData="https://www.bilibili.com/video/BV1eo18BREZi/"
                     Type="Clickable" />
           </Grid>
           <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
@@ -736,10 +1066,10 @@
                     Source="pack://application:,,,/images/Blocks/GoldBlock.png"
                     VerticalAlignment="Center" HorizontalAlignment="Left" />
                <local:MyListItem Grid.Column="1"
-                    Title="🔥 ATM10双人生存81万"
+                    Title="🔥 10款冒险向神包215万"
                     Info="▸ 点击前往 B站观看"
                     EventType="打开网页"
-                    EventData="https://www.bilibili.com/video/BV1ugG1z4EG8/"
+                    EventData="https://www.bilibili.com/video/BV1J24y1R7GT/"
                     Type="Clickable" />
           </Grid>
           <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
@@ -962,62 +1292,95 @@
 <!-- ================================ -->
 
 <!-- ================================ -->
-<!--  ⛏ 关于 · HeroInfoCard v2      -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!-- ================================ -->
+
+<!-- ================================ -->
+<!--  ⛏ 关于 · 匹配栏目风格         -->
 <!-- ================================ -->
 <local:MyCard Margin="0,0,0,0" Title="">
-     <Border Background="#E8F5F5F7" CornerRadius="10" Padding="0,0,0,0"
-          BorderBrush="#309B59B6" BorderThickness="1" MinHeight="120">
-          <Border.Effect>
-               <DropShadowEffect Color="#30000000" BlurRadius="14" ShadowDepth="3" Direction="270" />
-          </Border.Effect>
-          <StackPanel>
-               <Grid Margin="24,16,16,16">
-                    <Grid.ColumnDefinitions>
-                         <ColumnDefinition Width="*" />
-                         <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                         <StackPanel Orientation="Horizontal">
-                              <TextBlock Text="⚒" FontSize="16" 
-                                   Foreground="#9B59B6" VerticalAlignment="Center" Margin="0,0,10,0" />
-                              <TextBlock Text="PCL2 整合包推荐引擎" 
-                                   FontSize="20" FontWeight="Bold"
-                                   Foreground="#9B59B6" VerticalAlignment="Center" />
-                         </StackPanel>
+     <StackPanel>
+          <Grid Margin="24,22,14,22">
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+               </Grid.ColumnDefinitions>
+               <!-- 左侧：标题 + 作者 -->
+               <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                    <StackPanel Orientation="Horizontal">
+                         <TextBlock Text="PCL2" FontSize="18"
+                              Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold" VerticalAlignment="Center" />
+                         <TextBlock Text=" 整合包推荐引擎" 
+                              FontSize="18" FontWeight="Bold"
+                              Foreground="{DynamicResource ColorBrush1}" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
                          <TextBlock Text="By GDSGDHG" FontSize="11"
-                              Foreground="#B07CC6" Margin="26,3,0,0" />
+                              Foreground="{DynamicResource ColorBrush5}" FontWeight="Bold" />
+                         <TextBlock Text=" · " FontSize="11"
+                              Foreground="{DynamicResource ColorBrush5}" FontWeight="Bold" />
+                         <TextBlock Text="数据源" FontSize="11"
+                              Foreground="{DynamicResource ColorBrush5}" FontWeight="Bold" />
+                         <TextBlock Text=" B站 · BBSMC · CF · MR" FontSize="11"
+                              Foreground="{DynamicResource ColorBrush5}" FontWeight="Bold" />
                     </StackPanel>
-                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                         <local:MyButton Background="Transparent" BorderThickness="0"
-                              Padding="14,8,14,8"
-                              ToolTip="刷新当前主页内容" EventType="刷新主页">
-                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-                                   <TextBlock Text="↻" FontSize="16"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" />
-                                   <TextBlock Text="刷新" FontSize="11"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" Margin="0,2,0,0" />
-                              </StackPanel>
-                         </local:MyButton>
-                         <local:MyButton Background="Transparent" BorderThickness="0"
-                              Padding="14,8,14,8" Margin="0,4,0,0"
-                              ToolTip="前往GitCode提交Issue"
-                              EventType="打开网页"
-                              EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
-                              <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-                                   <TextBlock Text="📮" FontSize="15"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" />
-                                   <TextBlock Text="致谢" FontSize="11"
-                                        Foreground="{DynamicResource ColorBrush1}" FontWeight="Bold"
-                                        HorizontalAlignment="Center" Margin="0,2,0,0" />
-                              </StackPanel>
-                         </local:MyButton>
-                    </StackPanel>
-               </Grid>
-               <Border Height="3" CornerRadius="0,0,10,10" Background="#9B59B6" Opacity="0.5" />
-          </StackPanel>
-     </Border>
+               </StackPanel>
+               <!-- 右侧：刷新 + 反馈（竖排堆叠） -->
+               <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                    <local:MyButton BorderThickness="0" Padding="14,6,14,6"
+                         ToolTip="刷新当前主页内容" EventType="刷新主页">
+                         <StackPanel Orientation="Horizontal">
+                              <TextBlock Text="↻" FontSize="14" FontWeight="Bold"
+                                   Foreground="{DynamicResource ColorBrush1}"
+                                   VerticalAlignment="Center" Margin="0,0,4,0" />
+                              <TextBlock Text="刷新" FontSize="12" FontWeight="Bold"
+                                   Foreground="{DynamicResource ColorBrush1}"
+                                   VerticalAlignment="Center" />
+                         </StackPanel>
+                    </local:MyButton>
+                    <local:MyButton BorderThickness="0" Padding="14,6,14,6" Margin="0,6,0,0"
+                         ToolTip="前往GitCode提交Issue"
+                         EventType="打开网页"
+                         EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
+                         <StackPanel Orientation="Horizontal">
+                              <TextBlock Text="📮" FontSize="12" FontWeight="Bold"
+                                   Foreground="{DynamicResource ColorBrush1}"
+                                   VerticalAlignment="Center" Margin="0,0,4,0" />
+                              <TextBlock Text="反馈" FontSize="12" FontWeight="Bold"
+                                   Foreground="{DynamicResource ColorBrush1}"
+                                   VerticalAlignment="Center" />
+                         </StackPanel>
+                    </local:MyButton>
+               </StackPanel>
+          </Grid>
+     </StackPanel>
 </local:MyCard>
-
