@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Version tracker for PCL2 modpack engine.
+Version tracker for PCL modpack engine.
 Auto-updates version.json, version.txt, and CHANGELOG.md.
 """
 import json
@@ -56,7 +56,7 @@ def update_changelog(ver: str, today: str):
         # Create new changelog
         content = f"""# CHANGELOG
 
-> PCL2 整合包推荐引擎 — 版本更新记录
+> PCL 整合包推荐引擎 — 版本更新记录
 
 ---
 

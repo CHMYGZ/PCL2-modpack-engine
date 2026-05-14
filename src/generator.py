@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-PCL2 自定义主页生成器 v10
+PCL 自定义主页生成器 v10
 数据源: B站+BBSMC+CurseForge+Modrinth · 全B站视频推荐+下方下载链接
 """
 
@@ -144,7 +144,7 @@ def make_dl_row(mp, primary_label, is_seed=False):
           </Grid>'''
     return btn_xaml
 
-# PCL2 内嵌的 Minecraft 方块图片资源映射
+# PCL 内嵌的 Minecraft 方块图片资源映射
 BLOCK_ICONS = {
     'fire': 'RedstoneBlock',
     'tech': 'Cobblestone',
@@ -417,7 +417,7 @@ def generate():
 
     xaml = f'''<!--
   ═══════════════════════════════════════════════
-   PCL2 整合包推荐引擎 · 暗黑中世纪风格设计
+   PCL 整合包推荐引擎 · 暗黑中世纪风格设计
    数据源: B站 + BBSMC + CurseForge + Modrinth
    📥BBSMC:{bbsmc_count} 🎬B站视频:{bili_count} 📥直链下载:{dl_count}
    更新: {datetime.now().strftime('%Y-%m-%d %H:%M')}
@@ -430,7 +430,7 @@ def generate():
 <!-- ================================ -->
 <local:MyCard Margin="0,0,0,16" Title="">
      <StackPanel Margin="20,22,20,20">
-          <TextBlock Text="PCL2 整合包推荐引擎" FontSize="18" FontWeight="Bold"
+          <TextBlock Text="PCL 整合包推荐引擎" FontSize="18" FontWeight="Bold"
                Foreground="{{DynamicResource ColorBrush1}}"
                HorizontalAlignment="Center" />
           <TextBlock Text="聚合 B站 / BBSMC / CurseForge / Modrinth" FontSize="10"
@@ -566,7 +566,7 @@ def generate():
                <!-- 左侧：标题 + 作者 -->
                <StackPanel Grid.Column="0" VerticalAlignment="Center">
                     <StackPanel Orientation="Horizontal">
-                         <TextBlock Text="PCL2" FontSize="18"
+                         <TextBlock Text="PCL" FontSize="18"
                               Foreground="{{DynamicResource ColorBrush1}}" FontWeight="Bold" VerticalAlignment="Center" />
                          <TextBlock Text=" 整合包推荐引擎" 
                               FontSize="18" FontWeight="Bold"
@@ -599,7 +599,7 @@ def generate():
                     <local:MyButton BorderThickness="0" Padding="14,6,14,6" Margin="0,6,0,0"
                          ToolTip="前往GitCode提交Issue"
                          EventType="打开网页"
-                         EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues">
+                         EventData="https://gitcode.com/2401_84211770/PCL-modpack-engine/issues">
                          <StackPanel Orientation="Horizontal">
                               <TextBlock Text="📮" FontSize="12" FontWeight="Bold"
                                    Foreground="{{DynamicResource ColorBrush1}}"
@@ -644,7 +644,7 @@ def main():
     
     v = update_version(xaml)
     print(f"   版本 {v} | {len(xaml)} 字符")
-    print("✓ 完成 — PCL2 刷新 http://localhost:8765/Custom.xaml")
+    print("✓ 完成 — PCL 刷新 http://localhost:8765/Custom.xaml")
 
 if __name__ == "__main__":
     main()

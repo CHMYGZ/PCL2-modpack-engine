@@ -1,6 +1,6 @@
 # 安装与使用教程
 
-> PCL2 整合包推荐引擎 — 如何在 PCL2 中配置自定义主页
+> PCL 整合包推荐引擎 — 如何在 PCL2 中配置自定义主页
 
 ---
 
@@ -13,7 +13,7 @@
 5. 输入以下地址：
 
 ```
-https://raw.gitcode.com/2401_84211770/PCL2-modpack-engine/raw/main/output/Custom.xaml
+https://raw.gitcode.com/2401_84211770/PCL-modpack-engine/raw/main/output/Custom.xaml
 ```
 
 6. 点击 **「确定」**，等待下载完成
@@ -23,7 +23,7 @@ https://raw.gitcode.com/2401_84211770/PCL2-modpack-engine/raw/main/output/Custom
 
 ## 本地使用
 
-1. 在 [GitCode 仓库](https://gitcode.com/2401_84211770/PCL2-modpack-engine) 下载 `output/Custom.xaml`
+1. 在 [GitCode 仓库](https://gitcode.com/2401_84211770/PCL-modpack-engine) 下载 `output/Custom.xaml`
 2. 将文件放入 PCL2 目录下的 `Custom` 文件夹（没有则新建）
 3. 启动 PCL2，主页即从本地加载
 
@@ -60,7 +60,7 @@ https://raw.gitcode.com/2401_84211770/PCL2-modpack-engine/raw/main/output/Custom
 
 ### Q：某个整合包链接失效了
 
-请通过 [反馈入口](https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues) 提交 Issue，我们会尽快修复。
+请通过 [反馈入口](https://gitcode.com/2401_84211770/PCL-modpack-engine/issues) 提交 Issue，我们会尽快修复。
 
 ---
 

@@ -1,4 +1,4 @@
-# DESIGN.md — PCL2 整合包推荐引擎
+# DESIGN.md — PCL 整合包推荐引擎
 
 > 设计系统定义文件 · 暗黑中世纪风格 · Gen X Soft Club  
 > AI Agent 读取此文件后可生成风格一致的 UI 代码。

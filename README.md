@@ -1,15 +1,15 @@
-# PCL2 整合包推荐引擎
+# PCL 整合包推荐引擎
 
 ![[项目横幅]](docs/images/banner.png)
 
-[![更新周期](https://img.shields.io/badge/更新-每日自动-8A2BE2)](https://gitcode.com/2401_84211770/PCL2-modpack-engine)
+[![更新周期](https://img.shields.io/badge/更新-每日自动-8A2BE2)](https://gitcode.com/2401_84211770/PCL-modpack-engine)
 [![版本](https://img.shields.io/badge/版本-2026.05.04--042-blue)](output/version.txt)
 [![许可证-代码](https://img.shields.io/badge/代码-MIT-green)](LICENSE-CODE)
 [![许可证-内容](https://img.shields.io/badge/内容-CC--BY--NC--SA--4.0-orange)](LICENSE-CONTENT)
 
-PCL2 整合包推荐引擎是一个用于 PCL2 启动器的联网自定义主页，面向 Minecraft 玩家提供整合包推荐、视频内容入口、资源站快捷跳转与常用资源导航。它希望把分散在 B站、BBSMC、CurseForge、Modrinth 等平台上的整合包相关信息整理到一个更直观的位置，让玩家在打开 PCL2 时就能快速发现、了解并跳转到感兴趣的整合包资源。
+PCL 整合包推荐引擎是一个用于 PCL2 启动器的联网自定义主页，面向 Minecraft 玩家提供整合包推荐、视频内容入口、资源站快捷跳转与常用资源导航。它希望把分散在 B站、BBSMC、CurseForge、Modrinth 等平台上的整合包相关信息整理到一个更直观的位置，让玩家在打开 PCL2 时就能快速发现、了解并跳转到感兴趣的整合包资源。
 
-- [PCL2 整合包推荐引擎](#pcl2-整合包推荐引擎)
+- [PCL 整合包推荐引擎](#pcl2-整合包推荐引擎)
   - [项目简介](#项目简介)
   - [核心功能](#核心功能)
   - [使用说明](#使用说明)
@@ -143,4 +143,4 @@ https://qawsedrftgyhujiko.fun/pcl2/Custom.xaml
 ## 免责声明
 
 > [!IMPORTANT]
-> **重要声明**：本项目仅提供 Minecraft 整合包相关信息的整理、推荐和跳转入口，不托管第三方整合包文件，不代表任何平台或作者的官方立场。页面中涉及的整合包、视频、图片、名称和链接，其版权与解释权归原作者、发布者或对应平台所有。如果相关内容存在侵权、失效或不适合展示的情况，请通过 [Issue](https://gitcode.com/2401_84211770/PCL2-modpack-engine/issues) 联系删除或修改。
+> **重要声明**：本项目仅提供 Minecraft 整合包相关信息的整理、推荐和跳转入口，不托管第三方整合包文件，不代表任何平台或作者的官方立场。页面中涉及的整合包、视频、图片、名称和链接，其版权与解释权归原作者、发布者或对应平台所有。如果相关内容存在侵权、失效或不适合展示的情况，请通过 [Issue](https://gitcode.com/2401_84211770/PCL-modpack-engine/issues) 联系删除或修改。
