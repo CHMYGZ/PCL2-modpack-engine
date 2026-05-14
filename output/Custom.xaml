@@ -964,7 +964,7 @@
                </StackPanel>
                <!-- 右侧：刷新 + 反馈（竖排堆叠） -->
                <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                    <local:MyButton BorderThickness="0" Padding="14,6,14,6" ToolTip="刷新当前主页内容" EventType="刷新主页">
+                    <local:MyButton BorderThickness="0" Padding="14,6,14,6" Background="Transparent" HoverBackground="#22FFFFFF" ToolTip="刷新当前主页内容" EventType="刷新主页">
 
                          <StackPanel Orientation="Horizontal">
                               <TextBlock Text="↻" FontSize="14" FontWeight="Bold" Foreground="{DynamicResource ColorBrush1}" VerticalAlignment="Center" Margin="0,0,4,0" />
@@ -973,7 +973,7 @@
 
                          </StackPanel>
                     </local:MyButton>
-                    <local:MyButton BorderThickness="0" Padding="14,6,14,6" Margin="0,6,0,0" ToolTip="前往GitCode提交Issue" EventType="打开网页" EventData="https://gitcode.com/2401_84211770/PCL-modpack-engine/issues">
+                    <local:MyButton BorderThickness="0" Padding="14,6,14,6" Margin="0,6,0,0" Background="Transparent" HoverBackground="#22FFFFFF" ToolTip="前往GitCode提交Issue" EventType="打开网页" EventData="https://gitcode.com/2401_84211770/PCL-modpack-engine/issues">
 
                          <StackPanel Orientation="Horizontal">
                               <TextBlock Text="📮" FontSize="12" FontWeight="Bold" Foreground="{DynamicResource ColorBrush1}" VerticalAlignment="Center" Margin="0,0,4,0" />
