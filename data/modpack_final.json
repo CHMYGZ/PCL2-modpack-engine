@@ -386,18 +386,10 @@
       "💀恐怖",
       "🗡RPG"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/rlcraft",
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/rlcraft",
     "note": "2900万下载·最硬核MC整合包·生存难度极高"
-  },
-  {
-    "name": "SkyFactory 4",
-    "version": "1.12.2",
-    "genres": [
-      "⚙科技",
-      "🗺空岛"
-    ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/skyfactory-4",
-    "note": "经典空岛科技·1360万下载"
   },
   {
     "name": "Prominence II",
@@ -406,7 +398,9 @@
       "🗡RPG",
       "🏰冒险"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era",
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era",
     "note": "1124万下载·RPG冒险·任务驱动"
   },
   {
@@ -416,7 +410,9 @@
       "🧟末日",
       "🏰冒险"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/deceasedcraft",
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/deceasedcraft",
     "note": "716万下载·丧尸末日生存·城市探索"
   },
   {
@@ -426,7 +422,9 @@
       "🗡RPG",
       "🏰冒险"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2",
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2",
     "note": "575万下载·宝藏猎人·RPG地下城"
   },
   {
@@ -436,18 +434,22 @@
       "💀恐怖",
       "🏰冒险"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/cave-horror-project",
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/cave-horror-project",
     "note": "570万下载·洞穴恐怖·生存探索"
   },
   {
-    "name": "Roguelike Adventures 2",
-    "version": "1.16.5",
+    "name": "Cisco's Medieval RPG",
+    "version": "1.19.2",
     "genres": [
       "🗡RPG",
       "🏰冒险"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-2",
-    "note": "446万下载·Roguelike地牢冒险"
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/ciscos-adventure-rpg-ultimate",
+    "note": "444万下载·中世纪RPG·任务驱动"
   },
   {
     "name": "Crazy Craft Updated",
@@ -456,7 +458,9 @@
       "⚡混合",
       "🎮宝可梦"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/crazy-craft-updated",
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/crazy-craft-updated",
     "note": "经典Crazy Craft续作·423万下载"
   },
   {
@@ -466,7 +470,9 @@
       "🗡RPG",
       "🧙魔法"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/darkrpg",
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/dark-rpg-remastered",
     "note": "364万下载·黑暗RPG·魔法与任务"
   },
   {
@@ -476,38 +482,10 @@
       "⚡混合",
       "⚙科技"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/craftoria",
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/craftoria",
     "note": "251万下载·综合型整合包·高版本"
-  },
-  {
-    "name": "FTB StoneBlock 4",
-    "version": "1.21.1",
-    "genres": [
-      "🗺空岛",
-      "⚙科技"
-    ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4",
-    "note": "FTB官方石头世界系列·233万下载"
-  },
-  {
-    "name": "Better Adventures+",
-    "version": "1.19.2",
-    "genres": [
-      "🏰冒险",
-      "🗡RPG"
-    ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/better-adventures-plus",
-    "note": "187万下载·冒险探索·任务系统"
-  },
-  {
-    "name": "Lucky World Invasion",
-    "version": "1.20.1",
-    "genres": [
-      "⚡混合",
-      "🏰冒险"
-    ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/lucky-world-invasion",
-    "note": "185万下载·幸运方块·怪物入侵"
   },
   {
     "name": "Create: Above and Beyond",
@@ -516,27 +494,86 @@
       "⚙科技",
       "🏗机械"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/create-above-and-beyond",
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/create-above-and-beyond",
     "note": "Create官方专家包·自动化进阶"
   },
   {
-    "name": "Beyond Depth",
-    "version": "1.20.1",
+    "name": "SkyFactory 4",
+    "version": "1.12.2",
     "genres": [
-      "💀恐怖",
-      "🏰冒险"
+      "⚙科技",
+      "🗺空岛"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/beyond-depth",
-    "note": "285万下载·深海恐怖·探索深渊"
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/skyfactory-4",
+    "note": "经典空岛科技·1360万下载"
   },
   {
-    "name": "Craft to Exile 2",
+    "name": "Better Adventures+",
+    "version": "1.19.2",
+    "genres": [
+      "🏰冒险",
+      "🗡RPG"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/better-adventures-plus",
+    "note": "187万下载·冒险探索·任务系统"
+  },
+  {
+    "name": "Zombie Invade 100 Days",
+    "version": "1.20.1",
+    "genres": [
+      "🧟末日",
+      "🏰冒险"
+    ],
+    "modrinth_url": "https://modrinth.com/modpack/zombie-invade-100-days",
+    "note": "900万下载·僵尸入侵100天·惊变重制"
+  },
+  {
+    "name": "Aged",
     "version": "1.20.1",
     "genres": [
       "🗡RPG",
-      "⚔战斗"
+      "🏰冒险"
     ],
-    "curse_url": "https://www.curseforge.com/minecraft/modpacks/craft-to-exile-2",
-    "note": "236万下载·暗黑like·装备驱动RPG"
+    "modrinth_url": "https://modrinth.com/modpack/aged",
+    "note": "106万下载·中世纪RPG·渐进式发展"
+  },
+  {
+    "name": "Cobbleverse",
+    "version": "1.21.1",
+    "genres": [
+      "🎮宝可梦",
+      "🏰冒险"
+    ],
+    "modrinth_url": "https://modrinth.com/modpack/cobbleverse",
+    "note": "386万下载·宝可梦冒险·全1025精灵"
+  },
+  {
+    "name": "乌托邦探险之旅",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲",
+      "🏰冒险"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "bbsmc_url": "https://bbsmc.net/modpack/utopia-journey",
+    "note": "Fabric养老整合包·195万下载·宁静田园与冒险并存"
+  },
+  {
+    "name": "农场物语: FarmingTales ForgeⅡ",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "bbsmc_url": "https://bbsmc.net/modpack/ft-wt",
+    "note": "仿星露谷风格·种田+社交·持续更新中"
   }
 ]

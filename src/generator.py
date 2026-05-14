@@ -74,7 +74,7 @@ GENRE_BLOCK_MAP = {
     '🛡': ('GoldBlock', '防御'), '📦': ('Fabric', '其他'),
 }
 
-def make_block_row(emoji_list, item_name, item_info, bili_url, is_seed=False):
+def make_block_row(emoji_list, item_name, item_info, target_url, is_seed=False):
     """生成带 MC 方块图标的列表行 XAML"""
     # 从 genre 字符串中提取第一个已知 emoji 来匹配方块
     first_block = None
@@ -88,6 +88,15 @@ def make_block_row(emoji_list, item_name, item_info, bili_url, is_seed=False):
     if not first_block:
         first_block = 'Fabric'
     
+    # 有有效链接才生成可点击事件
+    if target_url and target_url != '#':
+        click_part = f'''
+                    EventType="打开网页"
+                    EventData="{escape(target_url)}"
+                    Type="Clickable" />'''
+    else:
+        click_part = ' />'
+    
     xaml = f'''          <Grid Margin="-2,0,10,2" VerticalAlignment="Center">
                <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="22" />
@@ -98,12 +107,42 @@ def make_block_row(emoji_list, item_name, item_info, bili_url, is_seed=False):
                     VerticalAlignment="Center" HorizontalAlignment="Left" />
                <local:MyListItem Grid.Column="1"
                     Title="{item_name}"
-                    Info="{escape(item_info)}"
-                    EventType="打开网页"
-                    EventData="{escape(bili_url)}"
-                    Type="Clickable" />
+                    Info="{escape(item_info)}"{click_part}
           </Grid>'''
     return xaml
+
+
+PLATFORM_CONFIG = [
+    ('curseforge_url', 'CF', 'CurseForge'),
+    ('modrinth_url', 'MR', 'Modrinth'),
+    ('bbsmc_url', 'BS', 'BBSMC'),
+    ('mcmod_url', '百科', 'MC百科'),
+]
+
+
+def make_dl_row(mp, primary_label, is_seed=False):
+    """生成平台下载链接行（小按钮），不重复主链接对应平台"""
+    buttons = []
+    for key, short, full in PLATFORM_CONFIG:
+        url = mp.get(key)
+        if url:
+            # 跳过主链接已覆盖的平台（避免冗余）
+            if full == primary_label:
+                continue
+            buttons.append(f'''                         <local:MyButton Margin="2,0,2,0" Padding="6,2,6,2" Height="24"
+                              EventType="打开网页" EventData="{escape(url)}">
+                              <TextBlock Text="{full}" />
+                         </local:MyButton>''')
+    
+    if not buttons:
+        return ''
+    
+    btn_xaml = f'''          <Grid Margin="24,0,10,2" VerticalAlignment="Center">
+               <StackPanel Orientation="Horizontal">
+{chr(10).join(buttons)}
+               </StackPanel>
+          </Grid>'''
+    return btn_xaml
 
 # PCL2 内嵌的 Minecraft 方块图片资源映射
 BLOCK_ICONS = {
@@ -240,27 +279,52 @@ def load_download_links():
     return dl_map
 
 def make_item(mp, dl_info, index, is_seed=False):
-    """生成单个整合包行: MC方块图 + B站视频 + 版本/平台信息"""
+    """生成单个整合包行: MC方块图 + 版本/平台信息
+    主链接按优先级: CurseForge > Modrinth > BBSMC > 百科 > B站
+    不混用: 平台包跳平台，B站包跳B站
+    """
     name = escape(mp['name'][:25])
     genres = mp.get('genres', ['📦'])
     play = mp.get('bili_play_str', '?')
-    bili_url = escape(mp.get('bili_url', '#'))
+    
+    # 确定主链接（平台优先，无平台才用B站）
+    if mp.get('curseforge_url'):
+        target_url = escape(mp['curseforge_url'])
+        link_label = 'CurseForge'
+    elif mp.get('modrinth_url'):
+        target_url = escape(mp['modrinth_url'])
+        link_label = 'Modrinth'
+    elif mp.get('bbsmc_url'):
+        target_url = escape(mp['bbsmc_url'])
+        link_label = 'BBSMC'
+    elif mp.get('mcmod_url'):
+        target_url = escape(mp['mcmod_url'])
+        link_label = 'MC百科'
+    else:
+        target_url = mp.get('bili_url', '#')
+        link_label = 'B站'
     
     # 版本
     version = mp.get('version', '')
     ver_str = f" · {version}" if version else ""
     
-    # 平台可用性
+    # 平台可用性（Info行尾部标注，不重复主链接平台）
     platforms = []
-    if mp.get('curseforge_url'): platforms.append('CF')
-    if mp.get('bbsmc_url'): platforms.append('BS')
-    if mp.get('mcmod_url'): platforms.append('百科')
-    if mp.get('modrinth_url'): platforms.append('MR')
+    if mp.get('curseforge_url') and link_label != 'CurseForge': platforms.append('CF')
+    if mp.get('bbsmc_url') and link_label != 'BBSMC': platforms.append('BS')
+    if mp.get('mcmod_url') and link_label != 'MC百科': platforms.append('百科')
+    if mp.get('modrinth_url') and link_label != 'Modrinth': platforms.append('MR')
     platform_str = f" · 📥{'/'.join(platforms)}" if platforms else ""
     
-    info_str = f"▸ 🎬B站 · {play}{ver_str}{platform_str}"
+    # 构建Info行（主链接信息 + 平台标注）
+    if link_label == 'B站' and target_url and target_url != '#':
+        info_str = f"▸ 🎬B站 · {play}{ver_str}{platform_str}"
+    elif target_url and target_url != '#':
+        info_str = f"▸ 📥{link_label}{ver_str}{platform_str}"
+    else:
+        info_str = f"▸ 待补充{ver_str}{platform_str}"
     
-    return make_block_row(genres, name, info_str, bili_url, is_seed)
+    return make_block_row(genres, name, info_str, target_url, is_seed) + '\n'
 def generate():
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     modpacks = load_modpacks()
@@ -281,16 +345,19 @@ def generate():
             seed_count = len(json.load(f))
     
     display_count = len(modpacks)
-    half = (display_count + 1) // 2
-    left_packs = modpacks[:half]
-    right_packs = modpacks[half:]
+    # 三列布局
+    third = (display_count + 2) // 3
+    col0_packs = modpacks[:third]
+    col1_packs = modpacks[third:third*2]
+    col2_packs = modpacks[third*2:]
     
     # 标记种子条目
     def is_seed(mp, idx):
         return idx < seed_count
     
-    left_items = [make_item(mp, dl_links.get(mp['name']), i, is_seed(mp, i)) for i, mp in enumerate(left_packs)]
-    right_items = [make_item(mp, dl_links.get(mp['name']), i+half, is_seed(mp, i+half)) for i, mp in enumerate(right_packs)]
+    col0_items = [make_item(mp, dl_links.get(mp['name']), i, is_seed(mp, i)) for i, mp in enumerate(col0_packs)]
+    col1_items = [make_item(mp, dl_links.get(mp['name']), i+third, is_seed(mp, i+third)) for i, mp in enumerate(col1_packs)]
+    col2_items = [make_item(mp, dl_links.get(mp['name']), i+third*2, is_seed(mp, i+third*2)) for i, mp in enumerate(col2_packs)]
     
     # ── 快速按钮栏 ──
     buttons = [
@@ -401,14 +468,19 @@ def generate():
           <Grid>
                <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="16" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="10" />
                     <ColumnDefinition Width="*" />
                </Grid.ColumnDefinitions>
                <StackPanel Grid.Column="0">
-{chr(10).join(left_items)}
+{chr(10).join(col0_items)}
                </StackPanel>
                <StackPanel Grid.Column="2">
-{chr(10).join(right_items)}
+{chr(10).join(col1_items)}
+               </StackPanel>
+               <StackPanel Grid.Column="4">
+{chr(10).join(col2_items)}
                </StackPanel>
           </Grid>
      </StackPanel>

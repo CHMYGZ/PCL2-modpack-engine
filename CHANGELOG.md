@@ -17,6 +17,12 @@
 
 
 
+## v10.17 (2026-05-14)
+
+- 新增整合包：乌托邦探险之旅、农场物语: FarmingTales ForgeⅡ
+- 重构 generator.py：平台优先链接逻辑 + 平台下载按钮
+- 字段标准化：curse_url→curseforge_url，补充 bili_url/bili_play_str
+
 ## v10.16 (2026-05-13)
 
 - 每日同步：数据更新
