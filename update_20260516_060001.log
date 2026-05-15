@@ -1,0 +1,94 @@
+=== PCL2 Update Sat May 16 06:00:01 CST 2026 ===
+❌ 请先设置环境变量 CURSEFORGE_API_KEY
+   从 CurseForge 开发者后台 https://console.curseforge.com/ 获取
+   然后运行: export CURSEFORGE_API_KEY=你的key
+Starting scrape for 67 modpacks...
+
+[1/67] RLCraft Dregora... ❌ 无视频
+[2/67] 龙之冒险... ❌ 无视频
+[3/67] More Biomes... ❌ 无视频
+[4/67] AnimateCraft: Lankeren... ❌ 无视频
+[5/67] Ice and Fire... ❌ 无视频
+[6/67] BMC4... ❌ 无视频
+[7/67] SatisfyingMC... ❌ 无视频
+[8/67] FTB Skies... ❌ 无视频
+[9/67] Stoneblock 2... ❌ 无视频
+[10/67] 凡人修仙传... ❌ 无视频
+[11/67] 惊变100天... ❌ 无视频
+[12/67] 远梦之棺... ❌ 无视频
+[13/67] Infinity 无限整合包... ❌ 无视频
+[14/67] 重生之夜... ❌ 无视频
+[15/67] Prehistoric World... ❌ 无视频
+[16/67] SevTech: Ages... ❌ 无视频
+[17/67] Project Ozone 3... ❌ 无视频
+[18/67] All The Mods 10... ❌ 无视频
+[19/67] 养老 整合包 推荐... ❌ 无视频
+[20/67] Cisco's Fantasy... ❌ 无视频
+[21/67] 惊变100天 加强版... ❌ 无视频
+[22/67] Omnifactory... ❌ 无视频
+[23/67] ATM9... ❌ 无视频
+[24/67] 生命的准则... ❌ 无视频
+[25/67] SkyFactory 4... ❌ 无视频
+[26/67] 落幕曲... ❌ 无视频
+[27/67] Pixelmon... ❌ 无视频
+[28/67] 冒险与地牢2... ❌ 无视频
+[29/67] Enigmatica 9... ❌ 无视频
+[30/67] Dungeons Dragons and Space Shuttles... ❌ 无视频
+[31/67] Rebirth of the Night... ❌ 无视频
+[32/67] Integrated Minecraft... ❌ 无视频
+[33/67] 奥德赛 逆转愿景... ❌ 无视频
+[34/67] Fantasy Realm... ❌ 无视频
+[35/67] 格雷科技新视野... ❌ 无视频
+[36/67] 永恒的MC2... ❌ 无视频
+[37/67] 森罗万藏... ❌ 无视频
+[38/67] GreedyCraft... ❌ 无视频
+[39/67] Sneak's RPG Mod Pack... ❌ 无视频
+[40/67] 贪婪整合包3... ❌ 无视频
+[41/67] 机械动力 整合包 推荐... ❌ 无视频
+[42/67] 咒次元... ❌ 无视频
+[43/67] Crucial 2... ❌ 无视频
+[44/67] ATM8... ❌ 无视频
+[45/67] 贪婪整合包2... ❌ 无视频
+[46/67] Vault Hunters... ❌ 无视频
+[47/67] Create: Astral... ❌ 无视频
+[48/67] Create: Above and Beyond... ❌ 无视频
+[49/67] Fabric 整合包 推荐... ❌ 无视频
+[50/67] RLCraft... ❌ 无视频
+[51/67] Prominence II... ❌ 无视频
+[52/67] Enigmatica 2 Expert... ❌ 无视频
+[53/67] 方块宝可梦整合包... ❌ 无视频
+[54/67] 恐惧深渊... ❌ 无视频
+[55/67] Divine Journey 2... ❌ 无视频
+[56/67] Eternal MC2... ❌ 无视频
+[57/67] Elysium Days... ❌ 无视频
+[58/67] ATM10... ❌ 无视频
+[59/67] Cursed Walking... ❌ 无视频
+[60/67] 喷气背包猫... ❌ 无视频
+[61/67] DawnCraft... ❌ 无视频
+[62/67] Chocolate Edition... ❌ 无视频
+[63/67] 随机空岛... ❌ 无视频
+[64/67] Enigmatica 6... ❌ 无视频
+[65/67] 宝可梦整合包... ❌ 无视频
+[66/67] Nomifactory... ❌ 无视频
+[67/67] SnapScream... ❌ 无视频
+
+Done. 0/67 modpacks have download links.
+Cache saved to /home/ftc13/pcl2/data/download_links_cache.json
+📦 整合包数据: 68 个
+   🎬 B站视频: 1
+   📥 下载链接: 8
+   🎬 热门视频: 27 个
+
+生成 XAML...
+   版本 260516:6e42704d | 73900 字符
+✓ 完成 — PCL 刷新 http://localhost:8765/Custom.xaml
+Lines: from 1527 to 1466
+Quick nav removed: L26-80
+Hints removed: 2
+  L90-92: <local:MyHint IsWarn="False" Theme="Yellow"
+  L1007-1009: <local:MyHint IsWarn="False" Theme="Red"
+Titles fixed: 2
+  L85: Minecraft 整合包推荐
+  L1002: Minecraft 视频推荐
+Deploy done
+File: 72789 bytes

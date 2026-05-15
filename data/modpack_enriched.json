@@ -1,338 +1,471 @@
 [
   {
-    "name": "你好，新世代",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1PbAczPE4o/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": "https://pan.baidu.com/s/1t4R2F8kPg0ab-N6GFDp9Pg",
-    "quark_pan": "https://pan.quark.cn/s/dbe95e59f19e",
-    "note": "机械动力6.0.8+Voxy+瓦尔基里·作者MCshaying"
+    "name": "RLCraft Dregora",
+    "title": "一口气看完硬核向经典整合包《RLcraft Dregora》",
+    "url": "https://www.bilibili.com/video/BV1c6QVYyEPj",
+    "play": 291660,
+    "play_str": "29万播放"
   },
   {
-    "name": "落幕曲",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1etG5zCEvm/",
-    "curseforge_url": null,
-    "bbsmc_url": "https://bbsmc.net/modpack/luomuqu",
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": "https://pan.quark.cn/s/4e69ec77f734",
-    "note": "枪械+拔刀剑+冒险·作者末影蘸酱"
-  },
-  {
-    "name": "Better MC",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1DrE2z1EcF/",
-    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4",
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "海外热门优化整合包·Forge/Fabric双版本"
-  },
-  {
-    "name": "BMC4",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1DrE2z1EcF/",
-    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4",
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "Better MC第四版·优化原版体验"
-  },
-  {
-    "name": "Cobblemon",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1xBmdBDEvU/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": "https://modrinth.com/modpack/cobblemon-fabric",
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "国际原版宝可梦整合包·Cobblemon核心"
-  },
-  {
-    "name": "我的世界方块宝可梦",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1xBmdBDEvU/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": "https://pan.quark.cn/s/0e284262d63b",
-    "note": "国产宝可梦·去吧方可梦大师·全图鉴"
-  },
-  {
-    "name": "ATM9",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1JGZpYjEDo/",
-    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-9",
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "All The Mods 9·最大水槽包之一"
+    "name": "龙之冒险",
+    "title": "我的世界龙之冒险：开局被诅咒，该如何生存下去！",
+    "url": "https://www.bilibili.com/video/BV1X1421S7WG",
+    "play": 126775,
+    "play_str": "12万播放"
   },
   {
     "name": "More Biomes",
-    "version": "基岩版",
-    "bili_url": "https://www.bilibili.com/video/BV1whHrzfEU7/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "Minecraft Marketplace更多生物群系Add-On"
+    "title": "我的世界 More Biomes 更多生物特征 1.21模组整合包生存",
+    "url": "https://www.bilibili.com/video/BV1EZhEzLEnw",
+    "play": 570,
+    "play_str": "570播放"
   },
   {
-    "name": "远梦之棺",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1u3RVBRELJ/",
-    "curseforge_url": null,
-    "bbsmc_url": "https://bbsmc.net/modpack/dream-coffin",
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "高质量战斗RPG·全球百万下载·作者P1nero"
+    "name": "AnimateCraft: Lankeren",
+    "title": "我的世界 AnimateCraft：Lankeren 动画世界：烂柯人 1.20",
+    "url": "https://www.bilibili.com/video/BV1XKyzY7Es9",
+    "play": 1851,
+    "play_str": "1851播放"
   },
   {
-    "name": "元素觉醒",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1T9GFz8EN4/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "60+BOSS·元素魔法·大型魔改RPG·作者Sh1ntaro"
+    "name": "Ice and Fire",
+    "title": "我的世界 Ice and Fire Magic Modpack 冰与火魔法模组 ",
+    "url": "https://www.bilibili.com/video/BV16LZmYnEdq",
+    "play": 442,
+    "play_str": "442播放"
   },
   {
-    "name": "咒次元",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1QN6HYnE5W/",
-    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/spell-dimension",
-    "bbsmc_url": "https://bbsmc.net/modpack/spell-dimension",
-    "mcmod_url": "https://www.mcmod.cn/modpack/1024.html",
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "纯魔法战斗·任务引导·作者Karashok_Leo"
+    "name": "BMC4",
+    "title": "我的世界：BMC4整合包新手必看教程 包含十大实用技巧",
+    "url": "https://www.bilibili.com/video/BV1c6SnBnEQQ",
+    "play": 47676,
+    "play_str": "4万播放"
+  },
+  {
+    "name": "SatisfyingMC",
+    "title": "我的世界 Alaskan Wilderness 阿拉斯加荒野求生 1.20模组整",
+    "url": "https://www.bilibili.com/video/BV1kmtuzJECN",
+    "play": 5554,
+    "play_str": "5554播放"
+  },
+  {
+    "name": "FTB Skies",
+    "title": "超好用的附魔神器！亚历山大图书馆 FTBSkies 2  我的世界 第十三期",
+    "url": "https://www.bilibili.com/video/BV1ZUhAzNEnh",
+    "play": 25850,
+    "play_str": "2万播放"
+  },
+  {
+    "name": "Stoneblock 2",
+    "title": "【我的世界】StoneBlock2速通  五小时毕业",
+    "url": "https://www.bilibili.com/video/BV1S4411C7jc",
+    "play": 50865,
+    "play_str": "5万播放"
   },
   {
     "name": "凡人修仙传",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1KEu4ztEQH/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "修仙RPG·境界突破·作者世傲吖"
+    "title": "一口气看完！我的世界凡人修仙传整合包！",
+    "url": "https://www.bilibili.com/video/BV1KEu4ztEQH",
+    "play": 257782,
+    "play_str": "25万播放"
   },
   {
-    "name": "恐惧深渊",
-    "version": "1.19.2",
-    "bili_url": "https://www.bilibili.com/video/BV1fg4y1X7KG/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": "https://www.mcmod.cn/modpack/689.html",
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "恐怖整合包·五章主线任务·作者老本願"
+    "name": "惊变100天",
+    "title": "拒绝加群拒绝网盘！这款惊变100天好玩又好下！高版本优化又好又好玩！大脸一分钟教",
+    "url": "https://www.bilibili.com/video/BV1jjwxzsETD",
+    "play": 18695,
+    "play_str": "1万播放"
   },
   {
-    "name": "随机空岛",
-    "version": "1.16.5-1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1hqioYrEwX/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": "https://pan.quark.cn/s/a0738ffb349a",
-    "note": "随机空岛懒人包·多版本兼容"
+    "name": "远梦之棺",
+    "title": "远梦之棺手机版移植-FCL启动器-RPG类整合包推荐",
+    "url": "https://www.bilibili.com/video/BV1NdDtBjEh5",
+    "play": 1333,
+    "play_str": "1333播放"
+  },
+  {
+    "name": "Infinity 无限整合包",
+    "title": "To the Infinity Castle【鬼灭之刃-无限城】动态鼓谱",
+    "url": "https://www.bilibili.com/video/BV1J7n3zAEdj",
+    "play": 12727,
+    "play_str": "1万播放"
+  },
+  {
+    "name": "重生之夜",
+    "title": "★我的世界★重生之夜 生存整合包推荐",
+    "url": "https://www.bilibili.com/video/BV1oe4y1H7Sn",
+    "play": 764593,
+    "play_str": "76万播放"
+  },
+  {
+    "name": "Prehistoric World",
+    "title": "【史前世界】整合包开服联机教程！安装与汉化全过程详细演示，跟好友们穿越到恐龙时代",
+    "url": "https://www.bilibili.com/video/BV189ZdY4EFp",
+    "play": 93625,
+    "play_str": "9万播放"
+  },
+  {
+    "name": "SevTech: Ages",
+    "title": "当你再次穿越回原始时期开始发展7个科技时代？！【SevTech Ages | E",
+    "url": "https://www.bilibili.com/video/BV1JHWZe7ESM",
+    "play": 86009,
+    "play_str": "8万播放"
+  },
+  {
+    "name": "Project Ozone 3",
+    "title": "整合包《Project Ozone 3》臭氧计划3最高难度完美通关",
+    "url": "https://www.bilibili.com/video/BV1nh411D7ca",
+    "play": 83836,
+    "play_str": "8万播放"
+  },
+  {
+    "name": "All The Mods 10",
+    "title": "【All The Mods 10 EP-1】你是说？开局就在500+模组的世界里",
+    "url": "https://www.bilibili.com/video/BV1BUWGzrEY6",
+    "play": 112466,
+    "play_str": "11万播放"
+  },
+  {
+    "name": "养老 整合包 推荐",
+    "title": "【mc整合包公开】地球3.0  来一场沉浸式冒险休闲之旅",
+    "url": "https://www.bilibili.com/video/BV1Ke41127bg",
+    "play": 2544307,
+    "play_str": "2,544,307播放"
+  },
+  {
+    "name": "Cisco's Fantasy",
+    "title": "幻想中世纪RPG！【我的世界】Cisco&#x27;s Fantasy Medi",
+    "url": "https://www.bilibili.com/video/BV1hK421x7Ho",
+    "play": 694066,
+    "play_str": "69万播放"
+  },
+  {
+    "name": "惊变100天 加强版",
+    "title": "【惊变群岛100天】加强庇护所！外出探索！？#3我的世界",
+    "url": "https://www.bilibili.com/video/BV1v94y1T7R9",
+    "play": 4346496,
+    "play_str": "4,346,496播放"
+  },
+  {
+    "name": "Omnifactory",
+    "title": "格雷整合包《Omnifactory》全能工厂完美通关",
+    "url": "https://www.bilibili.com/video/BV1Cf4y1i7fB",
+    "play": 123782,
+    "play_str": "12万播放"
+  },
+  {
+    "name": "ATM9",
+    "title": "【ATM9Sky】AE2压印器自动化简易教程",
+    "url": "https://www.bilibili.com/video/BV1GbvveeE7d",
+    "play": 43586,
+    "play_str": "4万播放"
+  },
+  {
+    "name": "生命的准则",
+    "title": "【整合包介绍】1.18.2《生命的准则》我的世界整合包，国产整合包，踏上冒险之旅",
+    "url": "https://www.bilibili.com/video/BV1Qa411Q7vV",
+    "play": 114799,
+    "play_str": "11万播放"
+  },
+  {
+    "name": "SkyFactory 4",
+    "title": "[FCL移植]天空工厂4整合包 我终于入厂啦！",
+    "url": "https://www.bilibili.com/video/BV1sarGB5EXx",
+    "play": 2480,
+    "play_str": "2480播放"
+  },
+  {
+    "name": "落幕曲",
+    "title": "Minecraft我的世界整合包版本更新教程",
+    "url": "https://www.bilibili.com/video/BV16L23YsErx",
+    "play": 51393,
+    "play_str": "5万播放"
+  },
+  {
+    "name": "Pixelmon",
+    "title": "【我的世界宝可梦/神奇宝贝模组】 Pixelmon Mod OST 超神的背景音",
+    "url": "https://www.bilibili.com/video/BV1Qr421W71W",
+    "play": 5239,
+    "play_str": "5239播放"
+  },
+  {
+    "name": "冒险与地牢2",
+    "title": "国外百万下载整合包开坑！【冒险与地牢2 EP1】",
+    "url": "https://www.bilibili.com/video/BV1VT4y1p7qa",
+    "play": 846076,
+    "play_str": "846,076播放"
+  },
+  {
+    "name": "Enigmatica 9",
+    "title": "我的世界【E9E Ep1 Boss三联】Minecraft 多模组生存实况 En",
+    "url": "https://www.bilibili.com/video/BV1a94y1n7io",
+    "play": 40428,
+    "play_str": "4万播放"
+  },
+  {
+    "name": "Dungeons Dragons and Space Shuttles",
+    "title": "●我的世界●地下城，龙与太空飞船✖Dungeons, Dragons and S",
+    "url": "https://www.bilibili.com/video/BV13S4y1W71p",
+    "play": 2538,
+    "play_str": "2538播放"
+  },
+  {
+    "name": "Rebirth of the Night",
+    "title": "300+个mod的硬核生存-夜的重生《rebirth of the night》",
+    "url": "https://www.bilibili.com/video/BV1va41177QZ",
+    "play": 3702,
+    "play_str": "3702播放"
+  },
+  {
+    "name": "Integrated Minecraft",
+    "title": "一个专注于打造最佳探索体验的整合包【整合包推荐】Integrated MC 1.",
+    "url": "https://www.bilibili.com/video/BV14F2nY4ERS",
+    "play": 211627,
+    "play_str": "21万播放"
+  },
+  {
+    "name": "奥德赛 逆转愿景",
+    "title": "《奥德赛: 逆转愿景》- 高难度魂类整合包体验丨OdysseyCraft - R",
+    "url": "https://www.bilibili.com/video/BV1tX4y117cD",
+    "play": 41708,
+    "play_str": "4万播放"
+  },
+  {
+    "name": "Fantasy Realm",
+    "title": "大型整合包！1.12.2《冒险与地牢》我的世界R.A.D汉化最新1.48版 整合",
+    "url": "https://www.bilibili.com/video/BV1rZ4y1Q7cx",
+    "play": 548423,
+    "play_str": "54万播放"
+  },
+  {
+    "name": "格雷科技新视野",
+    "title": "从零开始玩MC最难科技整合包…【GTNH#1】",
+    "url": "https://www.bilibili.com/video/BV1BpF6zfEKh",
+    "play": 340479,
+    "play_str": "34万播放"
+  },
+  {
+    "name": "永恒的MC2",
+    "title": "整合包推荐 |《永恒的MC2》，一个真正耐玩的Minecraft模组包",
+    "url": "https://www.bilibili.com/video/BV1yD8jz7E3L",
+    "play": 105618,
+    "play_str": "10万播放"
   },
   {
     "name": "森罗万藏",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1FsE2ztEEA/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "MC植物大战僵尸主题整合包·单人生存"
+    "title": "【一口气看完】森罗万藏 MC植物大战僵尸整合包 单人生存",
+    "url": "https://www.bilibili.com/video/BV1FsE2ztEEA",
+    "play": 423519,
+    "play_str": "42万播放"
   },
   {
-    "name": "DawnCraft",
-    "version": "1.18.2",
-    "bili_url": "https://www.bilibili.com/video/BV1Km411C7Mx/",
-    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/dawn-craft",
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "魂like破晓之界2.0·作者lil_red_zion"
+    "name": "GreedyCraft",
+    "title": "【MC整合包】MON0.5发布！励志打造MC最战术的PVE整合包！",
+    "url": "https://www.bilibili.com/video/BV1gN9xBWEWR",
+    "play": 21809,
+    "play_str": "2万播放"
   },
   {
-    "name": "GTNH",
-    "version": "1.7.10",
-    "bili_url": "https://www.bilibili.com/video/BV1BpF6zfEKh/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "格雷科技新视野·MC最难科技整合包"
+    "name": "Sneak's RPG Mod Pack",
+    "title": "【我的世界整合包】Sneak&#x27;s RPG Pack外网最好的RPG整合",
+    "url": "https://www.bilibili.com/video/BV1BA3ZejEpv",
+    "play": 31036,
+    "play_str": "3万播放"
+  },
+  {
+    "name": "贪婪整合包3",
+    "title": "★我的世界★贪婪2整合包 约600个模组 生存体验",
+    "url": "https://www.bilibili.com/video/BV1La411f7vL",
+    "play": 835867,
+    "play_str": "835,867播放"
+  },
+  {
+    "name": "机械动力 整合包 推荐",
+    "title": "腐竹忘给我撤管理了，穷怕了，一分钱都没敢多拿",
+    "url": "https://www.bilibili.com/video/BV1iTUWB1ELT",
+    "play": 1331937,
+    "play_str": "1,331,937播放"
+  },
+  {
+    "name": "咒次元",
+    "title": "一口气看完国产魔法冒险整合包《咒次元》",
+    "url": "https://www.bilibili.com/video/BV1UxKWz5ErG",
+    "play": 479136,
+    "play_str": "47万播放"
+  },
+  {
+    "name": "Crucial 2",
+    "title": "【我的世界】crucial2整合包生存  第零期",
+    "url": "https://www.bilibili.com/video/BV1aY411L7nB",
+    "play": 3849,
+    "play_str": "3849播放"
+  },
+  {
+    "name": "ATM8",
+    "title": "[ATM8]All the mods 8 生存 第一天 1 初来乍到",
+    "url": "https://www.bilibili.com/video/BV1Dh4y11797",
+    "play": 26723,
+    "play_str": "2万播放"
+  },
+  {
+    "name": "贪婪整合包2",
+    "title": "贪婪2：重生 二周目 EP.1 村庄是我家 【我的世界海福的1.12.2整合包实",
+    "url": "https://www.bilibili.com/video/BV14DnmzjEgG",
+    "play": 21801,
+    "play_str": "2万播放"
+  },
+  {
+    "name": "Vault Hunters",
+    "title": "我的世界 1.18.2《宝藏猎人》Vault Hunters 3rd 汉化＆介绍",
+    "url": "https://www.bilibili.com/video/BV1hK41167B1",
+    "play": 500811,
+    "play_str": "50万播放"
+  },
+  {
+    "name": "Create: Astral",
+    "title": "【Create:Astral 2.1】EP1 机动星系重启！征程开端！",
+    "url": "https://www.bilibili.com/video/BV1nN4VewEWZ",
+    "play": 9024,
+    "play_str": "9024播放"
+  },
+  {
+    "name": "Create: Above and Beyond",
+    "title": "超越Above And Beyond 1.5级管乐作品",
+    "url": "https://www.bilibili.com/video/BV1fR4y1F7dj",
+    "play": 2533,
+    "play_str": "2533播放"
+  },
+  {
+    "name": "Fabric 整合包 推荐",
+    "title": "2024年最推荐的10个我的世界整合包 第1期(Forge&amp;Fabric)",
+    "url": "https://www.bilibili.com/video/BV1p1421C75Q",
+    "play": 2894964,
+    "play_str": "2,894,964播放"
+  },
+  {
+    "name": "RLCraft",
+    "title": "【汉化更新】RLCraft基岩版1.2.0-市场包汉化版免费下载-Minecra",
+    "url": "https://www.bilibili.com/video/BV17Pz1BREyA",
+    "play": 21662,
+    "play_str": "2万播放"
+  },
+  {
+    "name": "Prominence II",
+    "title": "我的世界新生活大冒险2.5B整合包分享！1.21.1高版本重制！",
+    "url": "https://www.bilibili.com/video/BV1BjdnBtEgs",
+    "play": 21551,
+    "play_str": "2万播放"
+  },
+  {
+    "name": "Enigmatica 2 Expert",
+    "title": "学玩《我的世界》整合包《Enigmatica 2 Expert》（完结）",
+    "url": "https://www.bilibili.com/video/BV1QK4y1t7TU",
+    "play": 30766,
+    "play_str": "3万播放"
+  },
+  {
+    "name": "方块宝可梦整合包",
+    "title": "一分钟带来最强方可梦整合包！我的世界新世代方块宝可梦整合包！支持单人/多人联机 ",
+    "url": "https://www.bilibili.com/video/BV1BLZcB5E4c",
+    "play": 2872,
+    "play_str": "2872播放"
+  },
+  {
+    "name": "恐惧深渊",
+    "title": "史上最恐怖MC整合包发布-反抗黑暗还是坠入深渊，感受极致的恐惧！【恐惧深渊】",
+    "url": "https://www.bilibili.com/video/BV1fg4y1X7KG",
+    "play": 495879,
+    "play_str": "49万播放"
+  },
+  {
+    "name": "Divine Journey 2",
+    "title": "我的世界【Divine Journey 2】汉化整合包介绍，附下载链接 DJ2",
+    "url": "https://www.bilibili.com/video/BV15F411h7az",
+    "play": 83556,
+    "play_str": "8万播放"
+  },
+  {
+    "name": "Eternal MC2",
+    "title": "Fabric整合包作者福音!一键在Fabric端实现Optifine的全部效果!",
+    "url": "https://www.bilibili.com/video/BV1a4421S7Qc",
+    "play": 86158,
+    "play_str": "8万播放"
+  },
+  {
+    "name": "Elysium Days",
+    "title": "全新整合包生存【Elysium Days整合包生存ep1】",
+    "url": "https://www.bilibili.com/video/BV1J73Hz6E1a",
+    "play": 12442,
+    "play_str": "1万播放"
+  },
+  {
+    "name": "ATM10",
+    "title": "我的世界ATM10保姆级下载汉化教程",
+    "url": "https://www.bilibili.com/video/BV1ka6mBMEqL",
+    "play": 96310,
+    "play_str": "9万播放"
   },
   {
     "name": "Cursed Walking",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1Yf421Z7G8/",
-    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/cursed-walking-a-modern-zombie-apocalypse",
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "高版本末日生存·现代僵尸末日降临"
+    "title": "【整合包推荐】1.20.1《Cursed Walking》高版本末日生存一场完美",
+    "url": "https://www.bilibili.com/video/BV1Yf421Z7G8",
+    "play": 304161,
+    "play_str": "30万播放"
   },
   {
-    "name": "龙之冒险：新征程",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1dX9ZYcELf/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "冒险魔法整合包·新征程V2"
+    "name": "喷气背包猫",
+    "title": "【ATM9】生活质量之飞行——喷气背包",
+    "url": "https://www.bilibili.com/video/BV17KcqetEAu",
+    "play": 17179,
+    "play_str": "1万播放"
   },
   {
-    "name": "齿轮盛宴",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1zvNozWECh/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "机械动力+农夫乐事完美结合"
+    "name": "DawnCraft",
+    "title": "魂like！破晓之界2.0【我的世界】Dawncraft2.0 整合包 实况解说",
+    "url": "https://www.bilibili.com/video/BV1Km411C7Mx",
+    "play": 389363,
+    "play_str": "38万播放"
   },
   {
-    "name": "殉道之路",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1U1LxzrEnE/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "史诗战斗与魔法结合"
+    "name": "Chocolate Edition",
+    "title": "【我的世界最后生还者整合包】在充满僵尸的末日世界中存活下去！",
+    "url": "https://www.bilibili.com/video/BV1fA4m1V7HJ",
+    "play": 225600,
+    "play_str": "22万播放"
   },
   {
-    "name": "史诗战斗冒险",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV14yBwByEWV/",
-    "curseforge_url": null,
-    "bbsmc_url": "https://bbsmc.net/modpack/immersive-fight/versions",
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "沉浸战斗4.0·史诗战斗冒险"
+    "name": "随机空岛",
+    "title": "我的世界随机空岛安装教程！附带懒人整合包分享！",
+    "url": "https://www.bilibili.com/video/BV1hqioYrEwX",
+    "play": 462121,
+    "play_str": "46万播放"
   },
   {
-    "name": "探索自然2",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1gRreYbEkg/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "探索+种田+打怪·210+模组"
+    "name": "Enigmatica 6",
+    "title": "我的世界【Enigmatica 6 E6】汉化整合包介绍 万物皆可自动化，附下载",
+    "url": "https://www.bilibili.com/video/BV1YP4y1V7Ud",
+    "play": 55269,
+    "play_str": "5万播放"
   },
   {
-    "name": "香草纪元:食旅纪行",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV13mFWzBEkg/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "农夫乐事全附属+异界冒险"
+    "name": "宝可梦整合包",
+    "title": "五一新出！我的世界宝可梦整合包！免费分享！可以单人生存\\基友联机！我的世界神奇宝",
+    "url": "https://www.bilibili.com/video/BV1gjRKBMEun",
+    "play": 1456,
+    "play_str": "1456播放"
   },
   {
-    "name": "CTI 匠魂科技",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1mv411771N/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "以匠魂为核心的中高度魔改科技"
+    "name": "Nomifactory",
+    "title": "Nomifactory专家模式 实况解说 #1 正统格雷配方才酸爽",
+    "url": "https://www.bilibili.com/video/BV1YTvieqE9y",
+    "play": 77369,
+    "play_str": "7万播放"
   },
   {
-    "name": "BFF",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1zMWKeNEhg/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "枪械+史诗战斗+铁魔法"
-  },
-  {
-    "name": "Pure Create 6.0",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1SK421t784/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": "https://www.mcmod.cn/class/7048.html",
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "纯机械动力6.0体验"
-  },
-  {
-    "name": "终焉决斗",
-    "version": "1.20.1",
-    "bili_url": "https://www.bilibili.com/video/BV1pvhYz4Eub/",
-    "curseforge_url": null,
-    "bbsmc_url": null,
-    "mcmod_url": null,
-    "modrinth_url": null,
-    "baidu_pan": null,
-    "quark_pan": null,
-    "note": "终焉决斗2·史诗战斗类只狼"
+    "name": "SnapScream",
+    "title": "我的世界：斗罗大陆整合包介绍试玩",
+    "url": "https://www.bilibili.com/video/BV18ty5BiE3H",
+    "play": 64022,
+    "play_str": "6万播放"
   }
 ]

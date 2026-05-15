@@ -1,0 +1,569 @@
+[
+  {
+    "name": "你好，新世代",
+    "version": "1.20.1",
+    "genres": [
+      "⚡混合",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1PbAczPE4o/",
+    "bili_play_str": "27万播放",
+    "baidu_pan": "https://pan.baidu.com/s/1t4R2F8kPg0ab-N6GFDp9Pg",
+    "quark_pan": "https://pan.quark.cn/s/dbe95e59f19e",
+    "note": "机械动力6.0.8+Voxy+瓦尔基里·作者MCshaying"
+  },
+  {
+    "name": "落幕曲",
+    "version": "1.20.1",
+    "genres": [
+      "🧙魔法"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1etG5zCEvm/",
+    "bili_play_str": "265万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/luomuqu",
+    "quark_pan": "https://pan.quark.cn/s/4e69ec77f734",
+    "note": "枪械+拔刀剑+冒险·作者末影蘸酱"
+  },
+  {
+    "name": "Better MC",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1DrE2z1EcF/",
+    "bili_play_str": "175万播放",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4",
+    "note": "海外热门优化整合包·Forge/Fabric双版本"
+  },
+  {
+    "name": "BMC4",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1DrE2z1EcF/",
+    "bili_play_str": "175万播放",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4",
+    "note": "Better MC第四版·优化原版体验"
+  },
+  {
+    "name": "Cobblemon",
+    "version": "1.20.1",
+    "genres": [
+      "🎮宝可梦"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1xBmdBDEvU/",
+    "bili_play_str": "149万播放",
+    "modrinth_url": "https://modrinth.com/modpack/cobblemon-fabric",
+    "note": "国际原版宝可梦整合包·Cobblemon核心"
+  },
+  {
+    "name": "我的世界方块宝可梦",
+    "version": "1.20.1",
+    "genres": [
+      "🎮宝可梦"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1xBmdBDEvU/",
+    "bili_play_str": "149万播放",
+    "quark_pan": "https://pan.quark.cn/s/0e284262d63b",
+    "note": "国产宝可梦·去吧方可梦大师·全图鉴"
+  },
+  {
+    "name": "ATM9",
+    "version": "1.20.1",
+    "genres": [
+      "⚡混合"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1JGZpYjEDo/",
+    "bili_play_str": "118万播放",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-9",
+    "note": "All The Mods 9·最大水槽包之一"
+  },
+  {
+    "name": "More Biomes",
+    "version": "基岩版",
+    "genres": [
+      "📦其他"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1whHrzfEU7/",
+    "bili_play_str": "1.8万播放",
+    "note": "Minecraft Marketplace更多生物群系Add-On"
+  },
+  {
+    "name": "远梦之棺",
+    "version": "1.20.1",
+    "genres": [
+      "🧙魔法"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1u3RVBRELJ/",
+    "bili_play_str": "1.4万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/dream-coffin",
+    "note": "高质量战斗RPG·全球百万下载·作者P1nero"
+  },
+  {
+    "name": "元素觉醒",
+    "version": "1.20.1",
+    "genres": [
+      "🎮RPG",
+      "🧙魔法"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1T9GFz8EN4/",
+    "bili_play_str": "37万播放",
+    "note": "60+BOSS·元素魔法·大型魔改RPG·作者Sh1ntaro"
+  },
+  {
+    "name": "咒次元",
+    "version": "1.20.1",
+    "genres": [
+      "🧙魔法",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1QN6HYnE5W/",
+    "bili_play_str": "14万播放",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/spell-dimension",
+    "bbsmc_url": "https://bbsmc.net/modpack/spell-dimension",
+    "mcmod_url": "https://www.mcmod.cn/modpack/1024.html",
+    "note": "纯魔法战斗·任务引导·作者Karashok_Leo"
+  },
+  {
+    "name": "凡人修仙传",
+    "version": "1.20.1",
+    "genres": [
+      "🧙魔法",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1KEu4ztEQH/",
+    "bili_play_str": "25万播放",
+    "note": "修仙RPG·境界突破·作者世傲吖"
+  },
+  {
+    "name": "恐惧深渊",
+    "version": "1.19.2",
+    "genres": [
+      "💀恐怖"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1fg4y1X7KG/",
+    "bili_play_str": "49万播放",
+    "mcmod_url": "https://www.mcmod.cn/modpack/689.html",
+    "note": "恐怖整合包·五章主线任务·作者老本願"
+  },
+  {
+    "name": "随机空岛",
+    "version": "1.16.5-1.20.1",
+    "genres": [
+      "🗺空岛"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1hqioYrEwX/",
+    "bili_play_str": "46万播放",
+    "quark_pan": "https://pan.quark.cn/s/a0738ffb349a",
+    "note": "随机空岛懒人包·多版本兼容"
+  },
+  {
+    "name": "森罗万藏",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1FsE2ztEEA/",
+    "bili_play_str": "42万播放",
+    "note": "MC植物大战僵尸主题整合包·单人生存"
+  },
+  {
+    "name": "DawnCraft",
+    "version": "1.18.2",
+    "genres": [
+      "🗡RPG"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1Km411C7Mx/",
+    "bili_play_str": "38万播放",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/dawn-craft",
+    "note": "魂like破晓之界2.0·作者lil_red_zion"
+  },
+  {
+    "name": "GTNH",
+    "version": "1.7.10",
+    "genres": [
+      "⚙科技"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1BpF6zfEKh/",
+    "bili_play_str": "34万播放",
+    "note": "格雷科技新视野·MC最难科技整合包"
+  },
+  {
+    "name": "Cursed Walking",
+    "version": "1.20.1",
+    "genres": [
+      "🧟末日"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1Yf421Z7G8/",
+    "bili_play_str": "30万播放",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/cursed-walking-a-modern-zombie-apocalypse",
+    "note": "高版本末日生存·现代僵尸末日降临"
+  },
+  {
+    "name": "龙之冒险：新征程",
+    "version": "1.20.1",
+    "genres": [
+      "🏰冒险",
+      "🧙魔法"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1dX9ZYcELf/",
+    "bili_play_str": "132万播放",
+    "note": "冒险魔法整合包·新征程V2·多怪物冒险"
+  },
+  {
+    "name": "齿轮盛宴",
+    "version": "1.20.1",
+    "genres": [
+      "⚙科技"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1zvNozWECh/",
+    "bili_play_str": "65万播放",
+    "note": "机械动力+农夫乐事完美结合·自动化+烹饪"
+  },
+  {
+    "name": "殉道之路",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "🧙魔法"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1U1LxzrEnE/",
+    "bili_play_str": "58万播放",
+    "note": "史诗战斗与魔法结合·战斗魔法整合包"
+  },
+  {
+    "name": "史诗战斗冒险",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "⚔战斗"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV14yBwByEWV/",
+    "bili_play_str": "45万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/immersive-fight/versions",
+    "note": "沉浸战斗4.0·史诗战斗冒险整合包"
+  },
+  {
+    "name": "探索自然2",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1gRreYbEkg/",
+    "bili_play_str": "43万播放",
+    "note": "探索+种田+打怪·210+模组"
+  },
+  {
+    "name": "香草纪元:食旅纪行",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV13mFWzBEkg/",
+    "bili_play_str": "23万播放",
+    "note": "农夫乐事全附属+异界冒险·香草风味"
+  },
+  {
+    "name": "CTI 匠魂科技",
+    "version": "1.20.1",
+    "genres": [
+      "⚙科技"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1mv411771N/",
+    "bili_play_str": "8.8万播放",
+    "note": "以匠魂为核心的中高度魔改科技包"
+  },
+  {
+    "name": "Pure Create 6.0",
+    "version": "1.20.1",
+    "genres": [
+      "⚙科技"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1SK421t784/",
+    "bili_play_str": "13万播放",
+    "note": "机械动力6.0+史诗地形·纯Create体验"
+  },
+  {
+    "name": "终焉决斗",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "⚔战斗"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1pvhYz4Eub/",
+    "bili_play_str": "6.0万播放",
+    "note": "史诗战斗类只狼·终焉决斗2·作者凝星制作组"
+  },
+  {
+    "name": "愚者 - The Fool",
+    "version": "1.20.1",
+    "genres": [
+      "🧙魔法",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1eo18BREZi/",
+    "bili_play_str": "237万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/the-fool",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/the-fool",
+    "note": "愚弄、伪装、欺诈·年度最有趣整合包"
+  },
+  {
+    "name": "脆骨症",
+    "version": "1.20.1",
+    "genres": [
+      "💀恐怖",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1tx4y1U7av/",
+    "bili_play_str": "136万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/no-flesh-within-chest",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/no-flesh-within-chest",
+    "note": "No Flesh Within Chest·恐怖冒险·胸腔怪物"
+  },
+  {
+    "name": "Valhelsia 3",
+    "version": "1.20.1",
+    "genres": [
+      "🏰冒险",
+      "⚡混合"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV19a411477B/",
+    "bili_play_str": "57万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/valhelsia-3",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/valhelsia-3",
+    "note": "全球热门·接近300万下载"
+  },
+  {
+    "name": "剑与王国",
+    "version": "1.21.1",
+    "genres": [
+      "🗡RPG",
+      "⚔战斗"
+    ],
+    "bbsmc_url": "https://bbsmc.net/modpack/sword-and-kingdom",
+    "note": "中世纪王国冒险·剑术与魔法"
+  },
+  {
+    "name": "家园 - Homestead",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲",
+      "🏰冒险"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1M5NwzJEvT/",
+    "bili_play_str": "24万播放",
+    "curse_url": "https://www.curseforge.com/minecraft/modpacks/homestead",
+    "note": "温馨生存·种田建家·百万下载"
+  },
+  {
+    "name": "神话:起源",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "🧙魔法"
+    ],
+    "bili_url": "https://www.bilibili.com/video/BV1avHJz2EiP/",
+    "bili_play_str": "73万播放",
+    "bbsmc_url": "https://bbsmc.net/modpack/5.0",
+    "note": "高难度爽包·神话探险之旅"
+  },
+  {
+    "name": "RLCraft",
+    "version": "1.12.2",
+    "genres": [
+      "💀恐怖",
+      "🗡RPG"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/rlcraft",
+    "note": "2900万下载·最硬核MC整合包·生存难度极高"
+  },
+  {
+    "name": "Prominence II",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "🏰冒险"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era",
+    "note": "1124万下载·RPG冒险·任务驱动"
+  },
+  {
+    "name": "DeceasedCraft",
+    "version": "1.20.1",
+    "genres": [
+      "🧟末日",
+      "🏰冒险"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/deceasedcraft",
+    "note": "716万下载·丧尸末日生存·城市探索"
+  },
+  {
+    "name": "Vault Hunters 3",
+    "version": "1.18.2",
+    "genres": [
+      "🗡RPG",
+      "🏰冒险"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2",
+    "note": "575万下载·宝藏猎人·RPG地下城"
+  },
+  {
+    "name": "Cave Horror",
+    "version": "1.20.1",
+    "genres": [
+      "💀恐怖",
+      "🏰冒险"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/cave-horror-project",
+    "note": "570万下载·洞穴恐怖·生存探索"
+  },
+  {
+    "name": "Cisco's Medieval RPG",
+    "version": "1.19.2",
+    "genres": [
+      "🗡RPG",
+      "🏰冒险"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/ciscos-adventure-rpg-ultimate",
+    "note": "444万下载·中世纪RPG·任务驱动"
+  },
+  {
+    "name": "Crazy Craft Updated",
+    "version": "1.16.5",
+    "genres": [
+      "⚡混合",
+      "🎮宝可梦"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/crazy-craft-updated",
+    "note": "经典Crazy Craft续作·423万下载"
+  },
+  {
+    "name": "DarkRPG",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "🧙魔法"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/dark-rpg-remastered",
+    "note": "364万下载·黑暗RPG·魔法与任务"
+  },
+  {
+    "name": "Craftoria",
+    "version": "1.21.1",
+    "genres": [
+      "⚡混合",
+      "⚙科技"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/craftoria",
+    "note": "251万下载·综合型整合包·高版本"
+  },
+  {
+    "name": "Create: Above and Beyond",
+    "version": "1.16.5",
+    "genres": [
+      "⚙科技",
+      "🏗机械"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/create-above-and-beyond",
+    "note": "Create官方专家包·自动化进阶"
+  },
+  {
+    "name": "SkyFactory 4",
+    "version": "1.12.2",
+    "genres": [
+      "⚙科技",
+      "🗺空岛"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/skyfactory-4",
+    "note": "经典空岛科技·1360万下载"
+  },
+  {
+    "name": "Better Adventures+",
+    "version": "1.19.2",
+    "genres": [
+      "🏰冒险",
+      "🗡RPG"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "curseforge_url": "https://www.curseforge.com/minecraft/modpacks/better-adventures-plus",
+    "note": "187万下载·冒险探索·任务系统"
+  },
+  {
+    "name": "Zombie Invade 100 Days",
+    "version": "1.20.1",
+    "genres": [
+      "🧟末日",
+      "🏰冒险"
+    ],
+    "modrinth_url": "https://modrinth.com/modpack/zombie-invade-100-days",
+    "note": "900万下载·僵尸入侵100天·惊变重制"
+  },
+  {
+    "name": "Aged",
+    "version": "1.20.1",
+    "genres": [
+      "🗡RPG",
+      "🏰冒险"
+    ],
+    "modrinth_url": "https://modrinth.com/modpack/aged",
+    "note": "106万下载·中世纪RPG·渐进式发展"
+  },
+  {
+    "name": "Cobbleverse",
+    "version": "1.21.1",
+    "genres": [
+      "🎮宝可梦",
+      "🏰冒险"
+    ],
+    "modrinth_url": "https://modrinth.com/modpack/cobbleverse",
+    "note": "386万下载·宝可梦冒险·全1025精灵"
+  },
+  {
+    "name": "乌托邦探险之旅",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲",
+      "🏰冒险"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "bbsmc_url": "https://bbsmc.net/modpack/utopia-journey",
+    "note": "Fabric养老整合包·195万下载·宁静田园与冒险并存"
+  },
+  {
+    "name": "农场物语: FarmingTales ForgeⅡ",
+    "version": "1.20.1",
+    "genres": [
+      "🌿休闲"
+    ],
+    "bili_url": "",
+    "bili_play_str": "",
+    "bbsmc_url": "https://bbsmc.net/modpack/ft-wt",
+    "note": "仿星露谷风格·种田+社交·持续更新中"
+  }
+]
