@@ -92,3 +92,18 @@ Titles fixed: 2
   L1002: Minecraft 视频推荐
 Deploy done
 File: 72789 bytes
+[main 94ec931] auto sync 2026-05-16
+ 13 files changed, 4552 insertions(+), 1502 deletions(-)
+ create mode 100644 auto_update.log
+ create mode 100644 data/modpack_enriched.json.bak2
+ create mode 100644 data/modpack_final.json.bak2
+ create mode 100644 data/modpack_links.json.bak2
+ create mode 100644 data/search_results.json
+ create mode 100644 output/Custom.xaml.bak2
+ create mode 100644 update_20260516_060001.log
+To github.com:Recursive-max/PCL-modpack-engine.git
+   737f2f3..94ec931  main -> main
+remote: Start Git Hooks Checking 					[40;36m[PASSED][0m        
+To https://gitcode.com/2401_84211770/PCL2-modpack-engine.git
+   737f2f3..94ec931  main -> main
+=== ALL DONE Sat May 16 06:01:21 CST 2026 ===

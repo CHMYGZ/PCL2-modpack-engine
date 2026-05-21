@@ -74,7 +74,11 @@ GENRE_BLOCK_MAP = {
     '🛡': ('GoldBlock', '防御'), '📦': ('Fabric', '其他'),
 }
 
-def make_block_row(emoji_list, item_name, item_info, target_url, is_seed=False):
+# 方块图标轮播列表（视频推荐样式）
+BLOCK_CYCLE = ['Grass', 'RedstoneBlock', 'GoldBlock', 'Cobblestone', 'Anvil', 'CommandBlock',
+               'RedstoneLampOn', 'Fabric', 'RedstoneLampOff', 'Egg']
+
+def make_block_row(emoji_list, item_name, item_info, target_url, is_seed=False, block_index=0):
     """生成带 MC 方块图标的列表行 XAML"""
     # 从 genre 字符串中提取第一个已知 emoji 来匹配方块
     first_block = None
@@ -86,7 +90,7 @@ def make_block_row(emoji_list, item_name, item_info, target_url, is_seed=False):
         if first_block:
             break
     if not first_block:
-        first_block = 'Fabric'
+        first_block = BLOCK_CYCLE[block_index % len(BLOCK_CYCLE)]
     
     # 有有效链接才生成可点击事件
     if target_url and target_url != '#':
@@ -219,27 +223,66 @@ def load_modpacks():
                 e = enriched_map[mp['name']]
                 for key in ('version', 'curseforge_url', 'bbsmc_url', 'mcmod_url',
                            'modrinth_url', 'baidu_pan', 'quark_pan', 'note',
-                           'bili_url', 'bili_play_str'):
+                           'url', 'play_str'):
                     if key in e and e[key]:
                         mp[key] = e[key]
+    
+    # ── 播放量 & 日期筛选 ──
+    DATER_FILE = Path(__file__).parent.parent / "data" / "video_dates.json"
+    if DATER_FILE.exists():
+        with open(DATER_FILE, 'r', encoding='utf-8') as f:
+            vd = json.load(f)
+        dates_map = {r['name']: r for r in vd.get('results', [])}
+        
+        filtered = []
+        for mp in packs:
+            name = mp['name']
+            play = mp.get('play', 0)
+            has_cf = bool(mp.get('curseforge_url'))
+            
+            # CurseForge 包：直接通过（无B站数据，用 CF 下载量替代）
+            if has_cf:
+                filtered.append(mp)
+                continue
+            
+            # B站视频包：播放量 ≥ 5万
+            if play < 50000:
+                continue
+            # 发布日期 ≥ 2025-01-01
+            if name in dates_map:
+                if not dates_map[name].get('after_2025', False):
+                    continue
+            else:
+                continue  # 无日期信息则排除
+            filtered.append(mp)
+        packs = filtered
     
     return packs
 
 # ── 已知下载链接（CurseForge / Modrinth / 网盘）──
 KNOWN_DOWNLOADS = {
-    "RLCraft": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/rlcraft"),
-    "RLCraft Dregora": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"),
-    "GreedyCraft": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/greedycraft"),
-    "Better MC": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4"),
-    "BMC4": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4"),
-    "SkyFactory 4": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/skyfactory-4"),
-    "ATM9": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/all-the-mods-9"),
-    "All The Mods 10": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10"),
-    "Vault Hunters 3": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2"),
-    "GregTech New Horizons": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/gt-new-horizons"),
-    "GTNH": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/gt-new-horizons"),
-    "Cobblemon": ("Modrinth", "https://modrinth.com/modpack/cobblemon-fabric"),
-    "Create: Above and Beyond": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/create-above-and-beyond"),
+    "All the Mods 10 - ATM10": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10"),
+    "COBBLEVERSE - Pokemon Adventure": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/cobbleverse-cobblemon"),
+    "DeceasedCraft - Urban Zombie Apocalypse": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/deceasedcraft"),
+    "Better MC [FORGE] BMC4": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4"),
+    "All the Mons - ATMons": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/all-the-mons"),
+    "Prominence II: Hasturian Era": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era"),
+    "Cursed Walking - A Modern Zombie Apocalypse": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/cursed-walking-a-modern-zombie-apocalypse"),
+    "NightfallCraft - The Casket of Reveries": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/nightfallcraft-the-casket-of-reveries"),
+    "All the Mods 10: To the Sky": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10-sky"),
+    "Fabulously Optimized": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/fabulously-optimized"),
+    "Homestead - A Cozy Survival Experience": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/homestead-cozy"),
+    "FTB StoneBlock 4": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4"),
+    "DREAD - A Horror Survival Pack": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/dread-arrenek"),
+    "HORROR - Into The Backrooms": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/into-the-backrooms-found-footage-horror"),
+    "Cisco\'s Fantasy Medieval RPG [Ultimate]": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/ciscos-adventure-rpg-ultimate"),
+    "Better MC [NEOFORGE] BMC5": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/better-mc-neoforge-bmc5"),
+    "All of Create": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/aoc"),
+    "Beyond Depth": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/beyond-depth"),
+    "DawnCraft - Echoes of Legends": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/dawn-craft"),
+    "The Pixelmon Modpack": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/the-pixelmon-modpack"),
+    "Cave Horror Project": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/cave-horror-project"),
+    "Craftoria": ("CurseForge", "https://www.curseforge.com/minecraft/modpacks/craftoria"),
 }
 
 def load_download_links():
@@ -278,14 +321,14 @@ def load_download_links():
     
     return dl_map
 
-def make_item(mp, dl_info, index, is_seed=False):
+def make_item(mp, dl_info, index, is_seed=False, block_index=0):
     """生成单个整合包行: MC方块图 + 版本/平台信息
     主链接按优先级: CurseForge > Modrinth > BBSMC > 百科 > B站
     不混用: 平台包跳平台，B站包跳B站
     """
     name = escape(mp['name'][:25])
     genres = mp.get('genres', ['📦'])
-    play = mp.get('bili_play_str', '?')
+    play = mp.get('play_str', '?')
     
     # 确定主链接（平台优先，无平台才用B站）
     if mp.get('curseforge_url'):
@@ -301,7 +344,7 @@ def make_item(mp, dl_info, index, is_seed=False):
         target_url = escape(mp['mcmod_url'])
         link_label = 'MC百科'
     else:
-        target_url = mp.get('bili_url', '#')
+        target_url = mp.get('url', '#')
         link_label = 'B站'
     
     # 版本
@@ -324,7 +367,7 @@ def make_item(mp, dl_info, index, is_seed=False):
     else:
         info_str = f"▸ 待补充{ver_str}{platform_str}"
     
-    return make_block_row(genres, name, info_str, target_url, is_seed) + '\n'
+    return make_block_row(genres, name, info_str, target_url, is_seed, block_index) + '\n'
 def generate():
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     modpacks = load_modpacks()
@@ -355,35 +398,9 @@ def generate():
     def is_seed(mp, idx):
         return idx < seed_count
     
-    col0_items = [make_item(mp, dl_links.get(mp['name']), i, is_seed(mp, i)) for i, mp in enumerate(col0_packs)]
-    col1_items = [make_item(mp, dl_links.get(mp['name']), i+third, is_seed(mp, i+third)) for i, mp in enumerate(col1_packs)]
-    col2_items = [make_item(mp, dl_links.get(mp['name']), i+third*2, is_seed(mp, i+third*2)) for i, mp in enumerate(col2_packs)]
-    
-    # ── 快速按钮栏 ──
-    buttons = [
-        ("B站MC区", "https://search.bilibili.com/all?keyword=Minecraft+整合包&order=click", "搜索Minecraft整合包视频", "RedstoneBlock"),
-        ("CurseForge", "https://www.curseforge.com/minecraft/modpacks", "全球最大MC模组平台", "Anvil"),
-        ("Modrinth", "https://modrinth.com/modpacks", "开源MC整合包平台", "CommandBlock"),
-        ("BBSMC", "https://bbsmc.net/modpacks", "中文MC资源下载站", "Grass"),
-    ]
-    
-    btn_items = []
-    for text, url, tooltip, block in buttons:
-        btn_items.append(
-            f'               <local:MyButton Margin="5,0,5,0" Padding="14,8,14,8" Height="36"\n'
-            f'                    ToolTip="{tooltip}"\n'
-            f'                    EventType="打开网页" EventData="{escape(url)}">\n'
-            f'                    <StackPanel Orientation="Horizontal">\n'
-            f'                         <local:MyImage Width="16" Height="16"\n'
-            f'                              Source="{PACK_URL}{block}.png"\n'
-            f'                              VerticalAlignment="Center" />\n'
-            f'                         <TextBlock Text="{text}" VerticalAlignment="Center"\n'
-            f'                              Margin="4,0,0,0" />\n'
-            f'                    </StackPanel>\n'
-            f'               </local:MyButton>'
-        )
-    
-    btn_bar = '\n'.join(btn_items)
+    col0_items = [make_item(mp, dl_links.get(mp['name']), i, is_seed(mp, i), i) for i, mp in enumerate(col0_packs)]
+    col1_items = [make_item(mp, dl_links.get(mp['name']), i+third, is_seed(mp, i+third), i+third) for i, mp in enumerate(col1_packs)]
+    col2_items = [make_item(mp, dl_links.get(mp['name']), i+third*2, is_seed(mp, i+third*2), i+third*2) for i, mp in enumerate(col2_packs)]
     
     # ── 热门视频栏 ──
     vid_icons = ["🎬", "🔧", "😂", "🏗", "🎮", "🌟", "🎨", "🎯", "⚔️", "📖",
@@ -440,31 +457,13 @@ def generate():
 </local:MyCard>
 
 <!-- ================================ -->
-<!--  🔴 快速导航 · 四大传送门   -->
-<!-- ================================ -->
-<local:MyCard Margin="0,0,0,20" Title="⚡️ 快速导航">
-     <StackPanel Margin="24,30,24,20">
-          <local:MyHint IsWarn="False" Theme="Blue"
-               Text="常用资源站点一键直达 · B站搜索 + CurseForge + Modrinth + BBSMC 四大数据源"
-               Margin="0,0,0,14" />
-          <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-{btn_bar}
-          </StackPanel>
-     </StackPanel>
-</local:MyCard>
-
-<!-- ================================ -->
 <!--  🏗 整合包推荐 · 方块精选   -->
 <!-- ================================ -->
-<local:MyCard Margin="0,0,0,20" Title="Minecraft 整合包推荐">
+<local:MyCard Margin="0,0,0,20" Title="">
      <StackPanel Margin="24,35,24,18">
           <TextBlock Text="整合包推荐" FontSize="22" FontWeight="Bold"
                Foreground="{{DynamicResource ColorBrush1}}"
                HorizontalAlignment="Center" Margin="0,0,0,12" />
-          <local:MyHint IsWarn="False" Theme="Yellow"
-               Text="🔥硬核 🔧科技 🏰冒险 🧙魔法 🌿休闲 🗺空岛 🎮宝可梦 ⚡️混合 | 🎬B站视频推荐 · 下方 📥下载链接"
-               Margin="0,0,0,14" />
-
           <Grid>
                <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
@@ -489,15 +488,12 @@ def generate():
 <!-- ================================ -->
 <!--  🎬 视频推荐 · 映像大厅   -->
 <!-- ================================ -->
-<local:MyCard Margin="0,0,0,20" Title="Minecraft 视频推荐">
+<local:MyCard Margin="0,0,0,20" Title="">
      <StackPanel Margin="24,32,24,18">
           <TextBlock Text="视频推荐" FontSize="22" FontWeight="Bold"
                Foreground="{{DynamicResource ColorBrush1}}"
                HorizontalAlignment="Center" Margin="0,0,0,10" />
-          <local:MyHint IsWarn="False" Theme="Red"
-               Text="🎬 知名UP主空间 + 🔥 热门搜索主题 · 涵盖实况/红石/建筑/模组/动画/速通"
-               Margin="0,0,0,14" />
-          <Grid>
+<Grid>
                <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="16" />
@@ -599,7 +595,7 @@ def generate():
                     <local:MyButton BorderThickness="0" Padding="14,6,14,6" Margin="0,6,0,0"
                          ToolTip="前往GitCode提交Issue"
                          EventType="打开网页"
-                         EventData="https://gitcode.com/2401_84211770/PCL-modpack-engine/issues">
+                         EventData="https://gitcode.com/2401_84211770/PCL2-modpack-engine/discussions">
                          <StackPanel Orientation="Horizontal">
                               <TextBlock Text="📮" FontSize="12" FontWeight="Bold"
                                    Foreground="{{DynamicResource ColorBrush1}}"
@@ -628,7 +624,7 @@ def main():
     dl_links = load_download_links()
     
     print(f"📦 整合包数据: {len(modpacks)} 个")
-    bili = sum(1 for m in modpacks if m.get('bili_url', '#') != '#')
+    bili = sum(1 for m in modpacks if m.get('url', '#') != '#')
     dl = sum(1 for m in modpacks if m['name'] in dl_links)
     print(f"   🎬 B站视频: {bili}")
     print(f"   📥 下载链接: {dl}")
@@ -638,6 +634,21 @@ def main():
     xaml = generate()
     if not xaml:
         return
+    
+    # 后处理：整合包方块图标轮播（替代全 Fabric）
+    mp_start = xaml.find('<!--  🏗 整合包推荐 · 方块精选   -->')
+    vid_start = xaml.find('<!--  🎬 视频推荐 · 映像大厅   -->')
+    if mp_start > 0 and vid_start > mp_start:
+        before = xaml[:mp_start]
+        section = xaml[mp_start:vid_start]
+        after = xaml[vid_start:]
+        idx = [0]
+        def cycle_block(m):
+            b = BLOCK_CYCLE[idx[0] % len(BLOCK_CYCLE)]
+            idx[0] += 1
+            return m.group(1) + b + m.group(2)
+        section = re.sub(r'(Source="pack://application:,,,/images/Blocks/)\w+(\.png")', cycle_block, section)
+        xaml = before + section + after
     
     with open(OUTPUT, "w", encoding="utf-8") as f:
         f.write(xaml)

@@ -1,0 +1,3310 @@
+[
+  {
+    "name": "Fabulously Optimized",
+    "description": "Beautiful graphics, speedy performance and familiar features in a simple package. Tiny Takeover beta!",
+    "downloads": 12224469,
+    "url": "https://modrinth.com/modpack/fabulously-optimized",
+    "platform": "modrinth",
+    "author": "robotkoer",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.17.1",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-09",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Zombie Invade 100 Days",
+    "description": "僵尸入侵 100 天（高版本惊变重制）—— Same as Forge Labs 100 Days Zombie Apocalypse in new Minecraft",
+    "downloads": 9312431,
+    "url": "https://modrinth.com/modpack/zombie-invade-100-days",
+    "platform": "modrinth",
+    "author": "FlameFire",
+    "categories": [
+      "challenging",
+      "combat",
+      "forge",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.19.2",
+      "1.20.1"
+    ],
+    "date_modified": "2025-12-13",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Cobblemon Official Modpack [Fabric]",
+    "description": "The official modpack of the Cobblemon mod, for Fabric!",
+    "downloads": 7313752,
+    "url": "https://modrinth.com/modpack/cobblemon-fabric",
+    "platform": "modrinth",
+    "author": "CobbledStudios",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21.1"
+    ],
+    "date_modified": "2026-01-31",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "COBBLEVERSE - Pokemon Adventure [Cobblemon]",
+    "description": "Start a true Pokémon adventure in Minecraft: Cobblemon 1.7.3 | ALL 1025 Pokémon! | Mega Evolutions | Gyms & Badges | Starter Kit | Unique Structures | Custom Music | Shaders | Optimized | So much more",
+    "downloads": 3922392,
+    "url": "https://modrinth.com/modpack/cobbleverse",
+    "platform": "modrinth",
+    "author": "LUMYVERSE",
+    "categories": [
+      "adventure",
+      "challenging",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2026-04-04",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Better MC [FABRIC] - BMC2",
+    "description": "Version 1.20 | A Proper Vanilla+ Modpack | Don't play Vanilla play this!",
+    "downloads": 2170789,
+    "url": "https://modrinth.com/modpack/better-mc-fabric-bmc2",
+    "platform": "modrinth",
+    "author": "SHXRKIE",
+    "categories": [
+      "adventure",
+      "combat",
+      "fabric",
+      "kitchen-sink",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2025-01-19",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Sodium Plus",
+    "description": "A client-side optimization modpack with a few extra tweaks.",
+    "downloads": 1964504,
+    "url": "https://modrinth.com/modpack/sodiumplus",
+    "platform": "modrinth",
+    "author": "NoSadBeHappy",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization",
+      "quilt"
+    ],
+    "versions": [
+      "1.18.2",
+      "1.19",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.21",
+      "1.21.5",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1.2"
+    ],
+    "date_modified": "2026-04-26",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "The Pixelmon Modpack",
+    "description": "This Modpack includes everything you need as a pre-built Pixelmon exerience - The Pixelmon Mod, The Pixelmon OST, Journeymap, BYG, Natures/Explorers Compass.",
+    "downloads": 1794072,
+    "url": "https://modrinth.com/modpack/the-pixelmon-modpack",
+    "platform": "modrinth",
+    "author": "Pixelmon",
+    "categories": [
+      "adventure",
+      "forge",
+      "neoforge",
+      "quests"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.20.1",
+      "1.20.2",
+      "1.21.1"
+    ],
+    "date_modified": "2026-05-05",
+    "client_side": "required",
+    "server_side": "optional"
+  },
+  {
+    "name": "Vanilla Perfected",
+    "description": "A compilation of Vanilla Plus mods & packs to perfect the Minecraft experience without drifting too far from the feel of the base game!",
+    "downloads": 1719386,
+    "url": "https://modrinth.com/modpack/vanilla-perfected",
+    "platform": "modrinth",
+    "author": "demonjoeTV",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-09",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Better MC [FORGE] - BMC4",
+    "description": "Version 1.20.1 | A Proper Vanilla+ Modpack | Don't play Vanilla play this!",
+    "downloads": 1456737,
+    "url": "https://modrinth.com/modpack/better-mc-forge-bmc4",
+    "platform": "modrinth",
+    "author": "SHXRKIE",
+    "categories": [
+      "adventure",
+      "combat",
+      "forge",
+      "kitchen-sink",
+      "lightweight",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2025-06-09",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Prominence™ II: Hasturian Era",
+    "description": "Lore-rich RPG modpack built on custom content. Level up and get stronger with the Talent Tree, forge and upgrade your own artifact weapon, and fight powerful bosses to stop the Void’s invasion.",
+    "downloads": 1375513,
+    "url": "https://modrinth.com/modpack/prominence-2-fabric",
+    "platform": "modrinth",
+    "author": "ElocinDev",
+    "categories": [
+      "adventure",
+      "combat",
+      "fabric",
+      "magic",
+      "multiplayer",
+      "quests",
+      "technology"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2026-05-10",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "OptiFabric",
+    "description": "Best alternative to OptiFine",
+    "downloads": 1357437,
+    "url": "https://modrinth.com/modpack/optifabric-modpack",
+    "platform": "modrinth",
+    "author": "Creanter",
+    "categories": [
+      "adventure",
+      "combat",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-02",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Slimes Adventure",
+    "description": "that time i got reincarnated as a slime modpack for minecraft",
+    "downloads": 1305897,
+    "url": "https://modrinth.com/modpack/slimes-adventure",
+    "platform": "modrinth",
+    "author": "NotWindx",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "fabric",
+      "forge",
+      "magic",
+      "optimization"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.19.2",
+      "1.21.1"
+    ],
+    "date_modified": "2026-05-17",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Cobblemon Delta",
+    "description": "Pokemon Cobblemon Pack - QoL and Performance mods! The server included in the pack has Mega Evolution, Paradox Pokemon, Area Zero, Real Player Gyms, Raids, Dungeons, Pokemon Fishing!",
+    "downloads": 1111158,
+    "url": "https://modrinth.com/modpack/cobblemondelta",
+    "platform": "modrinth",
+    "author": "ItsJustChris",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization",
+      "quests"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21.1"
+    ],
+    "date_modified": "2026-05-13",
+    "client_side": "required",
+    "server_side": "optional"
+  },
+  {
+    "name": "红石生电优化【Redstone Survival Optimization】",
+    "description": "一个红石玩家必备的整合包，轻，快，小，是他的特点！A must-have integration package for a Redstone player, light, fast, and small, are his characteristics!",
+    "downloads": 984016,
+    "url": "https://modrinth.com/modpack/rso",
+    "platform": "modrinth",
+    "author": "moonboss666",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.19.4",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-07",
+    "client_side": "optional",
+    "server_side": "optional"
+  },
+  {
+    "name": "Remarkably Optimized",
+    "description": "1.16.5-26.1.2 | A performance mod pack to save your computer from doubling as a starchy spud with a remarkably optimized collection of mods!",
+    "downloads": 979327,
+    "url": "https://modrinth.com/modpack/remarkably",
+    "platform": "modrinth",
+    "author": "ThatDeeJay",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26w14a",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-15",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Cave Horror Project 1",
+    "description": "Forge 1.20.1 | All quests got a rework! | Best horror modpack with quests and story! PLAY NOW!",
+    "downloads": 968062,
+    "url": "https://modrinth.com/modpack/cave-horror-project-modpack",
+    "platform": "modrinth",
+    "author": "JustErikSK",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "forge",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2026-04-18",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "BattleArmory TACZ",
+    "description": "厌倦了每次开局都是一样的钻石剑和弓？BattleArmory 让你每场重生都像开盲盒——400+ 现代枪械随机配发，从使命召唤的经典步枪到赛博朋克科幻杀器，配上 CS 经典地图和战术投掷物，开局就是 80 帧+丝滑刚枪。** 这不是模组体验卡，这是完全免费的 1.20.1 战术枪战整合包，下载启动，直接开战。",
+    "downloads": 954000,
+    "url": "https://modrinth.com/modpack/battlearmorytacz",
+    "platform": "modrinth",
+    "author": "JZ_zhenmeng",
+    "categories": [
+      "combat",
+      "forge",
+      "multiplayer",
+      "neoforge"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2026-04-14",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Hoplite for Lunar Client",
+    "description": "Tailor-made list of popular mods to enhance your gameplay experience on Hoplite through Lunar Client, including in-game proximity voice chat.",
+    "downloads": 911532,
+    "url": "https://modrinth.com/modpack/hoplite-for-lunar-client",
+    "platform": "modrinth",
+    "author": "LunarClient",
+    "categories": [
+      "combat",
+      "fabric",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21",
+      "1.21.8",
+      "1.21.11"
+    ],
+    "date_modified": "2026-04-10",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "FPS Modpack",
+    "description": "Minimal modpack optimized for improving game performance. \n\nIncludes only essential mods to boost FPS and reduce system load while maintaining stability and smooth gameplay.",
+    "downloads": 900581,
+    "url": "https://modrinth.com/modpack/fps",
+    "platform": "modrinth",
+    "author": "MIRRONAKE",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.19",
+      "1.19.2",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1"
+    ],
+    "date_modified": "2026-04-05",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Skyblocker Modpack - Hypixel Skyblock",
+    "description": "[Hypixel Skyblock Modpack] This modpack includes common clientside utilities along with the skyblocker liap mod.",
+    "downloads": 811866,
+    "url": "https://modrinth.com/modpack/skyblocker-modpack",
+    "platform": "modrinth",
+    "author": "Wohlhabend",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.18.1",
+      "1.18.2",
+      "1.19.2",
+      "1.19.4",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "date_modified": "2026-05-02",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "RealisticCraft",
+    "description": "Taking Minecraft realism to the next level.",
+    "downloads": 793990,
+    "url": "https://modrinth.com/modpack/realisticcraft",
+    "platform": "modrinth",
+    "author": "brynblack",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "fabric"
+    ],
+    "versions": [
+      "1.19",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "date_modified": "2026-04-04",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "SkyBlock Enhanced",
+    "description": "The only Hypixel SkyBlock modpack you need. Built for modern Minecraft — 60+ optimized mods, a guided setup wizard, and a config system no other pack comes close to match.",
+    "downloads": 781883,
+    "url": "https://modrinth.com/modpack/skyblock-enhanced-modern-edition",
+    "platform": "modrinth",
+    "author": "Kd_Gaming1",
+    "categories": [
+      "adventure",
+      "fabric",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.21.5",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "date_modified": "2026-05-16",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "ArdaCraft",
+    "description": "The modpack for the ArdaCraft server, a Lord of the Rings project re-creating J.R.R. Tolkien's Middle-earth in Minecraft.",
+    "downloads": 764081,
+    "url": "https://modrinth.com/modpack/ardacraft",
+    "platform": "modrinth",
+    "author": "Fornad",
+    "categories": [
+      "adventure",
+      "fabric",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.19.2",
+      "1.20.1"
+    ],
+    "date_modified": "2026-04-20",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Cobblemon Brasil [Mobile]",
+    "description": "Mod optimized and translated into PT-BR, made to run Cobblemon on Mobile with Pojav.",
+    "downloads": 623117,
+    "url": "https://modrinth.com/modpack/brasil-cobblemon-mobile",
+    "platform": "modrinth",
+    "author": "brasilcobblemon",
+    "categories": [
+      "adventure",
+      "fabric"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2026-05-08",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Fresh & Smooth",
+    "description": "Making Minecraft As Animated, and As Fresh As possible while remaining fully client-based (similar to Actions & Stuff pack)",
+    "downloads": 598814,
+    "url": "https://modrinth.com/modpack/fresh-smooth",
+    "platform": "modrinth",
+    "author": "EnderPacks",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "neoforge",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "date_modified": "2026-05-08",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Cobblemon Official Modpack [NeoForge]",
+    "description": "The official modpack of the Cobblemon mod, for NeoForge!",
+    "downloads": 579246,
+    "url": "https://modrinth.com/modpack/cobblemon-neoforge",
+    "platform": "modrinth",
+    "author": "CobbledStudios",
+    "categories": [
+      "adventure",
+      "forge",
+      "lightweight",
+      "multiplayer",
+      "neoforge",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21.1"
+    ],
+    "date_modified": "2026-01-31",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Create+",
+    "description": "A simple vanilla+ pack, except for the inclusion of Create (and addons). Now with Create: Aeronautics!",
+    "downloads": 573558,
+    "url": "https://modrinth.com/modpack/create_plus",
+    "platform": "modrinth",
+    "author": "sudopos",
+    "categories": [
+      "adventure",
+      "forge",
+      "lightweight",
+      "multiplayer",
+      "neoforge",
+      "optimization",
+      "technology"
+    ],
+    "versions": [
+      "1.19.2",
+      "1.21.1"
+    ],
+    "date_modified": "2026-05-16",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "SVC for Lunar Client",
+    "description": "A light-weight modpack to jump straight into a world with friends, using Simple Voice Chat, on Lunar Client.",
+    "downloads": 556258,
+    "url": "https://modrinth.com/modpack/svc-for-lunar-client",
+    "platform": "modrinth",
+    "author": "LunarClient",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.21.4",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1.2"
+    ],
+    "date_modified": "2026-04-15",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Distant Horizons & Iris Shaders",
+    "description": "A STABLE, 100 PERCENT WORKING modpack for Distant Horizons & Iris Shaders compatibility.",
+    "downloads": 536828,
+    "url": "https://modrinth.com/modpack/distant-horizons-iris-shaders",
+    "platform": "modrinth",
+    "author": "Piotr_Barcz",
+    "categories": [
+      "fabric",
+      "neoforge",
+      "optimization",
+      "technology"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.20.4",
+      "1.20.6",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1.2"
+    ],
+    "date_modified": "2026-04-26",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Servidor Jornadas Cobblemon",
+    "description": "Modpack oficial do servidor Jornadas Cobblemon.",
+    "downloads": 527462,
+    "url": "https://modrinth.com/modpack/jornadas-cobblemon",
+    "platform": "modrinth",
+    "author": "jornadascobblemon",
+    "categories": [
+      "adventure",
+      "fabric",
+      "multiplayer",
+      "quests"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21.1"
+    ],
+    "date_modified": "2026-05-10",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Optimized fps",
+    "description": "Modpack Featuring Performance Mods on (Neo)Forge",
+    "downloads": 504191,
+    "url": "https://modrinth.com/modpack/optimized-fps",
+    "platform": "modrinth",
+    "author": "thejurassicking1",
+    "categories": [
+      "forge",
+      "lightweight",
+      "neoforge",
+      "optimization"
+    ],
+    "versions": [
+      "1.7.10",
+      "1.8.9",
+      "1.12.2",
+      "1.16.5",
+      "1.18.2",
+      "1.19.2",
+      "1.19.4",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-16",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Re-Console+",
+    "description": "A continued Legacy Console Edition experience, expanded upon with modern Java Edition content and QoL! (An Official Legacy4J Project)",
+    "downloads": 491862,
+    "url": "https://modrinth.com/modpack/legacy-minecraft",
+    "platform": "modrinth",
+    "author": "rjxkenshin",
+    "categories": [
+      "fabric",
+      "forge",
+      "kitchen-sink",
+      "multiplayer",
+      "neoforge",
+      "optimization",
+      "quilt"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.8",
+      "1.21.10",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-09",
+    "client_side": "optional",
+    "server_side": "optional"
+  },
+  {
+    "name": "Wynncraft for Lunar Client",
+    "description": "Tailor-made list of popular mods to enhance your gameplay experience while playing Wynncraft on Lunar Client.",
+    "downloads": 465138,
+    "url": "https://modrinth.com/modpack/wynncraft-for-lunar-client",
+    "platform": "modrinth",
+    "author": "LunarClient",
+    "categories": [
+      "combat",
+      "fabric",
+      "multiplayer",
+      "optimization",
+      "quests"
+    ],
+    "versions": [
+      "1.20.2",
+      "1.21",
+      "1.21.4",
+      "1.21.11"
+    ],
+    "date_modified": "2026-04-05",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "月亮工厂MCF 【Moon Create factory】",
+    "description": "以机械动力和社交为核心的整合包，通过机械设备和你朋友一起创造快乐的世界。体验更加浓厚的科技机械之美。\n\nAn integrated package centered on mechanical power and social interaction, creating a happy world with your friends through mechanical devices. Expe",
+    "downloads": 460953,
+    "url": "https://modrinth.com/modpack/mcf",
+    "platform": "modrinth",
+    "author": "moonboss666",
+    "categories": [
+      "adventure",
+      "fabric",
+      "multiplayer",
+      "optimization",
+      "technology"
+    ],
+    "versions": [
+      "1.19.2",
+      "1.20.1"
+    ],
+    "date_modified": "2026-04-27",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "OptiFine for Fabric",
+    "description": "OptiFine features for Fabric — powered by Fabric optimization and modern Minecraft performance mods. High FPS even on low‑end systems. 26.1.2 alpha!",
+    "downloads": 457115,
+    "url": "https://modrinth.com/modpack/optifine-for-fabric",
+    "platform": "modrinth",
+    "author": "iFamished",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-04-17",
+    "client_side": "required",
+    "server_side": "optional"
+  },
+  {
+    "name": "Spunky Boost",
+    "description": "The Best Modpack to optimize PojavLauncher's performance! Available in all versions",
+    "downloads": 433855,
+    "url": "https://modrinth.com/modpack/spunky-boost",
+    "platform": "modrinth",
+    "author": "spunkyinsaan",
+    "categories": [
+      "combat",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.18.2",
+      "1.20.1",
+      "1.20.4",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-04-19",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "MCC Island for Lunar Client",
+    "description": "Tailor-made list of popular mods to enhance your gameplay experience on MCC Island through Lunar Client.",
+    "downloads": 425832,
+    "url": "https://modrinth.com/modpack/mcc-island-for-lunar-client",
+    "platform": "modrinth",
+    "author": "LunarClient",
+    "categories": [
+      "combat",
+      "fabric",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.4",
+      "1.21",
+      "1.21.1",
+      "1.21.5",
+      "1.21.8",
+      "1.21.11"
+    ],
+    "date_modified": "2026-05-11",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Homestead",
+    "description": "Welcome to Homestead, a hand-crafted world brimming with quests to embark on, vibrant landscapes and endless building possibilities. Settle in, explore, and create the cozy life you've always dreamed ",
+    "downloads": 390810,
+    "url": "https://modrinth.com/modpack/homestead",
+    "platform": "modrinth",
+    "author": "Tokimi",
+    "categories": [
+      "adventure",
+      "fabric",
+      "multiplayer",
+      "optimization",
+      "quests",
+      "technology"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2026-05-14",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "BlockFront",
+    "description": "Official mod pack for the BlockFront mod",
+    "downloads": 375524,
+    "url": "https://modrinth.com/modpack/blockfront-mod-pack",
+    "platform": "modrinth",
+    "author": "BlockFront",
+    "categories": [
+      "challenging",
+      "combat",
+      "multiplayer",
+      "neoforge",
+      "quests",
+      "technology"
+    ],
+    "versions": [
+      "1.20.4",
+      "1.20.6",
+      "1.21.1"
+    ],
+    "date_modified": "2026-04-17",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Performium",
+    "description": "The only performance modpack you'll ever need.",
+    "downloads": 367768,
+    "url": "https://modrinth.com/modpack/performium-was-taken",
+    "platform": "modrinth",
+    "author": "maybeizen",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1"
+    ],
+    "date_modified": "2026-04-22",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Additive",
+    "description": "A modern, open-source alternative to OptiFine for Fabric",
+    "downloads": 360097,
+    "url": "https://modrinth.com/modpack/additive",
+    "platform": "modrinth",
+    "author": "devin",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization",
+      "quilt"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-08",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Backrooms: Found Footage",
+    "description": "The Best Backrooms Experience for Minecraft",
+    "downloads": 358670,
+    "url": "https://modrinth.com/modpack/backroomsff",
+    "platform": "modrinth",
+    "author": "onur.0f",
+    "categories": [
+      "adventure",
+      "fabric",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2026-04-10",
+    "client_side": "optional",
+    "server_side": "optional"
+  },
+  {
+    "name": "SkyBlock Plus",
+    "description": "Server-side modpack for skyblock with some vanilla+ features",
+    "downloads": 346489,
+    "url": "https://modrinth.com/modpack/skyblock-plus",
+    "platform": "modrinth",
+    "author": "BPR02",
+    "categories": [
+      "adventure",
+      "challenging",
+      "fabric",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1"
+    ],
+    "date_modified": "2026-03-29",
+    "client_side": "unsupported",
+    "server_side": "required"
+  },
+  {
+    "name": "XPlus PerioTable Modpack (Fabric)",
+    "description": "A modpack contains mods that improve the vanilla game experience without changing the game's mechanism.",
+    "downloads": 346446,
+    "url": "https://modrinth.com/modpack/xplus-2.0-modpack-global",
+    "platform": "modrinth",
+    "author": "Wudji",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19.4",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-04-26",
+    "client_side": "required",
+    "server_side": "optional"
+  },
+  {
+    "name": "Pokemania Cobblemon",
+    "description": "Experimente o Cobblemon no seu melhor com este Modpack para o Cobblemon Pokemania!\nO servidor incluído neste pacote conta com TODOS os modelos de Pokémon, além de Megas, Z-Moves, Terastalização, Raids",
+    "downloads": 323359,
+    "url": "https://modrinth.com/modpack/pokemania",
+    "platform": "modrinth",
+    "author": "Ezequiel",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2026-04-19",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Vulkan Optimized",
+    "description": "Vulkan renderer extracting 43% more performance than Sodium on driver-bound systems. Zero-bloat.",
+    "downloads": 322807,
+    "url": "https://modrinth.com/modpack/vulkan-optimized",
+    "platform": "modrinth",
+    "author": "Sylixe",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.19.4",
+      "1.20.1",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "date_modified": "2026-03-17",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Optimization",
+    "description": "🪽 Maximum performance, eliminates stuttering, and speeds up anything while not breaking vanilla. Sodium, Vulkan, Embeddium and Nothirium. Used to be called Wing.",
+    "downloads": 320797,
+    "url": "https://modrinth.com/modpack/optimizationn",
+    "platform": "modrinth",
+    "author": "wicivo",
+    "categories": [
+      "fabric",
+      "forge",
+      "lightweight",
+      "multiplayer",
+      "neoforge",
+      "optimization"
+    ],
+    "versions": [
+      "1.12.2",
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19.2",
+      "1.19.4",
+      "1.20.1",
+      "1.20.2-rc2",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-16",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Spunky Optimized",
+    "description": "One of The Best optimization modpack for Minecraft designed to enhance performance and improve gameplay experience.",
+    "downloads": 293460,
+    "url": "https://modrinth.com/modpack/spunky-optimized",
+    "platform": "modrinth",
+    "author": "spunkyinsaan",
+    "categories": [
+      "combat",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.19.2",
+      "1.20",
+      "1.20.1",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-04",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Low Res Trailer Recreation",
+    "description": "This pack aims to recreate the amazing visuals of the Minecraft Trailers inside the vanilla game.",
+    "downloads": 292369,
+    "url": "https://modrinth.com/modpack/low-res-trailer-recreation",
+    "platform": "modrinth",
+    "author": "lowresbones",
+    "categories": [
+      "fabric",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21",
+      "1.21.5"
+    ],
+    "date_modified": "2025-07-07",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Cobblemon Expanded (by Jonathan)",
+    "description": "Cobblemon with missing features added in! Pokémon Towns, rideable Pokémon, Mega Evolutions, Gym Leaders, Pokémon plushies, and more!",
+    "downloads": 280711,
+    "url": "https://modrinth.com/modpack/jonathans-cobblemon-pack",
+    "platform": "modrinth",
+    "author": "JonathansPlayroom",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21.1"
+    ],
+    "date_modified": "2025-06-18",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Official HeroPack-Verse SuperHeroes Server",
+    "description": "A Server for the FiskHeroes / Fisk's SuperHeroes mod that utilizes Official HeroPacks",
+    "downloads": 279898,
+    "url": "https://modrinth.com/modpack/heropack-verse-fiskheroes-server",
+    "platform": "modrinth",
+    "author": "SymbioteSpidey",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "forge",
+      "lightweight",
+      "magic",
+      "multiplayer",
+      "optimization",
+      "quests",
+      "technology"
+    ],
+    "versions": [
+      "1.7.10"
+    ],
+    "date_modified": "2025-05-28",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Adrenaline",
+    "description": "A lightweight, open-source performance modpack for Fabric",
+    "downloads": 270129,
+    "url": "https://modrinth.com/modpack/adrenaline",
+    "platform": "modrinth",
+    "author": "devin",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization",
+      "quilt"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-08",
+    "client_side": "optional",
+    "server_side": "optional"
+  },
+  {
+    "name": "Prehistoric World",
+    "description": "Live a real prehistoric experience surrounded by impressive and realistic dinosaurs!",
+    "downloads": 266352,
+    "url": "https://modrinth.com/modpack/prehistoric-world-modpack",
+    "platform": "modrinth",
+    "author": "Lupin",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "forge",
+      "multiplayer",
+      "quests"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2026-05-07",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Conquest Reforged Modpack (Fabric)",
+    "description": "The official Conquest Reforged modpack, for Fabric!",
+    "downloads": 265571,
+    "url": "https://modrinth.com/modpack/conquest-reforged-modpack",
+    "platform": "modrinth",
+    "author": "ConquestAdmin",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "fabric"
+    ],
+    "versions": [
+      "1.19.2",
+      "1.20.1"
+    ],
+    "date_modified": "2026-04-19",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "The Lost Era Modpack",
+    "description": "Designed for players of all skill levels to fully utilize modded content, be it Magic, Tech, and more.",
+    "downloads": 255621,
+    "url": "https://modrinth.com/modpack/the-lost-era",
+    "platform": "modrinth",
+    "author": "TechnoParadox",
+    "categories": [
+      "forge",
+      "kitchen-sink",
+      "lightweight",
+      "magic",
+      "multiplayer",
+      "quests",
+      "technology"
+    ],
+    "versions": [
+      "1.7.10"
+    ],
+    "date_modified": "2025-12-07",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Hope and despair",
+    "description": "The high version of the popular gameplay \"100 Days of Shock\" is remastered and unique!",
+    "downloads": 254264,
+    "url": "https://modrinth.com/modpack/hope-and-despair",
+    "platform": "modrinth",
+    "author": "Lithum-12",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "forge",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2026-05-16",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Better MC [FABRIC] - BMC3",
+    "description": "Version 1.21 | Vanilla+ Experience With The Player in Mind | A New Era of Better MC!",
+    "downloads": 251541,
+    "url": "https://modrinth.com/modpack/better-mc-fabric-bmc3",
+    "platform": "modrinth",
+    "author": "SHXRKIE",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "fabric",
+      "kitchen-sink",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.21",
+      "1.21.1"
+    ],
+    "date_modified": "2025-05-18",
+    "client_side": "unknown",
+    "server_side": "unknown"
+  },
+  {
+    "name": "Reimagined Intro [MOVED TO NEW PROJECT]",
+    "description": "[READ THE DESCRIPTION] Replaces Minecraft's intro with a new Mojang animation and the official Minecraft channel outro!",
+    "downloads": 250940,
+    "url": "https://modrinth.com/modpack/reimagined-intro-archived",
+    "platform": "modrinth",
+    "author": "NoobTrieu",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "optimization",
+      "technology"
+    ],
+    "versions": [
+      "1.18.2",
+      "1.19.2",
+      "1.20.1",
+      "1.21.1",
+      "1.21.4",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "date_modified": "2026-01-03",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Cobblemon Optimized (Pokemon Modpack)",
+    "description": "Lag free Cobblemon Experience!",
+    "downloads": 246409,
+    "url": "https://modrinth.com/modpack/cobblemon-opted",
+    "platform": "modrinth",
+    "author": "Updated",
+    "categories": [
+      "adventure",
+      "combat",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2026-02-01",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Hypixel Skyblock for Lunar Client",
+    "description": "Tailor-made list of popular mods to enhance your gameplay experience while playing Hypixel Skyblock on Lunar Client.",
+    "downloads": 235715,
+    "url": "https://modrinth.com/modpack/hypixel-skyblock-for-lunar-client",
+    "platform": "modrinth",
+    "author": "LunarClient",
+    "categories": [
+      "adventure",
+      "fabric",
+      "multiplayer",
+      "quests"
+    ],
+    "versions": [
+      "1.21.5",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "date_modified": "2026-04-05",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "uku's pvp modpack",
+    "description": "small but efficient pvp modpack",
+    "downloads": 232189,
+    "url": "https://modrinth.com/modpack/ukupvp",
+    "platform": "modrinth",
+    "author": "uku",
+    "categories": [
+      "combat",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "quilt"
+    ],
+    "versions": [
+      "1.18.2",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-14",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "MAX FPS: Optimized",
+    "description": "🚀 MAX FPS WITHOUT UNNECESSARY MODS! Only 16 optimization mods - NOTHING EXTRA!  \n✅ ALL MAJOR VERSIONS\n⚡ INSTALLS ON ANY LAUNCHER! (Guide below)",
+    "downloads": 226835,
+    "url": "https://modrinth.com/modpack/max-fps-optimized",
+    "platform": "modrinth",
+    "author": "NizeroXs",
+    "categories": [
+      "fabric",
+      "forge",
+      "lightweight",
+      "multiplayer",
+      "neoforge",
+      "optimization",
+      "quilt"
+    ],
+    "versions": [
+      "1.7.10",
+      "1.12.2",
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19.2",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-04-10",
+    "client_side": "optional",
+    "server_side": "optional"
+  },
+  {
+    "name": "Isle of Berk (Claws of Berk)",
+    "description": "HTTYD in Minecraft! Enjoy a Modpack filled with Dragons, Vikings, Dungeons, HTTYD references and so much more!...",
+    "downloads": 222347,
+    "url": "https://modrinth.com/modpack/new-berks-dawn",
+    "platform": "modrinth",
+    "author": "Kesselot",
+    "categories": [
+      "adventure",
+      "combat",
+      "forge",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.18.2"
+    ],
+    "date_modified": "2026-04-24",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Kimetsu no Yaiba (Demon-Slayer)",
+    "description": "Kimetsu no Yaiba (Demon-Slayer) is a RPG Modpack for players wanting to become a demon/demon slayer!",
+    "downloads": 217289,
+    "url": "https://modrinth.com/modpack/kimetsunoyaiba",
+    "platform": "modrinth",
+    "author": "Kesselot",
+    "categories": [
+      "adventure",
+      "combat",
+      "forge",
+      "kitchen-sink"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.20.1"
+    ],
+    "date_modified": "2026-03-28",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Actions & Better",
+    "description": "🌍 A fully client-side modpack that tries to replicate the atmosphere as when playing with Actions & Stuff for Java Edition. The modpack combines excellent ⚡ performance, ✨ atmosphere and beauty.",
+    "downloads": 213202,
+    "url": "https://modrinth.com/modpack/actandbetter",
+    "platform": "modrinth",
+    "author": "zed1ker",
+    "categories": [
+      "adventure",
+      "combat",
+      "fabric",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21.10",
+      "1.21.11",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-04",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "HORIZONS",
+    "description": "The Horizons Project is a modpack created for rubius. Released so that others can enjoy the same experience as well.",
+    "downloads": 209846,
+    "url": "https://modrinth.com/modpack/horizons1",
+    "platform": "modrinth",
+    "author": "carlossinhache",
+    "categories": [
+      "adventure",
+      "challenging",
+      "fabric",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2025-01-21",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Jujutsu Kaisen (Sorcery Fight)",
+    "description": "Jujutsu Kaisen (Sorcery Fight) is a RPG Modpack for players wanting to become a Sorcerer and fight curses!",
+    "downloads": 207205,
+    "url": "https://modrinth.com/modpack/jujutsu-kaisen-sorcery-fight",
+    "platform": "modrinth",
+    "author": "Kesselot",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "forge",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2026-05-01",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "RTX ON",
+    "description": "Insane graphics, insane physics, even able to play on VR, perfect. Optimise your minecraft to be like the minecraft 'insane graphics' tiktoks that you might have seen.",
+    "downloads": 205317,
+    "url": "https://modrinth.com/modpack/rtx-on",
+    "platform": "modrinth",
+    "author": "Asuran18mare",
+    "categories": [
+      "fabric",
+      "multiplayer",
+      "optimization",
+      "technology"
+    ],
+    "versions": [
+      "1.20.2",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.7",
+      "1.21.8",
+      "1.21.11"
+    ],
+    "date_modified": "2026-02-03",
+    "client_side": "optional",
+    "server_side": "optional"
+  },
+  {
+    "name": "Lucky Block Challenge",
+    "description": "Lucky Block Challenge!, Lucky Blocks, Lucky OneBlock, Lucky Race, Lucky Games, Lucky Pillars and more!",
+    "downloads": 205196,
+    "url": "https://modrinth.com/modpack/lucky-block-challenge",
+    "platform": "modrinth",
+    "author": "Kesselot",
+    "categories": [
+      "adventure",
+      "combat",
+      "forge",
+      "lightweight",
+      "multiplayer",
+      "neoforge"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.21.1"
+    ],
+    "date_modified": "2026-03-28",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "The Last Voyage of the Harpy Express",
+    "description": "A Train Murder Mystery Social Game",
+    "downloads": 202323,
+    "url": "https://modrinth.com/modpack/harpy-express",
+    "platform": "modrinth",
+    "author": "RAT",
+    "categories": [
+      "fabric"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2025-12-20",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Cobblemon.gg - Ultimate Pokemon Experience",
+    "description": "🔥 Cobblemon.gg - Ultimate Pokemon Experience! Welcome to Cobblemon.gg, your premier destination for an unparalleled Minecraft – Cobblemon – Pokémon experience!",
+    "downloads": 189965,
+    "url": "https://modrinth.com/modpack/cobblemongg",
+    "platform": "modrinth",
+    "author": "saito1",
+    "categories": [
+      "adventure",
+      "fabric",
+      "multiplayer",
+      "technology"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21.1"
+    ],
+    "date_modified": "2026-05-14",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Zombie Storm 100 Days",
+    "description": "Experience the nonstop excitement as you fight in a world filled with zombies. Prepare yourself, construct your stronghold, and tap into your survival skills in this amazing journey!",
+    "downloads": 189501,
+    "url": "https://modrinth.com/modpack/zombie-storm-100-days",
+    "platform": "modrinth",
+    "author": "spunkyinsaan",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "forge",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2025-01-26",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "SuperHeroes",
+    "description": "A modpack about superheroes, magic, and tech!",
+    "downloads": 187410,
+    "url": "https://modrinth.com/modpack/superheroes",
+    "platform": "modrinth",
+    "author": "Adir",
+    "categories": [
+      "adventure",
+      "combat",
+      "forge",
+      "magic",
+      "technology"
+    ],
+    "versions": [
+      "1.12.2",
+      "1.20.1"
+    ],
+    "date_modified": "2026-01-08",
+    "client_side": "required",
+    "server_side": "optional"
+  },
+  {
+    "name": "Better Adventures++",
+    "description": "A modified version of Flowstate's Better Adventures+ modpack that adds a few mods I feel keep the spirit of the original, while adding extra content, features, and structures",
+    "downloads": 184829,
+    "url": "https://modrinth.com/modpack/better-adventures++",
+    "platform": "modrinth",
+    "author": "FluffyPuppyKasey",
+    "categories": [
+      "adventure",
+      "fabric",
+      "quilt"
+    ],
+    "versions": [
+      "1.19.2",
+      "1.20.1",
+      "1.21.1"
+    ],
+    "date_modified": "2025-02-27",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "One block horror",
+    "description": "It's regular one block survival, but with many dwellers to give you a chilling experience (optimized)",
+    "downloads": 182680,
+    "url": "https://modrinth.com/modpack/one-block-horror-dweller",
+    "platform": "modrinth",
+    "author": "kamussy",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "forge",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.19.2"
+    ],
+    "date_modified": "2025-07-25",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Better MC [NEOFORGE] BMC5",
+    "description": "Version 1.21.1 | Vanilla+ Experience With The Player in Mind | A New Era of Better MC!",
+    "downloads": 182467,
+    "url": "https://modrinth.com/modpack/better-mc-neoforge-bmc5",
+    "platform": "modrinth",
+    "author": "SHXRKIE",
+    "categories": [
+      "adventure",
+      "combat",
+      "multiplayer",
+      "neoforge",
+      "optimization",
+      "quests"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2025-06-10",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Rising Legends",
+    "description": "[1.20.1] RLCraft Recreated For Modern Minecraft Versions! Includes (almost) all features from the original modpack.",
+    "downloads": 179383,
+    "url": "https://modrinth.com/modpack/rl-craft",
+    "platform": "modrinth",
+    "author": "Cwortex",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "fabric",
+      "magic",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2025-11-30",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "FPS Booster",
+    "description": "Optimizes Minecraft for better performance, higher FPS, reduced lag, and smoother gameplay.\n\n1.21.9-1.21.10 Beta",
+    "downloads": 174190,
+    "url": "https://modrinth.com/modpack/fpsbooster",
+    "platform": "modrinth",
+    "author": "Nakirium",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.19.2",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-04-27",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Thunder",
+    "description": "[26.1 available]\nBoost FPS, reduce lag, speed up load times, and save resources with this modpack! Perfect for low-end computers. No extra mods, just pure performance improvement.",
+    "downloads": 170719,
+    "url": "https://modrinth.com/modpack/thunder",
+    "platform": "modrinth",
+    "author": "TheBossMagnus",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "optimization",
+      "quilt"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.17.1",
+      "1.18.2",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "23w32a",
+      "23w33a",
+      "1.20.2-pre1",
+      "1.20.2-pre4",
+      "1.20.2-rc1",
+      "1.20.2",
+      "23w41a",
+      "23w42a",
+      "23w44a",
+      "23w45a",
+      "1.20.3-rc1",
+      "1.20.3",
+      "1.20.4",
+      "24w03b",
+      "24w04a",
+      "24w07a",
+      "24w09a",
+      "24w10a",
+      "24w11a",
+      "24w12a",
+      "24w13a",
+      "24w14potato",
+      "1.20.5-pre1",
+      "1.20.5-rc2",
+      "1.20.5-rc3",
+      "1.20.5",
+      "1.20.6",
+      "24w18a",
+      "24w19a",
+      "24w19b",
+      "24w20a",
+      "1.21",
+      "1.21.1",
+      "24w36a",
+      "24w38a",
+      "24w40a",
+      "1.21.2-pre1",
+      "1.21.2-pre2",
+      "1.21.2-pre3",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "25w04a",
+      "25w07a",
+      "25w10a",
+      "1.21.5",
+      "25w19a",
+      "1.21.6-pre4",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-11",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Shingeki no Craft Official Modpack",
+    "description": "Attack on Titan in Minecraft! Shingeki no Craft: Official Modpack!",
+    "downloads": 170213,
+    "url": "https://modrinth.com/modpack/shingeki-no-craft-modpack",
+    "platform": "modrinth",
+    "author": "Fanfo",
+    "categories": [
+      "adventure",
+      "challenging",
+      "fabric",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.20.2",
+      "1.20.6",
+      "1.21",
+      "1.21.4",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "date_modified": "2026-04-04",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Cobblemon Islands",
+    "description": "Pokémon in Minecraft! Play the Cobblemon Mod at it's best with this Server Modpack for Cobblemon Islands\n\nThe server included in this pack has EVERY Pokemon Model, Megas, Z-Moves, Terastalization, Rai",
+    "downloads": 167881,
+    "url": "https://modrinth.com/modpack/cobblemon-island",
+    "platform": "modrinth",
+    "author": "CobblemonIsland",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "fabric",
+      "forge",
+      "lightweight",
+      "multiplayer",
+      "optimization",
+      "quests"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.21.1"
+    ],
+    "date_modified": "2026-02-13",
+    "client_side": "required",
+    "server_side": "optional"
+  },
+  {
+    "name": "Alaskan Wilderness",
+    "description": "You are on an expedition, but your place to stay has seemingly been abandoned. Having it falling apart, can you survive the Alaskan wilderness? Gathering supplies, keeping yourself warm and not becomi",
+    "downloads": 166599,
+    "url": "https://modrinth.com/modpack/alaskan-wilderness",
+    "platform": "modrinth",
+    "author": "Xircon",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "forge"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2025-04-29",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Shalz One Block Survival Create",
+    "description": "Create Pack used by Shalz in his One block survival Create mod series.",
+    "downloads": 161357,
+    "url": "https://modrinth.com/modpack/shalz-one-block-survival-create",
+    "platform": "modrinth",
+    "author": "Shalz69",
+    "categories": [
+      "challenging",
+      "fabric",
+      "multiplayer",
+      "technology"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2026-04-04",
+    "client_side": "optional",
+    "server_side": "optional"
+  },
+  {
+    "name": "FPS Essentials",
+    "description": "A modpack full of the main FPS boosters in the community. Perfect for low-end laptops and computers. It also allows running shaders with little to no lag.",
+    "downloads": 158570,
+    "url": "https://modrinth.com/modpack/fps-essentials",
+    "platform": "modrinth",
+    "author": "MaxMasterCoder",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.21.5"
+    ],
+    "date_modified": "2025-05-04",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Essentials++",
+    "description": "Essentials for playing Minecraft Java Edition at it's full potential.",
+    "downloads": 155641,
+    "url": "https://modrinth.com/modpack/essentials++",
+    "platform": "modrinth",
+    "author": "eatyourglory",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.16.5",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20.1",
+      "1.20.4",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.8",
+      "1.21.11"
+    ],
+    "date_modified": "2026-01-01",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "SpeedrunPack",
+    "description": "All verifiable mods on speedrun.com for modern versions of Minecraft.",
+    "downloads": 152745,
+    "url": "https://modrinth.com/modpack/speedrun",
+    "platform": "modrinth",
+    "author": "interp",
+    "categories": [
+      "challenging",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.14.4",
+      "1.15.2",
+      "1.16.1",
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18.1",
+      "1.18.2",
+      "1.19.2",
+      "1.19.4",
+      "1.20.1",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "25w14craftmine",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1"
+    ],
+    "date_modified": "2026-04-03",
+    "client_side": "optional",
+    "server_side": "optional"
+  },
+  {
+    "name": "Better PvP",
+    "description": "This modpack is for Hypixel Bedwars/Duels and helps you get better FPS for smoother gameplay.",
+    "downloads": 151080,
+    "url": "https://modrinth.com/modpack/modpack-better-pvp",
+    "platform": "modrinth",
+    "author": "jellemods",
+    "categories": [
+      "challenging",
+      "combat",
+      "fabric",
+      "forge",
+      "lightweight",
+      "multiplayer",
+      "optimization",
+      "technology"
+    ],
+    "versions": [
+      "1.8.9",
+      "1.19",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.21",
+      "1.21.1",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-06",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Medieval MC [FORGE] - MMC4",
+    "description": "Version 1.20 | Medieval Fantasy RPG Adventure & Exploration Modpack everyone wants!",
+    "downloads": 141048,
+    "url": "https://modrinth.com/modpack/medieval-mc-forge-mmc4",
+    "platform": "modrinth",
+    "author": "SHXRKIE",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "forge",
+      "lightweight",
+      "magic",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1"
+    ],
+    "date_modified": "2025-02-08",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Spunky PVP Plus",
+    "description": "A modpack with all the essential mods & resource packs that enhances your PVP gameplay experience.",
+    "downloads": 140219,
+    "url": "https://modrinth.com/modpack/spunky-pvp-plus",
+    "platform": "modrinth",
+    "author": "spunkyinsaan",
+    "categories": [
+      "challenging",
+      "combat",
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.1",
+      "1.20.4",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-04",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Cobblemon Rivals",
+    "description": "Modpack for the popular Minecraft server Cobblemon Rivals",
+    "downloads": 137363,
+    "url": "https://modrinth.com/modpack/cobblemon-rivals",
+    "platform": "modrinth",
+    "author": "Seismic",
+    "categories": [
+      "adventure",
+      "challenging",
+      "fabric",
+      "lightweight",
+      "magic",
+      "multiplayer",
+      "quests"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2026-02-03",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Sensible MC",
+    "description": "A hand-selected modpack that aim to improve various elements of vanilla Minecraft without totally changing the basic gameplay.",
+    "downloads": 137289,
+    "url": "https://modrinth.com/modpack/sensible-modpack",
+    "platform": "modrinth",
+    "author": "Stackelyy",
+    "categories": [
+      "adventure",
+      "combat",
+      "fabric",
+      "kitchen-sink"
+    ],
+    "versions": [
+      "1.21",
+      "1.21.1"
+    ],
+    "date_modified": "2026-04-22",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "命运齿轮FOM【Fate's Machinery】",
+    "description": "轻量级机械动力整合包，基于最新NeoForge优化，专注自动化玩法，流畅低耗。\n\nLightweight Create modpack on NeoForge, optimized for smooth automation gameplay.",
+    "downloads": 133824,
+    "url": "https://modrinth.com/modpack/fom",
+    "platform": "modrinth",
+    "author": "moonboss666",
+    "categories": [
+      "lightweight",
+      "neoforge",
+      "optimization",
+      "technology"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2026-05-10",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "FPSBOOST",
+    "description": "FPSBOOST – это мощный набор оптимизаций для Minecraft на Fabric, который значительно повышает FPS, уменьшает лаги и делает игровой процесс максимально плавным.",
+    "downloads": 127977,
+    "url": "https://modrinth.com/modpack/fpsboost",
+    "platform": "modrinth",
+    "author": "KolyaYT",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "neoforge",
+      "optimization",
+      "quilt"
+    ],
+    "versions": [
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-15",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Everything Voxy",
+    "description": "This modpack makes Voxy run fast and smooth with full support for compatible shaders. 1.21.10–26.1.2",
+    "downloads": 127800,
+    "url": "https://modrinth.com/modpack/everything-voxy",
+    "platform": "modrinth",
+    "author": "GGWoof",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight",
+      "optimization",
+      "technology"
+    ],
+    "versions": [
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-04-13",
+    "client_side": "optional",
+    "server_side": "optional"
+  },
+  {
+    "name": "Simple Realism",
+    "description": "This Modpack Aims to Make Minecraft More Realistic!",
+    "downloads": 124629,
+    "url": "https://modrinth.com/modpack/simplerealism",
+    "platform": "modrinth",
+    "author": "BillyDaBongo",
+    "categories": [
+      "adventure",
+      "challenging",
+      "combat",
+      "fabric",
+      "multiplayer"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2025-10-08",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Rapid Optimization",
+    "description": "A concise and ultimate optimization modpack!\nwith full cross-platform support across all versions.",
+    "downloads": 124520,
+    "url": "https://modrinth.com/modpack/rapid_optimization",
+    "platform": "modrinth",
+    "author": "SnowFox114",
+    "categories": [
+      "fabric",
+      "forge",
+      "lightweight",
+      "multiplayer",
+      "neoforge",
+      "optimization"
+    ],
+    "versions": [
+      "1.7.10",
+      "1.8.9",
+      "1.12.2",
+      "1.16.5",
+      "1.18.2",
+      "1.19.2",
+      "1.20.1",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "date_modified": "2026-05-16",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Fresh Animatons \"Fabric\"ated",
+    "description": "In this modpack you can use fresh animations on fabric without Optifine",
+    "downloads": 119959,
+    "url": "https://modrinth.com/modpack/fresh-animatons-\"fabric\"ated",
+    "platform": "modrinth",
+    "author": "TheBlueAllay",
+    "categories": [
+      "adventure",
+      "fabric",
+      "lightweight",
+      "optimization"
+    ],
+    "versions": [
+      "1.19.2",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.21",
+      "1.21.1",
+      "1.21.5",
+      "1.21.11"
+    ],
+    "date_modified": "2026-03-10",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "Sodium Extra",
+    "description": "Best optimization and quality of life modpack",
+    "downloads": 116883,
+    "url": "https://modrinth.com/modpack/sodiumextra",
+    "platform": "modrinth",
+    "author": "Marquis",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.20.4",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.11"
+    ],
+    "date_modified": "2026-04-16",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "The Broken Script Enhanced",
+    "description": "A horror modpack based around The Broken Script, adding small mods to aid it in giving you a sense of fear and paranoia.",
+    "downloads": 116480,
+    "url": "https://modrinth.com/modpack/netherite-the-broken-script-enhanced",
+    "platform": "modrinth",
+    "author": "Netherite",
+    "categories": [
+      "adventure",
+      "challenging",
+      "lightweight",
+      "multiplayer",
+      "neoforge",
+      "optimization",
+      "quests"
+    ],
+    "versions": [
+      "1.21.1"
+    ],
+    "date_modified": "2026-02-05",
+    "client_side": "required",
+    "server_side": "required"
+  },
+  {
+    "name": "Gensokyo Reimagined QOL",
+    "description": "Quality of Life mods curated by the Gensokyo Reimagined Team to improve your experience on the server!",
+    "downloads": 115956,
+    "url": "https://modrinth.com/modpack/gensokyo-reimagined-qol",
+    "platform": "modrinth",
+    "author": "Taiyou06",
+    "categories": [
+      "fabric",
+      "lightweight",
+      "multiplayer",
+      "optimization"
+    ],
+    "versions": [
+      "1.19.3",
+      "1.19.4",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "date_modified": "2026-04-08",
+    "client_side": "required",
+    "server_side": "unsupported"
+  },
+  {
+    "name": "这才是真正的丛林神庙！【我的世界·文明复苏#10】",
+    "url": "https://www.bilibili.com/video/BV1mU4y1Y7Hj",
+    "platform": "bilibili",
+    "author": "爱玩游戏的尘甲",
+    "views": 6273990,
+    "description": "游戏：我的世界\n\n整合包：修改自up主【四川柯基菌】发布的真实地形生存整合包，如需获取请自行前往柯基菌相关视频简介中查找。\n\n本期推荐BGM：\n安田レイ (安田丽) - Brand New Day\n\n这期视频虽然肝度非常高，是整个系列肝度最高的一期，但是内容却比较单一，全是挖材料和整地形，所以能建出来的精彩部分反而没那么多。\n\n怎么剪这个问题搞得我很头大，熬了好几夜赶出来的。\n\n然后我这人有个毛病"
+  },
+  {
+    "name": "我的世界：BetterMC52，新的敌人潜行者",
+    "url": "https://www.bilibili.com/video/BV1R7421f75g",
+    "platform": "bilibili",
+    "author": "nor叔",
+    "views": 5753044,
+    "description": "san值已清空"
+  },
+  {
+    "name": "【亡者世界】末日都市求生整合包!第一集！#我的世界",
+    "url": "https://www.bilibili.com/video/BV1PmzrY8EaW",
+    "platform": "bilibili",
+    "author": "一个小立丶",
+    "views": 5322640,
+    "description": "【亡者世界】都市末日求生整合包!第一集！#我的世界"
+  },
+  {
+    "name": "MC隔离区生存:大型末日丧尸类整合包，开坑！",
+    "url": "https://www.bilibili.com/video/BV1HibceuE6t",
+    "platform": "bilibili",
+    "author": "我的世界凯文解说",
+    "views": 4944586,
+    "description": ""
+  },
+  {
+    "name": "【MC】大型生活向中文整合包发布！— [Isekai Life&#x27;s Fantasy-异界生活幻想 v1.3] — 史诗级的MC生活！",
+    "url": "https://www.bilibili.com/video/BV1tU4y1A7km",
+    "platform": "bilibili",
+    "author": "我再也肝不动了",
+    "views": 4516753,
+    "description": "游戏版本：1.16.5\n\n整合包与服务端下载：https://kaihei.co/XXjj2n\n常见问题：https://kaihei.co/ch2XvQ（记得选分类）\n问题反馈：https://kaihei.co/bgG0ff（在反馈任何问题前，请阅读常见问题）\n\n*你的点赞对我来说非常重要。\n\n2021/10/15 - 整合包已更新v1.3\n更新日志：https://kaihei.co/ISV"
+  },
+  {
+    "name": "【我的世界】雾中人整合包！零党如何搭配？完全不需要钻石！！！",
+    "url": "https://www.bilibili.com/video/BV1vj421d7KX",
+    "platform": "bilibili",
+    "author": "沐涵阿a",
+    "views": 3871694,
+    "description": "-"
+  },
+  {
+    "name": "我的世界？不就是个种田游戏嘛！  【我的世界#04】",
+    "url": "https://www.bilibili.com/video/BV12r4y1D7m5",
+    "platform": "bilibili",
+    "author": "爱玩游戏的尘甲",
+    "views": 3762434,
+    "description": "游戏：我的世界\n\n整合包：修改自up主【四川柯基菌】发布的真实地形生存整合包，如需获取请自行前往柯基菌相关视频简介中查找。\n\n本期推荐BGM： Travis Howard - life before it starts\n                            Masetti - Our Own Heaven\n\n标题是玩笑话，相信mc玩家都能理解吧！\n\n一切都起源于以前看到的mc视频"
+  },
+  {
+    "name": "【MC整合包发布】乌托邦探险之旅3.2，在花海里感受宁静，在山峰之巅寻找勇气，在音符间倾听人生。记录游戏每一处风景，这个充满诗意的乌托邦，期待旅者的到来！",
+    "url": "https://www.bilibili.com/video/BV1Kf421X7cg",
+    "platform": "bilibili",
+    "author": "Limit小火柴",
+    "views": 3654289,
+    "description": "整合包名称：乌托邦探险之旅3.1\n游戏版本：1.20.1 fabric\n模组数量：522\n此次完全重写了大部分任务线，美化了任务背景，新增100多种群系和各种物品，优化了游戏性能，不同模组配方做了兼容，部分模组的农作物也做了季节兼容，修复上版本的各种bug。\n玩法：【交易/探索/风景/沉浸式/休闲养老/种田/烹饪/视觉/音乐/战斗/旅行/多维度/中世纪】\n以下是整合包两种获取方式 ：\n1、关注UP"
+  },
+  {
+    "name": "我的世界硬核生存！【中世纪王国100天 】#1 在MC中建造自己的王朝！！",
+    "url": "https://www.bilibili.com/video/BV1bE421P7zG",
+    "platform": "bilibili",
+    "author": "Q弹的果冻c",
+    "views": 3651133,
+    "description": "欢迎来到中世纪王国！\n我的目标是在中世纪生存100天，并组建自己的王国！\n驯服所以中世纪神话生物！\n主要mod：冰与火之歌  虚拟生物  \n本期视频尝试一些新风格与新剪辑思路，如果各位喜欢就请多多支持哦！\n中世纪王国整合包地图为我自制的！\n各位如果喜欢，就请点个赞，突破5w将免费发布下载！\n本系列大概5—6p！\n最后感谢各位的等待与支持！"
+  },
+  {
+    "name": "当我首次游玩最难整合包时，就打开了极限模式…",
+    "url": "https://www.bilibili.com/video/BV1g242eGEof",
+    "platform": "bilibili",
+    "author": "果之余不是鱼",
+    "views": 3522185,
+    "description": "为了更好的体验一下，最难的整合包（之一）到底有多难？\n所以真没查攻略！下饭操作大家理解一下！！\n反响不错的话，我会尝试的去通关这个系列，以后还可能会更新类似的视频，比如【最_ _的整合包】\n大家可以留言出，你们想看的整合包！"
+  },
+  {
+    "name": "MC最「 阴间」恐怖整合包#2丨遭遇诡异生物！？",
+    "url": "https://www.bilibili.com/video/BV15W4y1C7m9",
+    "platform": "bilibili",
+    "author": "萝卜吃米洛",
+    "views": 3186085,
+    "description": "10万点赞光速更新下期！！\n不过有一说一，下期视频很有可能是这个系列的最后一期！\n因为肉眼所见的是，这个整合包的目标不是很明确。\n所以没办法在每期视频里都找到个很合适的目标，漫无目的的话，视频会过于划了！\n见谅呀！！\n整合包下载地址：https://www.curseforge.com/minecraft/modpacks/horror-island\n地图需要单独付费购买！"
+  },
+  {
+    "name": "2024年最推荐的10个我的世界整合包 第1期(Forge&amp;Fabric)",
+    "url": "https://www.bilibili.com/video/BV1p1421C75Q",
+    "platform": "bilibili",
+    "author": "木槿晓枫",
+    "views": 2895809,
+    "description": "【全整理】下载链接\n夸克：https://pan.quark.cn/s/72c8676aba8f\n\n视频原址：https://www.youtube.com/watch?v=ar6Wi7GKLQI&amp;t=27s\n\n【星叶面板】支持一键部署整合包、数百整合包提供.\n自主研发功能，界面魔改功能齐全，轻轻点击按钮即可实现你的世界。\n——大型整合包开服/联机 !低价! !稳定! !简单!——\nGOL"
+  },
+  {
+    "name": "【畸变100天 中字 EP.1】Minecraft寄生虫模组硬核生存100天！",
+    "url": "https://www.bilibili.com/video/BV1cf4y1p7ZA",
+    "platform": "bilibili",
+    "author": "空格是空鸽的嗝",
+    "views": 2782087,
+    "description": "https://www.youtube.com/watch?v=CxkvhxrJde0&amp;t\n原视频标题：I Spent 100 Days in a Parasite Apocalypse in Minecraft... Here&#x27;s What Happened\n原视频全长1小时24分钟，有一点点太长了！所以翻译版本将会分割成4集，每一集收录20天时长大概20分钟！\n由于原作者话实"
+  },
+  {
+    "name": "逃离隔离区：第一季【超长一口气爽看】",
+    "url": "https://www.bilibili.com/video/BV1snm3BsEs3",
+    "platform": "bilibili",
+    "author": "我叫非主流_",
+    "views": 2746618,
+    "description": "一共4集，放个合集版，这个系列就先放一放，后面再做续集"
+  },
+  {
+    "name": "MC最「 阴间」恐怖整合包丨5位UP如何在恐怖岛中存活？！",
+    "url": "https://www.bilibili.com/video/BV1wr4y1t7MB",
+    "platform": "bilibili",
+    "author": "萝卜吃米洛",
+    "views": 2739501,
+    "description": "前一段时间在直播的时候找到的整合包！感觉偶尔玩玩恐怖向真不戳诶！\n整合包下载地址：https://www.curseforge.com/minecraft/modpacks/horror-island\n地图需要单独付费购买！\n如果这期视频有10万点赞，我就开坑！芜湖~\n（但是开坑的话，可能不会做很多期，除非找到个特别明朗的目标，现整合包能有的玩法就是造房子造装备，打深渊国度，但会有点太长太无聊了！"
+  },
+  {
+    "name": "一口气看完爽包【落幕曲】！！！",
+    "url": "https://www.bilibili.com/video/BV1etG5zCEvm",
+    "platform": "bilibili",
+    "author": "河狸啧啧啧",
+    "views": 2686412,
+    "description": "下个包玩啥捏"
+  },
+  {
+    "name": "Java版烦村整合包5.0版本更新了！（链接在评论）",
+    "url": "https://www.bilibili.com/video/BV1Fr4y1d7LT",
+    "platform": "bilibili",
+    "author": "账号已注销",
+    "views": 2656153,
+    "description": "注：6.0版本已发布\n\n6.0下载链接：\n下载链接一：\nhttps://pan.quark.cn/s/39c10fea93f6\n下载链接二：https://pan.baidu.com/s/1sTdFya6Mg4Ar10D1H5Dl2w?pwd=1145\n提取码：1145\n\n烦人的村民整合包 5.0版本下载链接:\n夸克网盘:\nhttps://pan.quark.cn/s/3c1d08e52c04\n\n"
+  },
+  {
+    "name": "我的世界：不是！哥们？这整合包有2000万下载量！",
+    "url": "https://www.bilibili.com/video/BV15M4m127dH",
+    "platform": "bilibili",
+    "author": "GW漫游大作战",
+    "views": 2591643,
+    "description": "免费的赞，懂？\n\n模组下载链接放评论区拉，有需要的同学自取呀~"
+  },
+  {
+    "name": "【方块宝可梦整合包】（ZA全mega已更新！）全系统、全图鉴！《去吧，方可梦大师》4.0“双版本”正式发布！也有服务端哦~持续更新方可梦最新内容~",
+    "url": "https://www.bilibili.com/video/BV1VNLRzYERC",
+    "platform": "bilibili",
+    "author": "在职玩家JoStar",
+    "views": 2551407,
+    "description": "是它，是它，就是它！我们的小外挂——极巨化！经过四个月的更新《去吧，方可梦大师》总算集齐了全系统和全图鉴！为了在五一假期前肝出来给大家玩，UP已经十几天没玩游戏了QwQ，每天都肝到凌晨。虽然更新内容罗列起来也就这些，但这其中的工作量真的抽象。回想这个包刚做出来的时候额外方可梦的数据包都很杂，互相之间不兼容，我也是从早兼容到晚，可以很自豪的说当时我整理的集合应该是能找到最快最全的（自封的）。不过现在"
+  },
+  {
+    "name": "【mc整合包公开】地球3.0  来一场沉浸式冒险休闲之旅",
+    "url": "https://www.bilibili.com/video/BV1Ke41127bg",
+    "platform": "bilibili",
+    "author": "Deemo旋律",
+    "views": 2547250,
+    "description": "我的世界：地球3 \n300+模组  魔改冒险休闲整合 \n公开测试下载\n由于近期Mcbbs被攻击，导致导入整合包时下载会失败，\n所以临时上传完整端，解压即玩无需下载导入\n\n【地球3 Ver0.21 fix 版本下载】\n夸克网盘链接：https://pan.quark.cn/s/07ab14e5683b\n百度网盘链接：https://pan.baidu.com/s/1ak4LBjCgZUj8KUNoe"
+  },
+  {
+    "name": "暑假就该玩点炸裂的！2025上半年这五个MC整合包，直接颠覆你对游戏的认知！",
+    "url": "https://www.bilibili.com/video/BV1CK3JzgESC",
+    "platform": "bilibili",
+    "author": "籽岷",
+    "views": 2337641,
+    "description": "《愚者》：BV1F6LBzeEzK\n《厕所空岛》：BV1FF5uzLEKg\n《龙之冒险新征程》：BV1u2VBzkEG4\n《落幕曲》：BV1GfTCz7E6W\n《蔚蓝档案》：BV13FKPzhEoe"
+  },
+  {
+    "name": "【大型养老探险整合包发布】乌托邦探险之旅3.0，探索上千种结构，造访丰富的自然群系，欣赏生动的生物动画，在纯音乐的旋律下沉浸式游戏！",
+    "url": "https://www.bilibili.com/video/BV1DA4m137gu",
+    "platform": "bilibili",
+    "author": "Limit小火柴",
+    "views": 2292926,
+    "description": "整合包名称：乌托邦探险之旅3.0\n游戏版本：1.20.1 fabric\n模组数量：505\n此次添加了超多自然生物群系等，每个群系的分布的权重都经过调整，使其完美贴合原版的生物群系。新增的维度等着你去探索，美化了任务线，优化了内存占用和游戏加载速度。\n玩法：【交易/探索/风景/沉浸式/休闲养老/种田/烹饪/视觉/音乐/战斗/旅行/多维度/中世纪】\n以下是整合包两种获取方式 ：\n1、关注UP后，会自动"
+  },
+  {
+    "name": "10款大型冒险向整合包推荐，你都玩过吗？【我的世界整合包介绍】",
+    "url": "https://www.bilibili.com/video/BV1J24y1R7GT",
+    "platform": "bilibili",
+    "author": "账号已注销",
+    "views": 2158279,
+    "description": "注：因录制会降低帧率，所以实际游戏帧率会高很多，光影以笔记本3050ti测试\n\nJava官网：https://www.java.com/zh-CN/download/manual.jsp\noptifine官网：https://optifine.net/downloads\n\n启动器：\nHMCL： https://hmcl.huangyuhui.net/\nPCL2：https://afdian.net"
+  },
+  {
+    "name": "一口气看完双人德爷生存！我们该如何这个超肝的整合包生存下去呢？",
+    "url": "https://www.bilibili.com/video/BV1ZbQAY3EYT",
+    "platform": "bilibili",
+    "author": "小小yo_O",
+    "views": 2038356,
+    "description": ""
+  },
+  {
+    "name": "顶级坐牢？顶级爽包！今年最耐玩整合包【勇者之章3 EP1】",
+    "url": "https://www.bilibili.com/video/BV11N2JBCEbv",
+    "platform": "bilibili",
+    "author": "河狸啧啧啧",
+    "views": 2015686,
+    "description": "MC百科下载:https://www.mcmod.cn/modpack/1054.html\n作者:@不知名的莫理沙"
+  },
+  {
+    "name": "【更好的MC整合包】我的世界T0整合包体验！一出生就成为人上人？",
+    "url": "https://www.bilibili.com/video/BV1Jbumz3EN7",
+    "platform": "bilibili",
+    "author": "MC鱼本Yuber",
+    "views": 1940092,
+    "description": ""
+  },
+  {
+    "name": "一口气看完“我的世界2.0”爆火外网？好评如潮的整合包！【更好的MC】",
+    "url": "https://www.bilibili.com/video/BV1DrE2z1EcF",
+    "platform": "bilibili",
+    "author": "指尖QAQ",
+    "views": 1766825,
+    "description": "观前提醒：请把up主当成普通娱乐玩家，不是技术流博主不是专业型博主，只是分享自己一个人玩游戏的热爱，私下玩游戏也会很随意很瞎玩，梦想是把自己热爱的东西传递给所有人。\n视频内容均为个人主观观点，不构成任何形式的参考建议，有错漏之处感谢大佬斧正，欢迎在评论区弹幕讨论！\n——————\n游戏名：我的世界  整合包：更好的MC（Better MC）\n感谢你观看我的视频！\n如果觉得质量还不错，或者内容对你有价"
+  },
+  {
+    "name": "【MC】最难整合包？（ Rlcraft 真实生存 EP1）",
+    "url": "https://www.bilibili.com/video/BV1SY4y1j7kr",
+    "platform": "bilibili",
+    "author": "河狸啧啧啧",
+    "views": 1718154,
+    "description": "三连总数过5000光速开坑\n整合包下载来自@云师yo  \n下载地址:https://url86.ctfile.com/f/26833286-610693202-d7c3e0?p=2333"
+  },
+  {
+    "name": "一口气看完超爽变身整合包《愚者》！！！",
+    "url": "https://www.bilibili.com/video/BV1AoVwzFEnN",
+    "platform": "bilibili",
+    "author": "河狸啧啧啧",
+    "views": 1713016,
+    "description": "这是一条简介"
+  },
+  {
+    "name": "我的世界硬核极限生存！【史前恐龙时代100天 】#1 在MC中建造属于自己的侏罗纪公园！！",
+    "url": "https://www.bilibili.com/video/BV1MjcdeeEh3",
+    "platform": "bilibili",
+    "author": "Q弹的果冻c",
+    "views": 1703141,
+    "description": "欢迎来到史前恐龙时代！\n这里是一个弱肉强食的世界！\n在这里我将面对史前生物，生存下去，打败他们！\n陨石将会在100天后降临！我需要在100天前将恐龙带回到现实世界！从而保留这些史前种族！\n主要mod：侏罗纪世界 史前自然 考古与化石\n侏罗纪整合包地图为我自制的！\n各位如果喜欢，就请点个赞吧，突破8w将免费发布下载！（地图为地形）\n本系列大概5p！\n最后感谢各位的等待与支持！"
+  },
+  {
+    "name": "【我的世界】infinity-无限 大型模组整合包生存实况#1~27 第一季【合集】全系列（已完结）70酱吖",
+    "url": "https://www.bilibili.com/video/BV1M24y1V7oA",
+    "platform": "bilibili",
+    "author": "70酱吖",
+    "views": 1696651,
+    "description": "简介真好看。\r\n喜欢的话不要忘记点个关注哦，主页有更多精彩系列开荒等着你！\r\n整合包：无限infinity_Beta21\r\n光影：ComplementaryShaders_v4.3.2"
+  },
+  {
+    "name": "【MC整合包发布】灾难降临！你需要击杀怪物，升级枪械技能树，开拓安全区，重建家园！",
+    "url": "https://www.bilibili.com/video/BV1sY411d7bd",
+    "platform": "bilibili",
+    "author": "吴也mc",
+    "views": 1694239,
+    "description": "欢迎体验萌新的第三次整合包制作！\n这次的整合可能有点难度啦，不休闲啦\n游戏：Minecraft\n整合包名称：灾难降临\n【主要玩法：击杀怪物，升级枪械技能树，开拓安全区，重建家园】\n游戏版本：1.16.5\n\n关注后回复【灾难降临】可获取下载链接"
+  },
+  {
+    "name": "★我的世界★神机颤抖！900+个模组的整合包生存！",
+    "url": "https://www.bilibili.com/video/BV1zA4y1f756",
+    "platform": "bilibili",
+    "author": "籽岷",
+    "views": 1462175,
+    "description": "资源地址：https://www.curseforge.com/minecraft/modpacks/modpack-monstrosity\n\n点赞三连过20万开坑！"
+  },
+  {
+    "name": "什么是究极浪漫整合包！自定义打造自己的战舰！升级大炮！成为这片海上最强的战舰！丨瓦尔基里大冒险 我的世界整合包",
+    "url": "https://www.bilibili.com/video/BV1oQczeeE9j",
+    "platform": "bilibili",
+    "author": "秦亦禾",
+    "views": 1445787,
+    "description": "整合包：瓦尔基里大冒险\n作者：@我是菜鸟1053  \n好玩，无需多言！！！！\n在这片海域上自定义打造自己的战舰，装甲什么类型？武器大炮装在哪？全由你决定！多种的弹药选择，面对不同的局势！攻打抢夺其他的战舰与友好的舰队交易...\n世界类型选择岛屿世界，推荐打开死亡不掉落。\n点赞过20开坑"
+  },
+  {
+    "name": "2026 年你只需要这一个整合包就够了！【家园】Homestead 整合包",
+    "url": "https://www.bilibili.com/video/BV1M5NwzJEvT",
+    "platform": "bilibili",
+    "author": "木槿晓枫",
+    "views": 253397,
+    "description": "整合包下载链接：https://pay.ldxp.cn/shop/NV3YS3AH/39eeyi\n\n视频原址：https://www.youtube.com/watch?v=UHQgiZMwj_g"
+  },
+  {
+    "name": "2026年全网最新娘化宝可梦整合包！不玩后悔一辈子的我的世界神奇宝贝整合包！",
+    "url": "https://www.bilibili.com/video/BV1cjXSBgE5E",
+    "platform": "bilibili",
+    "author": "我的世界宝可梦迷唇姐",
+    "views": 120619,
+    "description": "----------\n免费获取方式:\n----------\n①点个免费三连关注+看完视频(请勿拖动进度条)\n②然后评论三连截图👆就会有私信回复你的\n--------------------------------------------------------------\n👉支持手机/电脑联机，有单人模式、好友联机、多人服务器！\n👉我们不分收费版/免费版！永久免费分享更新！！"
+  },
+  {
+    "name": "【勇者之章3】2026年整合包分享！安装+联机教程！附赠下载地址！今年最耐玩整合包之一！|我的世界整合包推荐！D！！",
+    "url": "https://www.bilibili.com/video/BV1xnPDz1Erp",
+    "platform": "bilibili",
+    "author": "我的世界整合包-",
+    "views": 95836,
+    "description": "【免费分享】\n1、关注UP后，会自动私信发给你链接，打开和我的对话框就能看到\n2、如果早已经关注了，用之前发的链接，如果失效的话就重新关注一下\n(如果长时间没发链接，请主动私信我【我的世界】)\n---------------------------------------------\n作者：不知名的莫理沙"
+  },
+  {
+    "name": "【2026年最无敌宝可梦整合包】支持手机电脑联机！全网最新我的世界神奇宝贝！",
+    "url": "https://www.bilibili.com/video/BV1UMNuzqEhH",
+    "platform": "bilibili",
+    "author": "我的世界神奇宝贝屁王",
+    "views": 92949,
+    "description": "----------\n同款获取方式:\n----------\n①点个免费三连关注+看完视频(请勿拖动进度条)\n②然后评论区截图留言👆就会有自动私信回复你\n--------------------------------------------------------------\n👉支持手机/电脑联机，有单人模式、好友联机、多人服务器！\n👉我们不分收费版/免费版！永久免费分享更新！！"
+  },
+  {
+    "name": "【整合包推荐】十年的整合包出了重制版？！2026重温童年的模拟大都市最佳选择！",
+    "url": "https://www.bilibili.com/video/BV1hjXUBnEwE",
+    "platform": "bilibili",
+    "author": "小鲨鱼smallshark哟",
+    "views": 90187,
+    "description": "感谢各位看官的喜欢~如果觉得我的视频有意思的话不妨留下三连加关注叭，哪怕只是一个免费的赞也是对我最大的支持吖~\n整合包获取：三连加关注加评论后私信模拟大都市获取~"
+  },
+  {
+    "name": "【整合包推荐】2026年必玩的整合包！结合了模拟经营＋军团作战+boss战等元素的神级整合包！！！",
+    "url": "https://www.bilibili.com/video/BV1DvQTBAEhb",
+    "platform": "bilibili",
+    "author": "小鲨鱼smallshark哟",
+    "views": 88684,
+    "description": "感谢各位看官的喜欢~如果觉得我的视频有意思的话不妨留下三连加关注叭，哪怕只是一个免费的赞也是对我最大的支持吖~ \n整合包获取：三连加关注加评论后私信剑与王国获取~\n视频出演：@CY_ChengYu  @狄霖沐"
+  },
+  {
+    "name": "【2026最强娘化宝可梦整合包】上百只动漫娘化！支持手机电脑多人游玩！我的世界神奇宝贝！",
+    "url": "https://www.bilibili.com/video/BV1uq5L6PEaf",
+    "platform": "bilibili",
+    "author": "我的世界宝可梦迷唇姐",
+    "views": 73322,
+    "description": "----------\n免费获取方式:\n----------\n①点个免费三连关注+看完视频(请勿拖动进度条)\n②然后评论三连截图👆就会有私信回复你的\n--------------------------------------------------------------\n👉支持手机/电脑，支持单人、联机、服务器！\n👉我们不分收费版/免费版！永久免费分享更新！！"
+  },
+  {
+    "name": "【海上集装箱】2026最新整合包分享！安装+联机教程！附赠下载地址！海上集装箱生存！|我的世界整合包推荐！！",
+    "url": "https://www.bilibili.com/video/BV1C8fgBUE2P",
+    "platform": "bilibili",
+    "author": "我的世界整合包推荐",
+    "views": 71486,
+    "description": "【免费分享】\n1、关注UP后，会自动私信发给你链接，打开和我的对话框就能看到\n2、如果早已经关注了，用之前发的链接，如果失效的话就重新关注一下\n(如果长时间没发链接，请主动私信我【我的世界】)\n---------------------------------------------\n整合包来源：吃年糕的安sir"
+  },
+  {
+    "name": "MC大型整合包星恒千里：旅者 正式发布！",
+    "url": "https://www.bilibili.com/video/BV1y8zCBFEDd",
+    "platform": "bilibili",
+    "author": "WhisperStarlight",
+    "views": 67909,
+    "description": "MC大型整合包-星恒千里：旅者-1.21.1NeoForge\nMC大型整合包-星恒千里：旅者。\n该整合包版本为1.21.1，模组130+\n配置要求：只要能运行Win7就能运行这个整合包。经过测试，移动端（FCL）/电脑端都可以流畅运行，服务器联机端正在开发中！整合包更新频率为一周一更！新版更新后，旧版将免费发布。\n萌新作者，因为感觉1.20.1的整合包有些模组都是千篇一律，于是我就做了这么一个一堆"
+  },
+  {
+    "name": "【我的世界宝可梦整合包】2026年全网最新！支持手机/电脑！我的世界神奇宝贝整合包！",
+    "url": "https://www.bilibili.com/video/BV1meksBsE49",
+    "platform": "bilibili",
+    "author": "我的世界神奇宝贝屁王",
+    "views": 63057,
+    "description": "----------\n整合包获取方式:\n----------\n👉点个免费的三连关注+看完视频(请勿拖动进度条)\n然后会有自动私信回复你的👆打开和我的对话框就能看到！\n--------------------------------------------------------------\n不分免费/付费版！全部免费分享！就是这么良心！\n支持手机电脑，还可以单人模式、好友联机、多人服务器！"
+  },
+  {
+    "name": "2026年最稳定/实惠 VPS服务器租赁！【MC开服必备！】万粉UP售后！稳定、安心！专业我的世界开服首选服务器！",
+    "url": "https://www.bilibili.com/video/BV1a6r5YTE6N",
+    "platform": "bilibili",
+    "author": "翔龙我的世界服务器VPS",
+    "views": 56720,
+    "description": "需要的请加我这个群366639321直接私聊群主或者管理员\n在我置顶动态有原图。\n安心 稳定 VPS 服务器 租赁"
+  },
+  {
+    "name": "老飞宇和XDD玩我的世界落幕曲整合包，艾斯比操作给弹幕急死了，中途还被qiqi夺舍了！",
+    "url": "https://www.bilibili.com/video/BV1ehidBKEAq",
+    "platform": "bilibili",
+    "author": "天昊Wolffy",
+    "views": 48460,
+    "description": "点赞投币求求您啦！！！\n闲聊群: 1055906131"
+  },
+  {
+    "name": "2026年最好玩的宝可梦整合包！它来了！！！支持单人/多人联机游玩！我的世界神奇宝贝整合包！",
+    "url": "https://www.bilibili.com/video/BV14erDB4Eiz",
+    "platform": "bilibili",
+    "author": "我的世界神奇宝贝阿宇",
+    "views": 43595,
+    "description": "----------\n获取方式:\n----------\n👉三连+点个关注+看完视频(请勿拖动进度条)\n然后会有自动私信回复你的👆打开和我的对话框就能看到！\n--------------------------------------------------------\n免费分享！拒绝伸手党！！\n支持单人生存游玩、基友联机游玩、宝可梦服这里都有！用心创造快乐,给各位玩家提供一个美好的游戏环境"
+  },
+  {
+    "name": "[大型整合包] 2026年大型整合包-星恒千里：旅者！",
+    "url": "https://www.bilibili.com/video/BV1bhrDBbEMF",
+    "platform": "bilibili",
+    "author": "WhisperStarlight",
+    "views": 39368,
+    "description": "MC大型整合包-星恒千里：旅者。\n该整合包版本为1.21.1，模组130+\n配置要求：只要能运行Win7就能运行这个整合包。经过测试，移动端（FCL）/电脑端都可以流畅运行，服务器联机端正在开发中！整合包更新频率为一周一更！新版更新后，旧版将免费发布。\n萌新作者，因为感觉1.20.1的整合包有些模组都是千篇一律，于是我就做了这么一个一堆高版本优秀新模组的的整合。\n制作不易，感谢大家的支持。\n目前整"
+  },
+  {
+    "name": "2026年最好玩的宝可梦整合包终于来了！支持单人/多人联机游玩！我的世界神奇宝贝整合包！！",
+    "url": "https://www.bilibili.com/video/BV1DM6oByEjo",
+    "platform": "bilibili",
+    "author": "我的世界神奇宝贝屁王",
+    "views": 29647,
+    "description": "----------\n整合包获取方式:\n----------\n👉点个免费的三连关注+看完视频(请勿拖动进度条)\n然后会有自动私信回复你的👆打开和我的对话框就能看到！\n--------------------------------------------------------------\n不分免费/付费版！全部免费分享！就是这么良心！\n支持手机电脑，还可以单人模式、好友联机、多人服务器！"
+  },
+  {
+    "name": "【YSM模型】2026年我的世界超过500款YSM模型！保姆级安装和使用教程！！",
+    "url": "https://www.bilibili.com/video/BV1aKZCBnEPd",
+    "platform": "bilibili",
+    "author": "我的世界整合包-",
+    "views": 28147,
+    "description": "【免费分享】\n1、关注UP后，会自动私信发给你链接，打开和我的对话框就能看到\n2、如果早已经关注了，用之前发的链接，如果失效的话就重新关注一下\n(如果长时间没发链接，请主动私信我【我的世界】)\n---------------------------------------------"
+  },
+  {
+    "name": "2026最吸引人的娘化宝可梦整合包！上百只动漫娘化！支持手机电脑多人游玩！我的世界神奇宝贝！",
+    "url": "https://www.bilibili.com/video/BV1PyZcBsEVG",
+    "platform": "bilibili",
+    "author": "我的世界宝可梦迷唇姐",
+    "views": 24070,
+    "description": "----------\n同款获取方式:\n----------\n①点个免费三连关注+看完视频(请勿拖动进度条)\n②然后评论&quot;三连截图&quot;👆就会有私信回复你的\n--------------------------------------------------------------\n👉支持手机/电脑，支持单人、联机、服务器！\n👉我们不分收费版/免费版！永久免费分享更新！！"
+  },
+  {
+    "name": "! 我的世界方可梦2026中国新春贺岁片",
+    "url": "https://www.bilibili.com/video/BV1LqctzREqS",
+    "platform": "bilibili",
+    "author": "高速宁星星",
+    "views": 22843,
+    "description": "耗时48小时制作的新春贺岁短片,值得你的一键三连吗？\n方可梦源-我的世界方块宝可梦服务器，祝所有的训练师2026新春快乐!\n对不起所有喜欢鲤鱼王的训练师,但过年肯定要吃鱼的对吧。\n\n在新春我们增添了8只全新的年兽宝可梦,通过年兽大挑战玩法,你都可以获得他们！\n方可梦源支持手机/电脑流畅运行,玩法多样,全世代道馆,排位AI,地区狩猎场,不肝不氪,稳定运营。\n如果你正在寻找一个高质量的方块宝可梦服务器"
+  },
+  {
+    "name": "一口气看完2026年初最爽整合包《逆转未来》",
+    "url": "https://www.bilibili.com/video/BV1eCQ4BbExL",
+    "platform": "bilibili",
+    "author": "MC乐殇",
+    "views": 20380,
+    "description": "爽看1—10大合集！"
+  },
+  {
+    "name": "2026最新宝可梦传说ZA！在我的世界玩到了！",
+    "url": "https://www.bilibili.com/video/BV19zijB4Eas",
+    "platform": "bilibili",
+    "author": "Rua猫太屑了",
+    "views": 18237,
+    "description": "最全的宝可梦传说ZA全部制作完毕！拥有所有全新mega超进化。\n暑期就即将四周年了！\n一直在爆肝每月更新节日活动。\n手机电脑互通｜每月更新\n活动内容拉满｜PVP公平对战\n主页简介和评论置顶有在哪玩！"
+  },
+  {
+    "name": "Better MC [FORGE] BMC4",
+    "description": "Version 1.20.1 | A Proper Vanilla+ Modpack | Don't play Vanilla play this!",
+    "downloads": 16738987,
+    "url": "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4",
+    "platform": "curseforge",
+    "author": "LunaPixelStudios",
+    "date_modified": "2026-03-26"
+  },
+  {
+    "name": "Better MC [FABRIC] BMC2",
+    "description": "Version 1.20.1 | A Proper Vanilla+ Modpack | Don't play Vanilla play this!",
+    "downloads": 2090395,
+    "url": "https://www.curseforge.com/minecraft/modpacks/better-mc-fabric-bmc2",
+    "platform": "curseforge",
+    "author": "LunaPixelStudios",
+    "date_modified": "2026-01-25"
+  },
+  {
+    "name": "FTB OceanBlock",
+    "description": "Time to dive in!",
+    "downloads": 57624,
+    "url": "https://www.curseforge.com/minecraft/modpacks/ftb-oceanblock",
+    "platform": "curseforge",
+    "author": "FTB",
+    "date_modified": "2025-07-22"
+  }
+]
