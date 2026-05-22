@@ -6,6 +6,7 @@ __pycache__/
 # 缓存
 data/download_links_cache.json
 data/modpack_videos_cache.json
+data/search_new_packs.json
 
 # 环境
 .env
@@ -21,10 +22,20 @@ venv/
 Thumbs.db
 desktop.ini
 
+# 日志
+*.log
+
+# 自动更新的日志（独立记录，不全用 *.log 忽略）
+update_*.log
+
 # 旧备份
 *.tar.gz
 *.sql
 *.bak
+
+# 敏感名称匹配
+*_token*
+*_secret*
 
 # PCL2 提取的图标（从 PCL2.exe 提取，不入库）
 extracted_icons/
@@ -32,3 +43,19 @@ icons/
 # 敏感配置
 .env
 *.key
+cf_config.json
+
+# 自动生成的爬取数据（不提交）
+all_modpacks.json
+curseforge_data.json
+modpacks_data.json
+modpacks_filtered.json
+cf_cache.json
+cf_complete.json
+cf_hot_packs.json
+
+# IDE 自动生成
+.codegraph/
+
+# 自动更新的日志
+update_*.log
